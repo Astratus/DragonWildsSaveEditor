@@ -1,0 +1,6136 @@
+{
+ "AIDataAsset": {
+  "chain": [
+   "AIDataAsset"
+  ],
+  "id_index": 66,
+  "instances": 1,
+  "schema": {
+   "12": [
+    "fix",
+    1
+   ],
+   "15": [
+    "fix",
+    1
+   ],
+   "17": [
+    "fix",
+    1
+   ],
+   "22": [
+    "arr"
+   ],
+   "22/e": [
+    "fix",
+    4
+   ],
+   "23": [
+    "arr"
+   ],
+   "23/e": [
+    "fix",
+    8
+   ],
+   "25": [
+    "fix",
+    4
+   ],
+   "26": [
+    "fix",
+    4
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "29": [
+    "struct"
+   ],
+   "29/0": [
+    "fix",
+    8
+   ],
+   "30": [
+    "fix",
+    4
+   ],
+   "31": [
+    "text"
+   ],
+   "32": [
+    "text"
+   ],
+   "33": [
+    "fix",
+    1
+   ],
+   "34": [
+    "arr"
+   ],
+   "34/e": [
+    "struct"
+   ],
+   "34/e/0": [
+    "text"
+   ],
+   "34/e/1": [
+    "text"
+   ],
+   "36": [
+    "soft"
+   ],
+   "37": [
+    "soft"
+   ],
+   "38": [
+    "soft"
+   ],
+   "39": [
+    "fix",
+    1
+   ],
+   "42": [
+    "fix",
+    4
+   ],
+   "43": [
+    "fix",
+    4
+   ],
+   "45": [
+    "fix",
+    1
+   ],
+   "46": [
+    "fix",
+    4
+   ],
+   "47": [
+    "struct"
+   ],
+   "47/0": [
+    "fix",
+    8
+   ],
+   "49": [
+    "struct"
+   ],
+   "49/0": [
+    "fix",
+    8
+   ],
+   "50": [
+    "arr"
+   ],
+   "50/e": [
+    "fix",
+    8
+   ],
+   "51": [
+    "struct"
+   ],
+   "51/0": [
+    "fix",
+    8
+   ],
+   "54": [
+    "struct"
+   ],
+   "54/0": [
+    "fix",
+    4
+   ],
+   "54/1": [
+    "fix",
+    8
+   ],
+   "55": [
+    "fix",
+    4
+   ],
+   "58": [
+    "fix",
+    4
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "60": [
+    "fix",
+    4
+   ],
+   "61": [
+    "arr"
+   ],
+   "61/e": [
+    "struct"
+   ],
+   "61/e/0": [
+    "text"
+   ],
+   "61/e/1": [
+    "text"
+   ],
+   "61/e/2": [
+    "soft"
+   ],
+   "63": [
+    "fix",
+    4
+   ],
+   "64": [
+    "fix",
+    1
+   ],
+   "65": [
+    "fix",
+    1
+   ],
+   "66": [
+    "str"
+   ],
+   "67": [
+    "str"
+   ],
+   "68": [
+    "fix",
+    1
+   ],
+   "7": [
+    "fix",
+    4
+   ],
+   "9": [
+    "struct"
+   ],
+   "9/0": [
+    "fix",
+    4
+   ],
+   "9/1": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "AddItemsAndSkillsPlayerHook": {
+  "chain": [
+   "AddItemsAndSkillsPlayerHook"
+  ],
+  "error": "7+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/PH_AddCorruptCharacterReplacementItems.uasset; 7+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/PH_AddCorruptCharacterReplacementItems.uasset; 7+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/PH_AddCorruptCharacterReplacementItems.uasset; 7: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/PH_AddCorruptCharacterReplacemen",
+  "instances": 1
+ },
+ "BP_BasicPlayerHook_C": {
+  "chain": [
+   "BP_BasicPlayerHook_C",
+   "PlayerHook"
+  ],
+  "error": "2: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/BP_BasicPlayerHook.uasset; None: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/BP_BasicPlayerHook.uasset",
+  "instances": 3
+ },
+ "BP_Consumables_Drink_C": {
+  "chain": [
+   "BP_Consumables_Drink_C",
+   "DrinkItemData"
+  ],
+  "id_index": 57,
+  "instances": 23,
+  "schema": {
+   "1": [
+    "struct"
+   ],
+   "1/0": [
+    "fix",
+    4
+   ],
+   "1/1": [
+    "fix",
+    8
+   ],
+   "12": [
+    "fix",
+    1
+   ],
+   "13": [
+    "struct"
+   ],
+   "13/0": [
+    "fix",
+    4
+   ],
+   "13/1": [
+    "fix",
+    8
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "struct"
+   ],
+   "15/0": [
+    "fix",
+    4
+   ],
+   "15/1": [
+    "fix",
+    8
+   ],
+   "16": [
+    "arr"
+   ],
+   "16/e": [
+    "struct"
+   ],
+   "16/e/0": [
+    "fix",
+    4
+   ],
+   "17": [
+    "struct"
+   ],
+   "17/0": [
+    "fix",
+    4
+   ],
+   "19": [
+    "arr"
+   ],
+   "19/e": [
+    "fix",
+    8
+   ],
+   "2": [
+    "struct"
+   ],
+   "2/0": [
+    "fix",
+    4
+   ],
+   "2/1": [
+    "fix",
+    8
+   ],
+   "20": [
+    "fix",
+    4
+   ],
+   "21": [
+    "fix",
+    4
+   ],
+   "22": [
+    "text"
+   ],
+   "23": [
+    "text"
+   ],
+   "24": [
+    "fix",
+    1
+   ],
+   "25": [
+    "arr"
+   ],
+   "25/e": [
+    "struct"
+   ],
+   "25/e/0": [
+    "text"
+   ],
+   "25/e/1": [
+    "text"
+   ],
+   "27": [
+    "soft"
+   ],
+   "28": [
+    "soft"
+   ],
+   "29": [
+    "soft"
+   ],
+   "3": [
+    "struct"
+   ],
+   "3/0": [
+    "fix",
+    4
+   ],
+   "3/1": [
+    "fix",
+    8
+   ],
+   "30": [
+    "fix",
+    1
+   ],
+   "33": [
+    "fix",
+    4
+   ],
+   "34": [
+    "fix",
+    4
+   ],
+   "36": [
+    "fix",
+    1
+   ],
+   "37": [
+    "fix",
+    4
+   ],
+   "38": [
+    "struct"
+   ],
+   "38/0": [
+    "fix",
+    8
+   ],
+   "39": [
+    "struct"
+   ],
+   "39/0": [
+    "fix",
+    8
+   ],
+   "4": [
+    "struct"
+   ],
+   "4/0": [
+    "fix",
+    4
+   ],
+   "4/1": [
+    "fix",
+    8
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    8
+   ],
+   "41": [
+    "arr"
+   ],
+   "41/e": [
+    "fix",
+    8
+   ],
+   "42": [
+    "struct"
+   ],
+   "42/0": [
+    "fix",
+    8
+   ],
+   "45": [
+    "struct"
+   ],
+   "45/0": [
+    "fix",
+    4
+   ],
+   "45/1": [
+    "fix",
+    8
+   ],
+   "48": [
+    "fix",
+    8
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "5": [
+    "fix",
+    4
+   ],
+   "52": [
+    "arr"
+   ],
+   "52/e": [
+    "struct"
+   ],
+   "52/e/0": [
+    "text"
+   ],
+   "52/e/1": [
+    "text"
+   ],
+   "52/e/2": [
+    "soft"
+   ],
+   "54": [
+    "fix",
+    4
+   ],
+   "57": [
+    "str"
+   ],
+   "58": [
+    "str"
+   ],
+   "59": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "60": [
+    "fix",
+    4
+   ],
+   "61": [
+    "fix",
+    4
+   ],
+   "8": [
+    "struct"
+   ],
+   "8/0": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "BP_Consumables_Food_C": {
+  "chain": [
+   "BP_Consumables_Food_C",
+   "FoodItemData"
+  ],
+  "id_index": 55,
+  "instances": 137,
+  "schema": {
+   "0": [
+    "struct"
+   ],
+   "0/0": [
+    "fix",
+    4
+   ],
+   "0/1": [
+    "fix",
+    8
+   ],
+   "1": [
+    "struct"
+   ],
+   "1/0": [
+    "fix",
+    4
+   ],
+   "1/1": [
+    "fix",
+    8
+   ],
+   "10": [
+    "fix",
+    1
+   ],
+   "11": [
+    "struct"
+   ],
+   "11/0": [
+    "fix",
+    4
+   ],
+   "11/1": [
+    "fix",
+    8
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "struct"
+   ],
+   "13/0": [
+    "fix",
+    4
+   ],
+   "13/1": [
+    "fix",
+    8
+   ],
+   "14": [
+    "arr"
+   ],
+   "14/e": [
+    "struct"
+   ],
+   "14/e/0": [
+    "fix",
+    4
+   ],
+   "15": [
+    "struct"
+   ],
+   "15/0": [
+    "fix",
+    4
+   ],
+   "17": [
+    "arr"
+   ],
+   "17/e": [
+    "fix",
+    8
+   ],
+   "18": [
+    "fix",
+    4
+   ],
+   "19": [
+    "fix",
+    4
+   ],
+   "2": [
+    "struct"
+   ],
+   "2/0": [
+    "fix",
+    4
+   ],
+   "2/1": [
+    "fix",
+    8
+   ],
+   "20": [
+    "text"
+   ],
+   "21": [
+    "text"
+   ],
+   "22": [
+    "fix",
+    1
+   ],
+   "23": [
+    "arr"
+   ],
+   "23/e": [
+    "struct"
+   ],
+   "23/e/0": [
+    "text"
+   ],
+   "23/e/1": [
+    "text"
+   ],
+   "25": [
+    "soft"
+   ],
+   "26": [
+    "soft"
+   ],
+   "27": [
+    "soft"
+   ],
+   "28": [
+    "fix",
+    1
+   ],
+   "3": [
+    "fix",
+    4
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "fix",
+    4
+   ],
+   "34": [
+    "fix",
+    1
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "struct"
+   ],
+   "36/0": [
+    "fix",
+    8
+   ],
+   "37": [
+    "struct"
+   ],
+   "37/0": [
+    "fix",
+    8
+   ],
+   "38": [
+    "struct"
+   ],
+   "38/0": [
+    "fix",
+    8
+   ],
+   "39": [
+    "arr"
+   ],
+   "39/e": [
+    "fix",
+    8
+   ],
+   "4": [
+    "fix",
+    4
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    8
+   ],
+   "43": [
+    "struct"
+   ],
+   "43/0": [
+    "fix",
+    4
+   ],
+   "43/1": [
+    "fix",
+    8
+   ],
+   "46": [
+    "fix",
+    8
+   ],
+   "47": [
+    "fix",
+    4
+   ],
+   "50": [
+    "arr"
+   ],
+   "50/e": [
+    "struct"
+   ],
+   "50/e/0": [
+    "text"
+   ],
+   "50/e/1": [
+    "text"
+   ],
+   "50/e/2": [
+    "soft"
+   ],
+   "52": [
+    "fix",
+    4
+   ],
+   "55": [
+    "str"
+   ],
+   "56": [
+    "str"
+   ],
+   "57": [
+    "fix",
+    1
+   ],
+   "58": [
+    "fix",
+    4
+   ],
+   "59": [
+    "fix",
+    4
+   ],
+   "6": [
+    "struct"
+   ],
+   "6/0": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "BP_Consumables_ItemEmitter_C": {
+  "chain": [
+   "BP_Consumables_ItemEmitter_C",
+   "BP_Consumables_Base_C",
+   "ConsumableItemData"
+  ],
+  "error": "53+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Consumable_Potion_T1_Weak_Healing.uasset; 53+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Consumable_Potion_T1_Weak_Healing.uasset; 53+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Consumable_Potion_T1_Weak_Healing.uasset; 53+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Deleted/ITEM_Consumable_Wardstone_Large.uasset; 53+seed: no schema fits RSDragonwilds/Plugi",
+  "instances": 71
+ },
+ "BP_Consumables_Plan_Base_C": {
+  "chain": [
+   "BP_Consumables_Plan_Base_C",
+   "BP_Consumables_BuildingUnlocker_C",
+   "BP_Consumables_Base_C",
+   "ConsumableItemData"
+  ],
+  "id_index": 49,
+  "instances": 141,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "11": [
+    "fix",
+    1
+   ],
+   "12": [
+    "soft"
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "text"
+   ],
+   "15": [
+    "text"
+   ],
+   "19": [
+    "soft"
+   ],
+   "20": [
+    "soft"
+   ],
+   "21": [
+    "soft"
+   ],
+   "22": [
+    "fix",
+    1
+   ],
+   "25": [
+    "fix",
+    4
+   ],
+   "26": [
+    "fix",
+    4
+   ],
+   "28": [
+    "fix",
+    1
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "30": [
+    "struct"
+   ],
+   "30/0": [
+    "fix",
+    8
+   ],
+   "32": [
+    "struct"
+   ],
+   "32/0": [
+    "fix",
+    8
+   ],
+   "33": [
+    "arr"
+   ],
+   "33/e": [
+    "fix",
+    8
+   ],
+   "34": [
+    "struct"
+   ],
+   "34/0": [
+    "fix",
+    8
+   ],
+   "37": [
+    "struct"
+   ],
+   "37/0": [
+    "fix",
+    4
+   ],
+   "37/1": [
+    "fix",
+    8
+   ],
+   "41": [
+    "fix",
+    4
+   ],
+   "46": [
+    "fix",
+    4
+   ],
+   "49": [
+    "str"
+   ],
+   "50": [
+    "str"
+   ],
+   "51": [
+    "fix",
+    1
+   ],
+   "53": [
+    "fix",
+    4
+   ],
+   "7": [
+    "struct"
+   ],
+   "7/0": [
+    "fix",
+    4
+   ],
+   "7/1": [
+    "fix",
+    8
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "9": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "BP_Consumables_Potion_C": {
+  "chain": [
+   "BP_Consumables_Potion_C",
+   "PotionItemData"
+  ],
+  "error": "52+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan.uasset; 52+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan.uasset; 52+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumable_Potion_Focused_T2_Lesser_Artisan.uasset; 52+seed: no schema fits RSDragonwilds/Content/Gameplay/Items/Consumables/Magic/ITEM_Consumab",
+  "instances": 57
+ },
+ "BP_Consumables_RecipeUnlocker2_C": {
+  "chain": [
+   "BP_Consumables_RecipeUnlocker2_C",
+   "ConsumableRecipeUnlocker"
+  ],
+  "id_index": 50,
+  "instances": 141,
+  "schema": {
+   "0": [
+    "arr"
+   ],
+   "0/e": [
+    "fix",
+    4
+   ],
+   "10": [
+    "fix",
+    8
+   ],
+   "12": [
+    "fix",
+    1
+   ],
+   "13": [
+    "soft"
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "text"
+   ],
+   "16": [
+    "text"
+   ],
+   "20": [
+    "soft"
+   ],
+   "21": [
+    "soft"
+   ],
+   "22": [
+    "soft"
+   ],
+   "23": [
+    "fix",
+    1
+   ],
+   "26": [
+    "fix",
+    4
+   ],
+   "27": [
+    "fix",
+    4
+   ],
+   "29": [
+    "fix",
+    1
+   ],
+   "3": [
+    "text"
+   ],
+   "30": [
+    "fix",
+    4
+   ],
+   "31": [
+    "struct"
+   ],
+   "31/0": [
+    "fix",
+    8
+   ],
+   "33": [
+    "struct"
+   ],
+   "33/0": [
+    "fix",
+    8
+   ],
+   "34": [
+    "arr"
+   ],
+   "34/e": [
+    "fix",
+    8
+   ],
+   "35": [
+    "struct"
+   ],
+   "35/0": [
+    "fix",
+    8
+   ],
+   "38": [
+    "struct"
+   ],
+   "38/0": [
+    "fix",
+    4
+   ],
+   "38/1": [
+    "fix",
+    8
+   ],
+   "42": [
+    "fix",
+    4
+   ],
+   "47": [
+    "fix",
+    4
+   ],
+   "50": [
+    "str"
+   ],
+   "51": [
+    "str"
+   ],
+   "52": [
+    "fix",
+    1
+   ],
+   "53": [
+    "fix",
+    4
+   ],
+   "54": [
+    "fix",
+    4
+   ],
+   "8": [
+    "struct"
+   ],
+   "8/0": [
+    "fix",
+    4
+   ],
+   "8/1": [
+    "fix",
+    8
+   ],
+   "9": [
+    "fix",
+    4
+   ]
+  }
+ },
+ "BP_Consumables_SkillTome_C": {
+  "chain": [
+   "BP_Consumables_SkillTome_C",
+   "BP_Consumables_Base_C",
+   "ConsumableItemData"
+  ],
+  "id_index": 49,
+  "instances": 28,
+  "schema": {
+   "0": [
+    "struct"
+   ],
+   "0/0": [
+    "fix",
+    4
+   ],
+   "0/1": [
+    "fix",
+    8
+   ],
+   "11": [
+    "fix",
+    1
+   ],
+   "12": [
+    "soft"
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "text"
+   ],
+   "15": [
+    "text"
+   ],
+   "19": [
+    "soft"
+   ],
+   "20": [
+    "soft"
+   ],
+   "21": [
+    "soft"
+   ],
+   "22": [
+    "fix",
+    1
+   ],
+   "25": [
+    "fix",
+    4
+   ],
+   "26": [
+    "fix",
+    4
+   ],
+   "28": [
+    "fix",
+    1
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "30": [
+    "struct"
+   ],
+   "30/0": [
+    "fix",
+    8
+   ],
+   "32": [
+    "struct"
+   ],
+   "32/0": [
+    "fix",
+    8
+   ],
+   "33": [
+    "arr"
+   ],
+   "33/e": [
+    "fix",
+    8
+   ],
+   "34": [
+    "struct"
+   ],
+   "34/0": [
+    "fix",
+    8
+   ],
+   "37": [
+    "struct"
+   ],
+   "37/0": [
+    "fix",
+    4
+   ],
+   "37/1": [
+    "fix",
+    8
+   ],
+   "41": [
+    "fix",
+    4
+   ],
+   "46": [
+    "fix",
+    4
+   ],
+   "49": [
+    "str"
+   ],
+   "50": [
+    "str"
+   ],
+   "51": [
+    "fix",
+    1
+   ],
+   "53": [
+    "fix",
+    4
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "9": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "BP_DragonKuldra_Data_New_C": {
+  "chain": [
+   "BP_DragonKuldra_Data_New_C",
+   "BP_AI_Data_C",
+   "AIDataAsset"
+  ],
+  "error": "65+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/AI/DragonKuldra/BP_DragonKuldra_Data_New.uasset; 65+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/AI/DragonKuldra/BP_DragonKuldra_Data_New.uasset; 65+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/AI/DragonKuldra/BP_DragonKuldra_Data_New.uasset; 65+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/ScornedWilde",
+  "instances": 1
+ },
+ "BP_DragonKuldra_Heart_Data_C": {
+  "chain": [
+   "BP_DragonKuldra_Heart_Data_C",
+   "BP_AI_Data_C",
+   "AIDataAsset"
+  ],
+  "error": "65+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/AI/DragonKuldra/BP_DragonKuldra_Heart_Data.uasset; 65+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/AI/DragonKuldra/BP_DragonKuldra_Heart_Data.uasset; 65+seed: too many rounds; 65+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/ScornedWilderness/Content/Gameplay/AI/DragonKuldra/BP_DragonKuldra_Heart_Data.uasset; 65+seed: too many rounds; 65+seed: no s",
+  "instances": 1
+ },
+ "BP_FTUENotificationPlayerHook_C": {
+  "chain": [
+   "BP_FTUENotificationPlayerHook_C",
+   "FTUENotificationPlayerHook"
+  ],
+  "error": "3: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/BP_FTUENotificationPlayerHook.uasset; None: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/BP_FTUENotificationPlayerHook.uasset",
+  "instances": 38
+ },
+ "BP_PlayerHook_NarrativeIntro_C": {
+  "chain": [
+   "BP_PlayerHook_NarrativeIntro_C",
+   "NarrativeIntroPlayerHook"
+  ],
+  "error": "1: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/BP_PlayerHook_NarrativeIntro.uasset; 4: too many rounds; None: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/PlayerHooks/BP_PlayerHook_NarrativeIntro.uasset",
+  "instances": 7
+ },
+ "BuildPieceCatalogue": {
+  "chain": [
+   "BuildPieceCatalogue"
+  ],
+  "error": "None: no schema fits RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/DA_BuildPieceCatalogue_Default.uasset",
+  "instances": 1
+ },
+ "BuildingPieceData": {
+  "chain": [
+   "BuildingPieceData"
+  ],
+  "id_index": 22,
+  "instances": 886,
+  "schema": {
+   "0": [
+    "soft"
+   ],
+   "1": [
+    "text"
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "11": [
+    "struct"
+   ],
+   "11/0": [
+    "fix",
+    8
+   ],
+   "12": [
+    "fix",
+    1
+   ],
+   "13": [
+    "fix",
+    1
+   ],
+   "14": [
+    "struct"
+   ],
+   "14/0": [
+    "fix",
+    4
+   ],
+   "14/1": [
+    "fix",
+    8
+   ],
+   "15": [
+    "struct"
+   ],
+   "15/0": [
+    "soft"
+   ],
+   "17": [
+    "struct"
+   ],
+   "17/0": [
+    "fix",
+    4
+   ],
+   "17/1": [
+    "fix",
+    8
+   ],
+   "19": [
+    "arr"
+   ],
+   "19/e": [
+    "fix",
+    4
+   ],
+   "2": [
+    "text"
+   ],
+   "20": [
+    "fix",
+    1
+   ],
+   "22": [
+    "str"
+   ],
+   "23": [
+    "str"
+   ],
+   "24": [
+    "fix",
+    1
+   ],
+   "3": [
+    "struct"
+   ],
+   "3/0": [
+    "fix",
+    8
+   ],
+   "4": [
+    "soft"
+   ],
+   "5": [
+    "soft"
+   ],
+   "6": [
+    "arr"
+   ],
+   "6/e": [
+    "struct"
+   ],
+   "6/e/0": [
+    "fix",
+    4
+   ],
+   "6/e/1": [
+    "fix",
+    4
+   ],
+   "7": [
+    "arr"
+   ],
+   "7/e": [
+    "struct"
+   ],
+   "7/e/0": [
+    "fix",
+    4
+   ],
+   "7/e/1": [
+    "fix",
+    4
+   ],
+   "8": [
+    "soft"
+   ],
+   "9": [
+    "text"
+   ]
+  }
+ },
+ "ConsumableMountUnlocker": {
+  "chain": [
+   "ConsumableMountUnlocker"
+  ],
+  "id_index": 51,
+  "instances": 17,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "16": [
+    "text"
+   ],
+   "17": [
+    "text"
+   ],
+   "2": [
+    "struct"
+   ],
+   "2/0": [
+    "fix",
+    8
+   ],
+   "21": [
+    "soft"
+   ],
+   "22": [
+    "soft"
+   ],
+   "23": [
+    "soft"
+   ],
+   "24": [
+    "fix",
+    1
+   ],
+   "27": [
+    "fix",
+    4
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "30": [
+    "fix",
+    1
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "struct"
+   ],
+   "32/0": [
+    "fix",
+    8
+   ],
+   "34": [
+    "struct"
+   ],
+   "34/0": [
+    "fix",
+    8
+   ],
+   "35": [
+    "arr"
+   ],
+   "35/e": [
+    "fix",
+    8
+   ],
+   "36": [
+    "struct"
+   ],
+   "36/0": [
+    "fix",
+    8
+   ],
+   "39": [
+    "struct"
+   ],
+   "39/0": [
+    "fix",
+    4
+   ],
+   "39/1": [
+    "fix",
+    8
+   ],
+   "42": [
+    "fix",
+    8
+   ],
+   "43": [
+    "fix",
+    4
+   ],
+   "48": [
+    "fix",
+    4
+   ],
+   "51": [
+    "str"
+   ],
+   "52": [
+    "str"
+   ],
+   "53": [
+    "fix",
+    1
+   ],
+   "9": [
+    "struct"
+   ],
+   "9/0": [
+    "fix",
+    4
+   ],
+   "9/1": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "FishingBaitAmmoData": {
+  "chain": [
+   "FishingBaitAmmoData"
+  ],
+  "id_index": 52,
+  "instances": 11,
+  "schema": {
+   "1": [
+    "fix",
+    4
+   ],
+   "10": [
+    "struct"
+   ],
+   "10/0": [
+    "fix",
+    4
+   ],
+   "10/1": [
+    "fix",
+    8
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "16": [
+    "fix",
+    4
+   ],
+   "17": [
+    "text"
+   ],
+   "18": [
+    "text"
+   ],
+   "22": [
+    "soft"
+   ],
+   "23": [
+    "soft"
+   ],
+   "24": [
+    "soft"
+   ],
+   "25": [
+    "fix",
+    1
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "3": [
+    "struct"
+   ],
+   "3/0": [
+    "fix",
+    8
+   ],
+   "31": [
+    "fix",
+    1
+   ],
+   "32": [
+    "fix",
+    4
+   ],
+   "33": [
+    "struct"
+   ],
+   "33/0": [
+    "fix",
+    8
+   ],
+   "35": [
+    "struct"
+   ],
+   "35/0": [
+    "fix",
+    8
+   ],
+   "36": [
+    "arr"
+   ],
+   "36/e": [
+    "fix",
+    8
+   ],
+   "37": [
+    "struct"
+   ],
+   "37/0": [
+    "fix",
+    8
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    4
+   ],
+   "40/1": [
+    "fix",
+    8
+   ],
+   "43": [
+    "fix",
+    8
+   ],
+   "44": [
+    "fix",
+    4
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "52": [
+    "str"
+   ],
+   "53": [
+    "str"
+   ],
+   "54": [
+    "fix",
+    1
+   ],
+   "7": [
+    "fix",
+    1
+   ]
+  }
+ },
+ "FishingRodHeldEquipmentData": {
+  "chain": [
+   "FishingRodHeldEquipmentData"
+  ],
+  "id_index": 106,
+  "instances": 5,
+  "schema": {
+   "0": [
+    "soft"
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "100": [
+    "fix",
+    4
+   ],
+   "101": [
+    "arr"
+   ],
+   "101/e": [
+    "struct"
+   ],
+   "101/e/0": [
+    "text"
+   ],
+   "101/e/1": [
+    "text"
+   ],
+   "101/e/2": [
+    "soft"
+   ],
+   "102": [
+    "soft"
+   ],
+   "103": [
+    "fix",
+    4
+   ],
+   "104": [
+    "fix",
+    1
+   ],
+   "105": [
+    "fix",
+    1
+   ],
+   "106": [
+    "str"
+   ],
+   "107": [
+    "str"
+   ],
+   "108": [
+    "fix",
+    1
+   ],
+   "109": [
+    "fix",
+    4
+   ],
+   "11": [
+    "fix",
+    4
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "16": [
+    "fix",
+    8
+   ],
+   "2": [
+    "fix",
+    4
+   ],
+   "24": [
+    "fix",
+    4
+   ],
+   "25": [
+    "struct"
+   ],
+   "25/0": [
+    "fix",
+    4
+   ],
+   "25/1": [
+    "fix",
+    8
+   ],
+   "26": [
+    "struct"
+   ],
+   "26/0": [
+    "fix",
+    4
+   ],
+   "26/1": [
+    "fix",
+    8
+   ],
+   "27": [
+    "fix",
+    4
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "3": [
+    "fix",
+    4
+   ],
+   "30": [
+    "fix",
+    4
+   ],
+   "31": [
+    "fix",
+    1
+   ],
+   "32": [
+    "fix",
+    1
+   ],
+   "33": [
+    "arr"
+   ],
+   "33/e": [
+    "fix",
+    8
+   ],
+   "34": [
+    "fix",
+    4
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "fix",
+    1
+   ],
+   "37": [
+    "fix",
+    4
+   ],
+   "39": [
+    "struct"
+   ],
+   "39/0": [
+    "fix",
+    8
+   ],
+   "4": [
+    "fix",
+    4
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    8
+   ],
+   "43": [
+    "fix",
+    1
+   ],
+   "44": [
+    "fix",
+    4
+   ],
+   "45": [
+    "fix",
+    4
+   ],
+   "46": [
+    "fix",
+    4
+   ],
+   "47": [
+    "fix",
+    4
+   ],
+   "48": [
+    "fix",
+    4
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "5": [
+    "fix",
+    4
+   ],
+   "54": [
+    "fix",
+    1
+   ],
+   "55": [
+    "fix",
+    1
+   ],
+   "57": [
+    "fix",
+    1
+   ],
+   "58": [
+    "fix",
+    1
+   ],
+   "59": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "60": [
+    "fix",
+    4
+   ],
+   "61": [
+    "fix",
+    4
+   ],
+   "62": [
+    "arr"
+   ],
+   "62/e": [
+    "fix",
+    4
+   ],
+   "64": [
+    "fix",
+    1
+   ],
+   "7": [
+    "fix",
+    4
+   ],
+   "70": [
+    "fix",
+    4
+   ],
+   "71": [
+    "text"
+   ],
+   "72": [
+    "text"
+   ],
+   "73": [
+    "fix",
+    1
+   ],
+   "74": [
+    "arr"
+   ],
+   "74/e": [
+    "struct"
+   ],
+   "74/e/0": [
+    "text"
+   ],
+   "74/e/1": [
+    "text"
+   ],
+   "76": [
+    "soft"
+   ],
+   "77": [
+    "soft"
+   ],
+   "78": [
+    "soft"
+   ],
+   "79": [
+    "fix",
+    1
+   ],
+   "8": [
+    "fix",
+    1
+   ],
+   "82": [
+    "fix",
+    4
+   ],
+   "83": [
+    "fix",
+    4
+   ],
+   "85": [
+    "fix",
+    1
+   ],
+   "86": [
+    "fix",
+    4
+   ],
+   "87": [
+    "struct"
+   ],
+   "87/0": [
+    "fix",
+    8
+   ],
+   "89": [
+    "struct"
+   ],
+   "89/0": [
+    "fix",
+    8
+   ],
+   "9": [
+    "fix",
+    4
+   ],
+   "90": [
+    "arr"
+   ],
+   "90/e": [
+    "fix",
+    8
+   ],
+   "91": [
+    "struct"
+   ],
+   "91/0": [
+    "fix",
+    8
+   ],
+   "94": [
+    "struct"
+   ],
+   "94/0": [
+    "fix",
+    4
+   ],
+   "94/1": [
+    "fix",
+    8
+   ],
+   "95": [
+    "fix",
+    4
+   ],
+   "96": [
+    "fix",
+    1
+   ],
+   "98": [
+    "fix",
+    4
+   ],
+   "99": [
+    "fix",
+    4
+   ]
+  }
+ },
+ "FuelItemData": {
+  "chain": [
+   "FuelItemData"
+  ],
+  "id_index": 37,
+  "instances": 17,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "10": [
+    "fix",
+    1
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "16": [
+    "fix",
+    1
+   ],
+   "17": [
+    "fix",
+    4
+   ],
+   "18": [
+    "struct"
+   ],
+   "18/0": [
+    "fix",
+    8
+   ],
+   "2": [
+    "text"
+   ],
+   "20": [
+    "struct"
+   ],
+   "20/0": [
+    "fix",
+    8
+   ],
+   "21": [
+    "arr"
+   ],
+   "21/e": [
+    "fix",
+    8
+   ],
+   "22": [
+    "struct"
+   ],
+   "22/0": [
+    "fix",
+    8
+   ],
+   "25": [
+    "struct"
+   ],
+   "25/0": [
+    "fix",
+    4
+   ],
+   "25/1": [
+    "fix",
+    8
+   ],
+   "28": [
+    "fix",
+    8
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "3": [
+    "text"
+   ],
+   "34": [
+    "fix",
+    4
+   ],
+   "37": [
+    "str"
+   ],
+   "38": [
+    "str"
+   ],
+   "39": [
+    "fix",
+    1
+   ],
+   "7": [
+    "soft"
+   ],
+   "8": [
+    "soft"
+   ],
+   "9": [
+    "soft"
+   ]
+  }
+ },
+ "HarvestToolEquipmentData": {
+  "chain": [
+   "HarvestToolEquipmentData"
+  ],
+  "id_index": 110,
+  "instances": 1,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "100": [
+    "fix",
+    1
+   ],
+   "102": [
+    "fix",
+    4
+   ],
+   "103": [
+    "fix",
+    4
+   ],
+   "104": [
+    "fix",
+    4
+   ],
+   "105": [
+    "arr"
+   ],
+   "105/e": [
+    "struct"
+   ],
+   "105/e/0": [
+    "text"
+   ],
+   "105/e/1": [
+    "text"
+   ],
+   "105/e/2": [
+    "soft"
+   ],
+   "106": [
+    "soft"
+   ],
+   "107": [
+    "fix",
+    4
+   ],
+   "108": [
+    "fix",
+    1
+   ],
+   "109": [
+    "fix",
+    1
+   ],
+   "11": [
+    "fix",
+    4
+   ],
+   "110": [
+    "str"
+   ],
+   "111": [
+    "str"
+   ],
+   "112": [
+    "fix",
+    1
+   ],
+   "113": [
+    "fix",
+    4
+   ],
+   "12": [
+    "fix",
+    1
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "16": [
+    "fix",
+    4
+   ],
+   "17": [
+    "fix",
+    4
+   ],
+   "18": [
+    "fix",
+    4
+   ],
+   "2": [
+    "soft"
+   ],
+   "20": [
+    "fix",
+    8
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "29": [
+    "struct"
+   ],
+   "29/0": [
+    "fix",
+    4
+   ],
+   "29/1": [
+    "fix",
+    8
+   ],
+   "3": [
+    "soft"
+   ],
+   "30": [
+    "struct"
+   ],
+   "30/0": [
+    "fix",
+    4
+   ],
+   "30/1": [
+    "fix",
+    8
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "fix",
+    4
+   ],
+   "33": [
+    "fix",
+    4
+   ],
+   "34": [
+    "fix",
+    4
+   ],
+   "35": [
+    "fix",
+    1
+   ],
+   "36": [
+    "fix",
+    1
+   ],
+   "37": [
+    "arr"
+   ],
+   "37/e": [
+    "fix",
+    8
+   ],
+   "38": [
+    "fix",
+    4
+   ],
+   "39": [
+    "fix",
+    4
+   ],
+   "4": [
+    "soft"
+   ],
+   "40": [
+    "fix",
+    1
+   ],
+   "41": [
+    "fix",
+    4
+   ],
+   "43": [
+    "struct"
+   ],
+   "43/0": [
+    "fix",
+    8
+   ],
+   "44": [
+    "struct"
+   ],
+   "44/0": [
+    "fix",
+    8
+   ],
+   "47": [
+    "fix",
+    1
+   ],
+   "48": [
+    "fix",
+    4
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "5": [
+    "fix",
+    4
+   ],
+   "50": [
+    "fix",
+    4
+   ],
+   "51": [
+    "fix",
+    4
+   ],
+   "52": [
+    "fix",
+    4
+   ],
+   "53": [
+    "fix",
+    4
+   ],
+   "58": [
+    "fix",
+    1
+   ],
+   "59": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "61": [
+    "fix",
+    1
+   ],
+   "62": [
+    "fix",
+    1
+   ],
+   "64": [
+    "fix",
+    4
+   ],
+   "65": [
+    "fix",
+    4
+   ],
+   "66": [
+    "arr"
+   ],
+   "66/e": [
+    "fix",
+    4
+   ],
+   "68": [
+    "fix",
+    1
+   ],
+   "7": [
+    "fix",
+    4
+   ],
+   "70": [
+    "fix",
+    4
+   ],
+   "74": [
+    "fix",
+    4
+   ],
+   "75": [
+    "text"
+   ],
+   "76": [
+    "text"
+   ],
+   "77": [
+    "fix",
+    1
+   ],
+   "78": [
+    "arr"
+   ],
+   "78/e": [
+    "struct"
+   ],
+   "78/e/0": [
+    "text"
+   ],
+   "78/e/1": [
+    "text"
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "80": [
+    "soft"
+   ],
+   "81": [
+    "soft"
+   ],
+   "82": [
+    "soft"
+   ],
+   "83": [
+    "fix",
+    1
+   ],
+   "86": [
+    "fix",
+    4
+   ],
+   "87": [
+    "fix",
+    4
+   ],
+   "89": [
+    "fix",
+    1
+   ],
+   "9": [
+    "fix",
+    4
+   ],
+   "90": [
+    "fix",
+    4
+   ],
+   "91": [
+    "struct"
+   ],
+   "91/0": [
+    "fix",
+    8
+   ],
+   "93": [
+    "struct"
+   ],
+   "93/0": [
+    "fix",
+    8
+   ],
+   "94": [
+    "arr"
+   ],
+   "94/e": [
+    "fix",
+    8
+   ],
+   "95": [
+    "struct"
+   ],
+   "95/0": [
+    "fix",
+    8
+   ],
+   "98": [
+    "struct"
+   ],
+   "98/0": [
+    "fix",
+    4
+   ],
+   "98/1": [
+    "fix",
+    8
+   ],
+   "99": [
+    "fix",
+    4
+   ]
+  }
+ },
+ "HeldContainerEquipmentData": {
+  "chain": [
+   "HeldContainerEquipmentData"
+  ],
+  "id_index": 113,
+  "instances": 7,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "101": [
+    "struct"
+   ],
+   "101/0": [
+    "fix",
+    4
+   ],
+   "101/1": [
+    "fix",
+    8
+   ],
+   "102": [
+    "fix",
+    4
+   ],
+   "103": [
+    "fix",
+    1
+   ],
+   "105": [
+    "fix",
+    4
+   ],
+   "106": [
+    "fix",
+    4
+   ],
+   "107": [
+    "fix",
+    4
+   ],
+   "108": [
+    "arr"
+   ],
+   "108/e": [
+    "struct"
+   ],
+   "108/e/0": [
+    "text"
+   ],
+   "108/e/1": [
+    "text"
+   ],
+   "108/e/2": [
+    "soft"
+   ],
+   "109": [
+    "soft"
+   ],
+   "11": [
+    "fix",
+    4
+   ],
+   "110": [
+    "fix",
+    4
+   ],
+   "111": [
+    "fix",
+    1
+   ],
+   "112": [
+    "fix",
+    1
+   ],
+   "113": [
+    "str"
+   ],
+   "114": [
+    "str"
+   ],
+   "115": [
+    "fix",
+    1
+   ],
+   "116": [
+    "fix",
+    4
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "fix",
+    1
+   ],
+   "16": [
+    "fix",
+    4
+   ],
+   "18": [
+    "fix",
+    4
+   ],
+   "19": [
+    "fix",
+    4
+   ],
+   "20": [
+    "fix",
+    4
+   ],
+   "21": [
+    "fix",
+    4
+   ],
+   "23": [
+    "fix",
+    8
+   ],
+   "3": [
+    "arr"
+   ],
+   "3/e": [
+    "fix",
+    4
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "struct"
+   ],
+   "32/0": [
+    "fix",
+    4
+   ],
+   "32/1": [
+    "fix",
+    8
+   ],
+   "33": [
+    "struct"
+   ],
+   "33/0": [
+    "fix",
+    4
+   ],
+   "33/1": [
+    "fix",
+    8
+   ],
+   "34": [
+    "fix",
+    4
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "fix",
+    4
+   ],
+   "37": [
+    "fix",
+    4
+   ],
+   "38": [
+    "fix",
+    1
+   ],
+   "39": [
+    "fix",
+    1
+   ],
+   "4": [
+    "text"
+   ],
+   "40": [
+    "arr"
+   ],
+   "40/e": [
+    "fix",
+    8
+   ],
+   "41": [
+    "fix",
+    4
+   ],
+   "42": [
+    "fix",
+    4
+   ],
+   "43": [
+    "fix",
+    1
+   ],
+   "44": [
+    "fix",
+    4
+   ],
+   "46": [
+    "struct"
+   ],
+   "46/0": [
+    "fix",
+    8
+   ],
+   "47": [
+    "struct"
+   ],
+   "47/0": [
+    "fix",
+    8
+   ],
+   "5": [
+    "text"
+   ],
+   "50": [
+    "fix",
+    1
+   ],
+   "51": [
+    "fix",
+    4
+   ],
+   "52": [
+    "fix",
+    4
+   ],
+   "53": [
+    "fix",
+    4
+   ],
+   "54": [
+    "fix",
+    4
+   ],
+   "55": [
+    "fix",
+    4
+   ],
+   "56": [
+    "fix",
+    4
+   ],
+   "6": [
+    "text"
+   ],
+   "61": [
+    "fix",
+    1
+   ],
+   "62": [
+    "fix",
+    1
+   ],
+   "64": [
+    "fix",
+    1
+   ],
+   "65": [
+    "fix",
+    1
+   ],
+   "67": [
+    "fix",
+    4
+   ],
+   "68": [
+    "fix",
+    4
+   ],
+   "69": [
+    "arr"
+   ],
+   "69/e": [
+    "fix",
+    4
+   ],
+   "7": [
+    "soft"
+   ],
+   "71": [
+    "fix",
+    1
+   ],
+   "77": [
+    "fix",
+    4
+   ],
+   "78": [
+    "text"
+   ],
+   "79": [
+    "text"
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "80": [
+    "fix",
+    1
+   ],
+   "81": [
+    "arr"
+   ],
+   "81/e": [
+    "struct"
+   ],
+   "81/e/0": [
+    "text"
+   ],
+   "81/e/1": [
+    "text"
+   ],
+   "82": [
+    "fix",
+    4
+   ],
+   "83": [
+    "soft"
+   ],
+   "84": [
+    "soft"
+   ],
+   "85": [
+    "soft"
+   ],
+   "86": [
+    "fix",
+    1
+   ],
+   "89": [
+    "fix",
+    4
+   ],
+   "9": [
+    "fix",
+    4
+   ],
+   "90": [
+    "fix",
+    4
+   ],
+   "92": [
+    "fix",
+    1
+   ],
+   "93": [
+    "fix",
+    4
+   ],
+   "94": [
+    "struct"
+   ],
+   "94/0": [
+    "fix",
+    8
+   ],
+   "96": [
+    "struct"
+   ],
+   "96/0": [
+    "fix",
+    8
+   ],
+   "97": [
+    "arr"
+   ],
+   "97/e": [
+    "fix",
+    8
+   ],
+   "98": [
+    "struct"
+   ],
+   "98/0": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "HeldEquipmentData": {
+  "chain": [
+   "HeldEquipmentData"
+  ],
+  "id_index": 106,
+  "instances": 167,
+  "schema": {
+   "0": [
+    "soft"
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "100": [
+    "fix",
+    4
+   ],
+   "101": [
+    "arr"
+   ],
+   "101/e": [
+    "struct"
+   ],
+   "101/e/0": [
+    "text"
+   ],
+   "101/e/1": [
+    "text"
+   ],
+   "101/e/2": [
+    "soft"
+   ],
+   "102": [
+    "soft"
+   ],
+   "103": [
+    "fix",
+    4
+   ],
+   "104": [
+    "fix",
+    1
+   ],
+   "105": [
+    "fix",
+    1
+   ],
+   "106": [
+    "str"
+   ],
+   "107": [
+    "str"
+   ],
+   "108": [
+    "fix",
+    1
+   ],
+   "109": [
+    "fix",
+    4
+   ],
+   "11": [
+    "fix",
+    4
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "16": [
+    "fix",
+    8
+   ],
+   "2": [
+    "fix",
+    4
+   ],
+   "24": [
+    "fix",
+    4
+   ],
+   "25": [
+    "struct"
+   ],
+   "25/0": [
+    "fix",
+    4
+   ],
+   "25/1": [
+    "fix",
+    8
+   ],
+   "26": [
+    "struct"
+   ],
+   "26/0": [
+    "fix",
+    4
+   ],
+   "26/1": [
+    "fix",
+    8
+   ],
+   "27": [
+    "fix",
+    4
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "3": [
+    "fix",
+    4
+   ],
+   "30": [
+    "fix",
+    4
+   ],
+   "31": [
+    "fix",
+    1
+   ],
+   "32": [
+    "fix",
+    1
+   ],
+   "33": [
+    "arr"
+   ],
+   "33/e": [
+    "fix",
+    8
+   ],
+   "34": [
+    "fix",
+    4
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "fix",
+    1
+   ],
+   "37": [
+    "fix",
+    4
+   ],
+   "39": [
+    "struct"
+   ],
+   "39/0": [
+    "fix",
+    8
+   ],
+   "4": [
+    "fix",
+    4
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    8
+   ],
+   "43": [
+    "fix",
+    1
+   ],
+   "44": [
+    "fix",
+    4
+   ],
+   "45": [
+    "fix",
+    4
+   ],
+   "46": [
+    "fix",
+    4
+   ],
+   "47": [
+    "fix",
+    4
+   ],
+   "48": [
+    "fix",
+    4
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "5": [
+    "fix",
+    4
+   ],
+   "54": [
+    "fix",
+    1
+   ],
+   "55": [
+    "fix",
+    1
+   ],
+   "57": [
+    "fix",
+    1
+   ],
+   "58": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "60": [
+    "fix",
+    4
+   ],
+   "61": [
+    "fix",
+    4
+   ],
+   "62": [
+    "arr"
+   ],
+   "62/e": [
+    "fix",
+    4
+   ],
+   "64": [
+    "fix",
+    1
+   ],
+   "7": [
+    "fix",
+    4
+   ],
+   "70": [
+    "fix",
+    4
+   ],
+   "71": [
+    "text"
+   ],
+   "72": [
+    "text"
+   ],
+   "73": [
+    "fix",
+    1
+   ],
+   "74": [
+    "arr"
+   ],
+   "74/e": [
+    "struct"
+   ],
+   "74/e/0": [
+    "text"
+   ],
+   "74/e/1": [
+    "text"
+   ],
+   "76": [
+    "soft"
+   ],
+   "77": [
+    "soft"
+   ],
+   "78": [
+    "soft"
+   ],
+   "79": [
+    "fix",
+    1
+   ],
+   "8": [
+    "fix",
+    1
+   ],
+   "82": [
+    "fix",
+    4
+   ],
+   "83": [
+    "fix",
+    4
+   ],
+   "85": [
+    "fix",
+    1
+   ],
+   "86": [
+    "fix",
+    4
+   ],
+   "87": [
+    "struct"
+   ],
+   "87/0": [
+    "fix",
+    8
+   ],
+   "89": [
+    "struct"
+   ],
+   "89/0": [
+    "fix",
+    8
+   ],
+   "9": [
+    "fix",
+    4
+   ],
+   "90": [
+    "arr"
+   ],
+   "90/e": [
+    "fix",
+    8
+   ],
+   "91": [
+    "struct"
+   ],
+   "91/0": [
+    "fix",
+    8
+   ],
+   "94": [
+    "struct"
+   ],
+   "94/0": [
+    "fix",
+    4
+   ],
+   "94/1": [
+    "fix",
+    8
+   ],
+   "95": [
+    "fix",
+    4
+   ],
+   "96": [
+    "fix",
+    1
+   ],
+   "98": [
+    "fix",
+    4
+   ],
+   "99": [
+    "fix",
+    4
+   ]
+  }
+ },
+ "HeldTreeSeedData": {
+  "chain": [
+   "HeldTreeSeedData"
+  ],
+  "error": "108+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.uasset; 108+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.uasset; 108+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Held/Farming/TreePlanting/ITEM_Farming_TreeSeed_Ash.uasset; 108+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Playe",
+  "instances": 6
+ },
+ "ItemData": {
+  "chain": [
+   "ItemData"
+  ],
+  "id_index": 36,
+  "instances": 396,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "text"
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "15": [
+    "fix",
+    1
+   ],
+   "16": [
+    "fix",
+    4
+   ],
+   "17": [
+    "struct"
+   ],
+   "17/0": [
+    "fix",
+    8
+   ],
+   "19": [
+    "struct"
+   ],
+   "19/0": [
+    "fix",
+    8
+   ],
+   "2": [
+    "text"
+   ],
+   "20": [
+    "arr"
+   ],
+   "20/e": [
+    "fix",
+    8
+   ],
+   "21": [
+    "struct"
+   ],
+   "21/0": [
+    "fix",
+    8
+   ],
+   "24": [
+    "struct"
+   ],
+   "24/0": [
+    "fix",
+    4
+   ],
+   "24/1": [
+    "fix",
+    8
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "33": [
+    "fix",
+    4
+   ],
+   "36": [
+    "str"
+   ],
+   "37": [
+    "str"
+   ],
+   "38": [
+    "fix",
+    1
+   ],
+   "6": [
+    "soft"
+   ],
+   "7": [
+    "soft"
+   ],
+   "8": [
+    "soft"
+   ],
+   "9": [
+    "fix",
+    1
+   ]
+  }
+ },
+ "JournalCategoryData": {
+  "chain": [
+   "JournalCategoryData"
+  ],
+  "error": "2: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_Category_Knowledge.uasset; 1: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_Category_Knowledge.uasset; 0: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_Category_Knowledge.uasset; None: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_Category_Knowledge.uasset",
+  "instances": 3
+ },
+ "JournalData": {
+  "chain": [
+   "JournalData"
+  ],
+  "id_index": null,
+  "instances": 1,
+  "schema": {
+   "0": [
+    "soft"
+   ],
+   "1": [
+    "soft"
+   ],
+   "2": [
+    "soft"
+   ]
+  }
+ },
+ "JournalEntryKnowLoreData": {
+  "chain": [
+   "JournalEntryKnowLoreData"
+  ],
+  "id_index": 5,
+  "instances": 145,
+  "schema": {
+   "0": [
+    "text"
+   ],
+   "1": [
+    "arr"
+   ],
+   "1/e": [
+    "struct"
+   ],
+   "1/e/0": [
+    "text"
+   ],
+   "2": [
+    "soft"
+   ],
+   "5": [
+    "str"
+   ],
+   "6": [
+    "str"
+   ],
+   "7": [
+    "fix",
+    1
+   ]
+  }
+ },
+ "JournalEntryKnowPeopleData": {
+  "chain": [
+   "JournalEntryKnowPeopleData"
+  ],
+  "id_index": 5,
+  "instances": 10,
+  "schema": {
+   "0": [
+    "text"
+   ],
+   "1": [
+    "arr"
+   ],
+   "1/e": [
+    "struct"
+   ],
+   "1/e/0": [
+    "text"
+   ],
+   "2": [
+    "soft"
+   ],
+   "3": [
+    "struct"
+   ],
+   "5": [
+    "str"
+   ],
+   "6": [
+    "str"
+   ],
+   "7": [
+    "fix",
+    1
+   ]
+  }
+ },
+ "JournalEntryKnowPlaceData": {
+  "chain": [
+   "JournalEntryKnowPlaceData"
+  ],
+  "error": "5+seed: no schema fits RSDragonwilds/Content/UI/JournalData/Entries/DeletedEntries/JOURNAL_Know_Tutorials_WeaknessesResistances.uasset; 5: no schema fits RSDragonwilds/Content/UI/JournalData/Entries/DeletedEntries/JOURNAL_Know_Tutorials_WeaknessesResistances.uasset; 6+seed: no schema fits RSDragonwilds/Content/UI/JournalData/Entries/DeletedEntries/JOURNAL_Know_Tutorials_WeaknessesResistances.uasset; 6: no schema fits RSDragonwilds/Content/UI/JournalData/Entries/DeletedEntries/JOURNAL_Know_Tutori",
+  "instances": 54
+ },
+ "JournalEntryKnowTreasureData": {
+  "chain": [
+   "JournalEntryKnowTreasureData"
+  ],
+  "id_index": 7,
+  "instances": 7,
+  "schema": {
+   "0": [
+    "soft"
+   ],
+   "1": [
+    "fix",
+    1
+   ],
+   "2": [
+    "text"
+   ],
+   "3": [
+    "arr"
+   ],
+   "3/e": [
+    "struct"
+   ],
+   "3/e/0": [
+    "text"
+   ],
+   "4": [
+    "soft"
+   ],
+   "5": [
+    "struct"
+   ],
+   "6": [
+    "soft"
+   ],
+   "7": [
+    "str"
+   ],
+   "8": [
+    "str"
+   ],
+   "9": [
+    "fix",
+    1
+   ]
+  }
+ },
+ "JournalEntryRecipeData": {
+  "chain": [
+   "JournalEntryRecipeData"
+  ],
+  "id_index": null,
+  "instances": 936,
+  "schema": {
+   "0": [
+    "soft"
+   ],
+   "1": [
+    "soft"
+   ],
+   "10": [
+    "struct"
+   ],
+   "10/0": [
+    "fix",
+    1
+   ],
+   "10/1": [
+    "soft"
+   ],
+   "10/2": [
+    "soft"
+   ],
+   "12": [
+    "str"
+   ],
+   "13": [
+    "str"
+   ],
+   "14": [
+    "fix",
+    1
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "2": [
+    "struct"
+   ],
+   "2/0": [
+    "fix",
+    4
+   ],
+   "2/1": [
+    "fix",
+    8
+   ],
+   "4": [
+    "text"
+   ],
+   "5": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    1
+   ],
+   "7": [
+    "text"
+   ],
+   "8": [
+    "arr"
+   ],
+   "8/e": [
+    "struct"
+   ],
+   "8/e/0": [
+    "text"
+   ],
+   "9": [
+    "soft"
+   ]
+  }
+ },
+ "JournalEntryWorldData": {
+  "chain": [
+   "JournalEntryWorldData"
+  ],
+  "id_index": 9,
+  "instances": 232,
+  "schema": {
+   "0": [
+    "arr"
+   ],
+   "0/e": [
+    "text"
+   ],
+   "1": [
+    "arr"
+   ],
+   "1/e": [
+    "struct"
+   ],
+   "1/e/0": [
+    "text"
+   ],
+   "1/e/1": [
+    "fix",
+    8
+   ],
+   "10": [
+    "str"
+   ],
+   "11": [
+    "fix",
+    1
+   ],
+   "2": [
+    "arr"
+   ],
+   "2/e": [
+    "struct"
+   ],
+   "2/e/0": [
+    "fix",
+    8
+   ],
+   "2/e/1": [
+    "fix",
+    4
+   ],
+   "4": [
+    "text"
+   ],
+   "5": [
+    "arr"
+   ],
+   "5/e": [
+    "struct"
+   ],
+   "5/e/0": [
+    "text"
+   ],
+   "6": [
+    "soft"
+   ],
+   "7": [
+    "struct"
+   ],
+   "7/0": [
+    "fix",
+    1
+   ],
+   "7/1": [
+    "soft"
+   ],
+   "7/2": [
+    "soft"
+   ],
+   "7/3": [
+    "soft"
+   ],
+   "7/4": [
+    "soft"
+   ],
+   "9": [
+    "str"
+   ]
+  }
+ },
+ "JournalItemData": {
+  "chain": [
+   "JournalItemData"
+  ],
+  "id_index": 41,
+  "instances": 14,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "fix",
+    8
+   ],
+   "11": [
+    "soft"
+   ],
+   "12": [
+    "soft"
+   ],
+   "13": [
+    "soft"
+   ],
+   "14": [
+    "fix",
+    1
+   ],
+   "17": [
+    "fix",
+    4
+   ],
+   "18": [
+    "fix",
+    4
+   ],
+   "20": [
+    "fix",
+    1
+   ],
+   "21": [
+    "fix",
+    4
+   ],
+   "22": [
+    "struct"
+   ],
+   "22/0": [
+    "fix",
+    8
+   ],
+   "24": [
+    "struct"
+   ],
+   "24/0": [
+    "fix",
+    8
+   ],
+   "25": [
+    "arr"
+   ],
+   "25/e": [
+    "fix",
+    8
+   ],
+   "26": [
+    "struct"
+   ],
+   "26/0": [
+    "fix",
+    8
+   ],
+   "29": [
+    "struct"
+   ],
+   "29/0": [
+    "fix",
+    4
+   ],
+   "29/1": [
+    "fix",
+    8
+   ],
+   "3": [
+    "fix",
+    1
+   ],
+   "33": [
+    "fix",
+    4
+   ],
+   "38": [
+    "fix",
+    4
+   ],
+   "4": [
+    "soft"
+   ],
+   "41": [
+    "str"
+   ],
+   "42": [
+    "str"
+   ],
+   "43": [
+    "fix",
+    1
+   ],
+   "5": [
+    "fix",
+    4
+   ],
+   "6": [
+    "text"
+   ],
+   "7": [
+    "text"
+   ]
+  }
+ },
+ "JournalSubCategoryByGroupData": {
+  "chain": [
+   "JournalSubCategoryByGroupData"
+  ],
+  "error": "8+seed: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_SC_Know_LoreScraps.uasset; 8: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_SC_Know_LoreScraps.uasset; 6+seed: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_SC_Know_LoreScraps.uasset; 6: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_SC_Know_LoreScraps.uasset; 5+seed: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_SC_Know_LoreScraps.uasset; 5: no schema fits RSDragonwilds/Con",
+  "instances": 13
+ },
+ "JournalSubCategoryNoBiomeData": {
+  "chain": [
+   "JournalSubCategoryNoBiomeData"
+  ],
+  "error": "None: no schema fits RSDragonwilds/Content/UI/JournalData/JOURNAL_SC_Know_Places.uasset",
+  "instances": 1
+ },
+ "MagicAmmoData": {
+  "chain": [
+   "MagicAmmoData"
+  ],
+  "id_index": 55,
+  "instances": 4,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "fix",
+    8
+   ],
+   "10": [
+    "fix",
+    1
+   ],
+   "13": [
+    "struct"
+   ],
+   "13/0": [
+    "fix",
+    4
+   ],
+   "13/1": [
+    "fix",
+    8
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "18": [
+    "fix",
+    4
+   ],
+   "19": [
+    "fix",
+    4
+   ],
+   "2": [
+    "fix",
+    1
+   ],
+   "20": [
+    "text"
+   ],
+   "21": [
+    "text"
+   ],
+   "25": [
+    "soft"
+   ],
+   "26": [
+    "soft"
+   ],
+   "27": [
+    "soft"
+   ],
+   "28": [
+    "fix",
+    1
+   ],
+   "3": [
+    "fix",
+    8
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "fix",
+    4
+   ],
+   "34": [
+    "fix",
+    1
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "struct"
+   ],
+   "36/0": [
+    "fix",
+    8
+   ],
+   "38": [
+    "struct"
+   ],
+   "38/0": [
+    "fix",
+    8
+   ],
+   "39": [
+    "arr"
+   ],
+   "39/e": [
+    "fix",
+    8
+   ],
+   "4": [
+    "fix",
+    4
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    8
+   ],
+   "43": [
+    "struct"
+   ],
+   "43/0": [
+    "fix",
+    4
+   ],
+   "43/1": [
+    "fix",
+    8
+   ],
+   "46": [
+    "fix",
+    8
+   ],
+   "47": [
+    "fix",
+    4
+   ],
+   "50": [
+    "arr"
+   ],
+   "50/e": [
+    "struct"
+   ],
+   "50/e/0": [
+    "text"
+   ],
+   "50/e/1": [
+    "text"
+   ],
+   "50/e/2": [
+    "soft"
+   ],
+   "52": [
+    "fix",
+    4
+   ],
+   "55": [
+    "str"
+   ],
+   "56": [
+    "str"
+   ],
+   "57": [
+    "fix",
+    1
+   ],
+   "6": [
+    "struct"
+   ],
+   "6/0": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "RangedAmmoData": {
+  "chain": [
+   "RangedAmmoData"
+  ],
+  "error": "62+seed: stuck after undo at round 1: no schema fits (last failure: zero field); 62+seed: stuck after undo at round 1: search budget exhausted (8 decisions); 62+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Wood.uasset; 62+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Wood.uasset; 62+seed: no schema fits RSDragonwilds/Content/Gameplay/Character/Player/Equipment/Ammo/ITEM_Ammo_Arrows_Wood",
+  "instances": 45
+ },
+ "RecipeData": {
+  "chain": [
+   "RecipeData"
+  ],
+  "id_index": 23,
+  "instances": 1264,
+  "schema": {
+   "0": [
+    "arr"
+   ],
+   "0/e": [
+    "struct"
+   ],
+   "0/e/0": [
+    "fix",
+    4
+   ],
+   "0/e/1": [
+    "fix",
+    4
+   ],
+   "1": [
+    "arr"
+   ],
+   "1/e": [
+    "struct"
+   ],
+   "1/e/0": [
+    "fix",
+    4
+   ],
+   "1/e/1": [
+    "fix",
+    4
+   ],
+   "1/e/2": [
+    "fix",
+    4
+   ],
+   "10": [
+    "fix",
+    1
+   ],
+   "11": [
+    "fix",
+    1
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "struct"
+   ],
+   "13/0": [
+    "fix",
+    4
+   ],
+   "13/1": [
+    "fix",
+    8
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "struct"
+   ],
+   "15/0": [
+    "struct"
+   ],
+   "15/0/0": [
+    "fix",
+    4
+   ],
+   "15/1": [
+    "fix",
+    8
+   ],
+   "16": [
+    "struct"
+   ],
+   "16/0": [
+    "struct"
+   ],
+   "16/0/0": [
+    "fix",
+    8
+   ],
+   "17": [
+    "str"
+   ],
+   "18": [
+    "fix",
+    4
+   ],
+   "19": [
+    "fix",
+    4
+   ],
+   "21": [
+    "fix",
+    4
+   ],
+   "23": [
+    "str"
+   ],
+   "24": [
+    "str"
+   ],
+   "25": [
+    "fix",
+    1
+   ],
+   "26": [
+    "fix",
+    4
+   ],
+   "3": [
+    "arr"
+   ],
+   "3/e": [
+    "struct"
+   ],
+   "3/e/0": [
+    "fix",
+    4
+   ],
+   "3/e/1": [
+    "fix",
+    4
+   ],
+   "4": [
+    "fix",
+    4
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "7": [
+    "struct"
+   ],
+   "7/0": [
+    "fix",
+    4
+   ],
+   "7/1": [
+    "fix",
+    4
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "9": [
+    "struct"
+   ],
+   "9/0": [
+    "fix",
+    8
+   ],
+   "9/1": [
+    "struct"
+   ],
+   "9/1/0": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "RuneRecipeData": {
+  "chain": [
+   "RuneRecipeData"
+  ],
+  "id_index": 25,
+  "instances": 7,
+  "schema": {
+   "0": [
+    "fix",
+    1
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "11": [
+    "struct"
+   ],
+   "11/0": [
+    "fix",
+    8
+   ],
+   "11/1": [
+    "struct"
+   ],
+   "11/1/0": [
+    "fix",
+    8
+   ],
+   "12": [
+    "fix",
+    1
+   ],
+   "13": [
+    "fix",
+    1
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "struct"
+   ],
+   "15/0": [
+    "fix",
+    4
+   ],
+   "15/1": [
+    "fix",
+    8
+   ],
+   "16": [
+    "fix",
+    4
+   ],
+   "17": [
+    "struct"
+   ],
+   "17/0": [
+    "struct"
+   ],
+   "17/0/0": [
+    "fix",
+    4
+   ],
+   "17/1": [
+    "fix",
+    8
+   ],
+   "18": [
+    "struct"
+   ],
+   "18/0": [
+    "struct"
+   ],
+   "18/0/0": [
+    "fix",
+    8
+   ],
+   "19": [
+    "str"
+   ],
+   "2": [
+    "arr"
+   ],
+   "2/e": [
+    "struct"
+   ],
+   "2/e/0": [
+    "fix",
+    4
+   ],
+   "2/e/1": [
+    "fix",
+    4
+   ],
+   "20": [
+    "fix",
+    4
+   ],
+   "21": [
+    "fix",
+    4
+   ],
+   "23": [
+    "fix",
+    4
+   ],
+   "25": [
+    "str"
+   ],
+   "26": [
+    "str"
+   ],
+   "27": [
+    "fix",
+    1
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "3": [
+    "arr"
+   ],
+   "3/e": [
+    "struct"
+   ],
+   "3/e/0": [
+    "fix",
+    4
+   ],
+   "3/e/1": [
+    "fix",
+    4
+   ],
+   "3/e/2": [
+    "fix",
+    4
+   ],
+   "5": [
+    "arr"
+   ],
+   "5/e": [
+    "struct"
+   ],
+   "5/e/0": [
+    "fix",
+    4
+   ],
+   "5/e/1": [
+    "fix",
+    4
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "9": [
+    "struct"
+   ],
+   "9/0": [
+    "fix",
+    4
+   ],
+   "9/1": [
+    "fix",
+    4
+   ]
+  }
+ },
+ "SeedHeldEquipmentData": {
+  "chain": [
+   "SeedHeldEquipmentData"
+  ],
+  "id_index": 107,
+  "instances": 24,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "soft"
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "100": [
+    "fix",
+    4
+   ],
+   "101": [
+    "fix",
+    4
+   ],
+   "102": [
+    "arr"
+   ],
+   "102/e": [
+    "struct"
+   ],
+   "102/e/0": [
+    "text"
+   ],
+   "102/e/1": [
+    "text"
+   ],
+   "102/e/2": [
+    "soft"
+   ],
+   "103": [
+    "soft"
+   ],
+   "104": [
+    "fix",
+    4
+   ],
+   "105": [
+    "fix",
+    1
+   ],
+   "106": [
+    "fix",
+    1
+   ],
+   "107": [
+    "str"
+   ],
+   "108": [
+    "str"
+   ],
+   "109": [
+    "fix",
+    1
+   ],
+   "110": [
+    "fix",
+    4
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "17": [
+    "fix",
+    8
+   ],
+   "2": [
+    "fix",
+    4
+   ],
+   "25": [
+    "fix",
+    4
+   ],
+   "26": [
+    "struct"
+   ],
+   "26/0": [
+    "fix",
+    4
+   ],
+   "26/1": [
+    "fix",
+    8
+   ],
+   "27": [
+    "struct"
+   ],
+   "27/0": [
+    "fix",
+    4
+   ],
+   "27/1": [
+    "fix",
+    8
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "3": [
+    "fix",
+    4
+   ],
+   "30": [
+    "fix",
+    4
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "fix",
+    1
+   ],
+   "33": [
+    "fix",
+    1
+   ],
+   "34": [
+    "arr"
+   ],
+   "34/e": [
+    "fix",
+    8
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "fix",
+    4
+   ],
+   "37": [
+    "fix",
+    1
+   ],
+   "38": [
+    "fix",
+    4
+   ],
+   "4": [
+    "fix",
+    4
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    8
+   ],
+   "41": [
+    "struct"
+   ],
+   "41/0": [
+    "fix",
+    8
+   ],
+   "44": [
+    "fix",
+    1
+   ],
+   "45": [
+    "fix",
+    4
+   ],
+   "46": [
+    "fix",
+    4
+   ],
+   "47": [
+    "fix",
+    4
+   ],
+   "48": [
+    "fix",
+    4
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "5": [
+    "fix",
+    4
+   ],
+   "50": [
+    "fix",
+    4
+   ],
+   "55": [
+    "fix",
+    1
+   ],
+   "56": [
+    "fix",
+    1
+   ],
+   "58": [
+    "fix",
+    1
+   ],
+   "59": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "61": [
+    "fix",
+    4
+   ],
+   "62": [
+    "fix",
+    4
+   ],
+   "63": [
+    "arr"
+   ],
+   "63/e": [
+    "fix",
+    4
+   ],
+   "65": [
+    "fix",
+    1
+   ],
+   "7": [
+    "fix",
+    4
+   ],
+   "71": [
+    "fix",
+    4
+   ],
+   "72": [
+    "text"
+   ],
+   "73": [
+    "text"
+   ],
+   "74": [
+    "fix",
+    1
+   ],
+   "75": [
+    "arr"
+   ],
+   "75/e": [
+    "struct"
+   ],
+   "75/e/0": [
+    "text"
+   ],
+   "75/e/1": [
+    "text"
+   ],
+   "77": [
+    "soft"
+   ],
+   "78": [
+    "soft"
+   ],
+   "79": [
+    "soft"
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "80": [
+    "fix",
+    1
+   ],
+   "83": [
+    "fix",
+    4
+   ],
+   "84": [
+    "fix",
+    4
+   ],
+   "86": [
+    "fix",
+    1
+   ],
+   "87": [
+    "fix",
+    4
+   ],
+   "88": [
+    "struct"
+   ],
+   "88/0": [
+    "fix",
+    8
+   ],
+   "9": [
+    "fix",
+    1
+   ],
+   "90": [
+    "struct"
+   ],
+   "90/0": [
+    "fix",
+    8
+   ],
+   "91": [
+    "arr"
+   ],
+   "91/e": [
+    "fix",
+    8
+   ],
+   "92": [
+    "struct"
+   ],
+   "92/0": [
+    "fix",
+    8
+   ],
+   "95": [
+    "struct"
+   ],
+   "95/0": [
+    "fix",
+    4
+   ],
+   "95/1": [
+    "fix",
+    8
+   ],
+   "96": [
+    "fix",
+    4
+   ],
+   "97": [
+    "fix",
+    1
+   ],
+   "99": [
+    "fix",
+    4
+   ]
+  }
+ },
+ "ShieldData": {
+  "chain": [
+   "ShieldData"
+  ],
+  "id_index": 112,
+  "instances": 16,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "100": [
+    "struct"
+   ],
+   "100/0": [
+    "fix",
+    4
+   ],
+   "100/1": [
+    "fix",
+    8
+   ],
+   "101": [
+    "fix",
+    4
+   ],
+   "102": [
+    "fix",
+    1
+   ],
+   "104": [
+    "fix",
+    4
+   ],
+   "105": [
+    "fix",
+    4
+   ],
+   "106": [
+    "fix",
+    4
+   ],
+   "107": [
+    "arr"
+   ],
+   "107/e": [
+    "struct"
+   ],
+   "107/e/0": [
+    "text"
+   ],
+   "107/e/1": [
+    "text"
+   ],
+   "107/e/2": [
+    "soft"
+   ],
+   "108": [
+    "soft"
+   ],
+   "109": [
+    "fix",
+    4
+   ],
+   "11": [
+    "fix",
+    4
+   ],
+   "110": [
+    "fix",
+    1
+   ],
+   "111": [
+    "fix",
+    1
+   ],
+   "112": [
+    "str"
+   ],
+   "113": [
+    "str"
+   ],
+   "114": [
+    "fix",
+    1
+   ],
+   "115": [
+    "fix",
+    4
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    1
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "17": [
+    "fix",
+    4
+   ],
+   "18": [
+    "fix",
+    4
+   ],
+   "19": [
+    "fix",
+    4
+   ],
+   "20": [
+    "fix",
+    4
+   ],
+   "22": [
+    "fix",
+    8
+   ],
+   "30": [
+    "fix",
+    4
+   ],
+   "31": [
+    "struct"
+   ],
+   "31/0": [
+    "fix",
+    4
+   ],
+   "31/1": [
+    "fix",
+    8
+   ],
+   "32": [
+    "struct"
+   ],
+   "32/0": [
+    "fix",
+    4
+   ],
+   "32/1": [
+    "fix",
+    8
+   ],
+   "33": [
+    "fix",
+    4
+   ],
+   "34": [
+    "fix",
+    4
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "fix",
+    4
+   ],
+   "37": [
+    "fix",
+    1
+   ],
+   "38": [
+    "fix",
+    1
+   ],
+   "39": [
+    "arr"
+   ],
+   "39/e": [
+    "fix",
+    8
+   ],
+   "40": [
+    "fix",
+    4
+   ],
+   "41": [
+    "fix",
+    4
+   ],
+   "42": [
+    "fix",
+    1
+   ],
+   "43": [
+    "fix",
+    4
+   ],
+   "45": [
+    "struct"
+   ],
+   "45/0": [
+    "fix",
+    8
+   ],
+   "46": [
+    "struct"
+   ],
+   "46/0": [
+    "fix",
+    8
+   ],
+   "49": [
+    "fix",
+    1
+   ],
+   "5": [
+    "fix",
+    1
+   ],
+   "50": [
+    "fix",
+    4
+   ],
+   "51": [
+    "fix",
+    4
+   ],
+   "52": [
+    "fix",
+    4
+   ],
+   "53": [
+    "fix",
+    4
+   ],
+   "54": [
+    "fix",
+    4
+   ],
+   "55": [
+    "fix",
+    4
+   ],
+   "6": [
+    "soft"
+   ],
+   "60": [
+    "fix",
+    1
+   ],
+   "61": [
+    "fix",
+    1
+   ],
+   "63": [
+    "fix",
+    1
+   ],
+   "64": [
+    "fix",
+    1
+   ],
+   "66": [
+    "fix",
+    4
+   ],
+   "67": [
+    "fix",
+    4
+   ],
+   "68": [
+    "arr"
+   ],
+   "68/e": [
+    "fix",
+    4
+   ],
+   "7": [
+    "fix",
+    4
+   ],
+   "70": [
+    "fix",
+    1
+   ],
+   "76": [
+    "fix",
+    4
+   ],
+   "77": [
+    "text"
+   ],
+   "78": [
+    "text"
+   ],
+   "79": [
+    "fix",
+    1
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "80": [
+    "arr"
+   ],
+   "80/e": [
+    "struct"
+   ],
+   "80/e/0": [
+    "text"
+   ],
+   "80/e/1": [
+    "text"
+   ],
+   "82": [
+    "soft"
+   ],
+   "83": [
+    "soft"
+   ],
+   "84": [
+    "soft"
+   ],
+   "85": [
+    "fix",
+    1
+   ],
+   "88": [
+    "fix",
+    4
+   ],
+   "89": [
+    "fix",
+    4
+   ],
+   "9": [
+    "fix",
+    4
+   ],
+   "91": [
+    "fix",
+    1
+   ],
+   "92": [
+    "fix",
+    4
+   ],
+   "93": [
+    "struct"
+   ],
+   "93/0": [
+    "fix",
+    8
+   ],
+   "95": [
+    "struct"
+   ],
+   "95/0": [
+    "fix",
+    8
+   ],
+   "96": [
+    "arr"
+   ],
+   "96/e": [
+    "fix",
+    8
+   ],
+   "97": [
+    "struct"
+   ],
+   "97/0": [
+    "fix",
+    8
+   ]
+  }
+ },
+ "SkillData": {
+  "chain": [
+   "SkillData"
+  ],
+  "id_index": 19,
+  "instances": 15,
+  "schema": {
+   "0": [
+    "text"
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "10": [
+    "soft"
+   ],
+   "11": [
+    "arr"
+   ],
+   "11/e": [
+    "struct"
+   ],
+   "11/e/0": [
+    "fix",
+    4
+   ],
+   "11/e/1": [
+    "fix",
+    4
+   ],
+   "11/e/2": [
+    "text"
+   ],
+   "11/e/3": [
+    "soft"
+   ],
+   "12": [
+    "struct"
+   ],
+   "12/0": [
+    "fix",
+    4
+   ],
+   "12/1": [
+    "fix",
+    8
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "17": [
+    "fix",
+    4
+   ],
+   "18": [
+    "soft"
+   ],
+   "19": [
+    "str"
+   ],
+   "20": [
+    "str"
+   ],
+   "3": [
+    "text"
+   ],
+   "4": [
+    "text"
+   ],
+   "5": [
+    "text"
+   ],
+   "6": [
+    "fix",
+    1
+   ],
+   "7": [
+    "soft"
+   ],
+   "8": [
+    "soft"
+   ],
+   "9": [
+    "soft"
+   ]
+  }
+ },
+ "SkillPerkData": {
+  "chain": [
+   "SkillPerkData"
+  ],
+  "id_index": 9,
+  "instances": 191,
+  "schema": {
+   "0": [
+    "text"
+   ],
+   "1": [
+    "text"
+   ],
+   "10": [
+    "str"
+   ],
+   "2": [
+    "struct"
+   ],
+   "2/0": [
+    "fix",
+    4
+   ],
+   "2/1": [
+    "fix",
+    4
+   ],
+   "2/2": [
+    "text"
+   ],
+   "3": [
+    "soft"
+   ],
+   "4": [
+    "arr"
+   ],
+   "4/e": [
+    "fix",
+    4
+   ],
+   "5": [
+    "struct"
+   ],
+   "5/0": [
+    "soft"
+   ],
+   "5/1": [
+    "fix",
+    4
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "7": [
+    "fix",
+    1
+   ],
+   "8": [
+    "struct"
+   ],
+   "8/0": [
+    "fix",
+    8
+   ],
+   "9": [
+    "str"
+   ]
+  }
+ },
+ "SpadeToolEquipmentData": {
+  "chain": [
+   "SpadeToolEquipmentData"
+  ],
+  "id_index": 107,
+  "instances": 6,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "soft"
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "100": [
+    "fix",
+    4
+   ],
+   "101": [
+    "fix",
+    4
+   ],
+   "102": [
+    "arr"
+   ],
+   "102/e": [
+    "struct"
+   ],
+   "102/e/0": [
+    "text"
+   ],
+   "102/e/1": [
+    "text"
+   ],
+   "102/e/2": [
+    "soft"
+   ],
+   "103": [
+    "soft"
+   ],
+   "104": [
+    "fix",
+    4
+   ],
+   "105": [
+    "fix",
+    1
+   ],
+   "106": [
+    "fix",
+    1
+   ],
+   "107": [
+    "str"
+   ],
+   "108": [
+    "str"
+   ],
+   "109": [
+    "fix",
+    1
+   ],
+   "110": [
+    "fix",
+    4
+   ],
+   "12": [
+    "fix",
+    4
+   ],
+   "13": [
+    "fix",
+    4
+   ],
+   "14": [
+    "fix",
+    4
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "17": [
+    "fix",
+    8
+   ],
+   "2": [
+    "fix",
+    4
+   ],
+   "25": [
+    "fix",
+    4
+   ],
+   "26": [
+    "struct"
+   ],
+   "26/0": [
+    "fix",
+    4
+   ],
+   "26/1": [
+    "fix",
+    8
+   ],
+   "27": [
+    "struct"
+   ],
+   "27/0": [
+    "fix",
+    4
+   ],
+   "27/1": [
+    "fix",
+    8
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "29": [
+    "fix",
+    4
+   ],
+   "3": [
+    "fix",
+    4
+   ],
+   "30": [
+    "fix",
+    4
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "fix",
+    1
+   ],
+   "33": [
+    "fix",
+    1
+   ],
+   "34": [
+    "arr"
+   ],
+   "34/e": [
+    "fix",
+    8
+   ],
+   "35": [
+    "fix",
+    4
+   ],
+   "36": [
+    "fix",
+    4
+   ],
+   "37": [
+    "fix",
+    1
+   ],
+   "38": [
+    "fix",
+    4
+   ],
+   "4": [
+    "fix",
+    4
+   ],
+   "40": [
+    "struct"
+   ],
+   "40/0": [
+    "fix",
+    8
+   ],
+   "41": [
+    "struct"
+   ],
+   "41/0": [
+    "fix",
+    8
+   ],
+   "44": [
+    "fix",
+    1
+   ],
+   "45": [
+    "fix",
+    4
+   ],
+   "46": [
+    "fix",
+    4
+   ],
+   "47": [
+    "fix",
+    4
+   ],
+   "48": [
+    "fix",
+    4
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "5": [
+    "fix",
+    4
+   ],
+   "50": [
+    "fix",
+    4
+   ],
+   "55": [
+    "fix",
+    1
+   ],
+   "56": [
+    "fix",
+    1
+   ],
+   "58": [
+    "fix",
+    1
+   ],
+   "59": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    4
+   ],
+   "61": [
+    "fix",
+    4
+   ],
+   "62": [
+    "fix",
+    4
+   ],
+   "63": [
+    "arr"
+   ],
+   "63/e": [
+    "fix",
+    4
+   ],
+   "65": [
+    "fix",
+    1
+   ],
+   "7": [
+    "fix",
+    4
+   ],
+   "71": [
+    "fix",
+    4
+   ],
+   "72": [
+    "text"
+   ],
+   "73": [
+    "text"
+   ],
+   "74": [
+    "fix",
+    1
+   ],
+   "75": [
+    "arr"
+   ],
+   "75/e": [
+    "struct"
+   ],
+   "75/e/0": [
+    "text"
+   ],
+   "75/e/1": [
+    "text"
+   ],
+   "77": [
+    "soft"
+   ],
+   "78": [
+    "soft"
+   ],
+   "79": [
+    "soft"
+   ],
+   "8": [
+    "fix",
+    4
+   ],
+   "80": [
+    "fix",
+    1
+   ],
+   "83": [
+    "fix",
+    4
+   ],
+   "84": [
+    "fix",
+    4
+   ],
+   "86": [
+    "fix",
+    1
+   ],
+   "87": [
+    "fix",
+    4
+   ],
+   "88": [
+    "struct"
+   ],
+   "88/0": [
+    "fix",
+    8
+   ],
+   "9": [
+    "fix",
+    1
+   ],
+   "90": [
+    "struct"
+   ],
+   "90/0": [
+    "fix",
+    8
+   ],
+   "91": [
+    "arr"
+   ],
+   "91/e": [
+    "fix",
+    8
+   ],
+   "92": [
+    "struct"
+   ],
+   "92/0": [
+    "fix",
+    8
+   ],
+   "95": [
+    "struct"
+   ],
+   "95/0": [
+    "fix",
+    4
+   ],
+   "95/1": [
+    "fix",
+    8
+   ],
+   "96": [
+    "fix",
+    4
+   ],
+   "97": [
+    "fix",
+    1
+   ],
+   "99": [
+    "fix",
+    4
+   ]
+  }
+ },
+ "TextNotificationsAndJournalPlayerHook": {
+  "chain": [
+   "TextNotificationsAndJournalPlayerHook"
+  ],
+  "id_index": 5,
+  "instances": 1,
+  "schema": {
+   "0": [
+    "soft"
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "2": [
+    "arr"
+   ],
+   "2/e": [
+    "struct"
+   ],
+   "2/e/0": [
+    "struct"
+   ],
+   "2/e/0/0": [
+    "fix",
+    8
+   ],
+   "2/e/1": [
+    "text"
+   ],
+   "4": [
+    "fix",
+    1
+   ],
+   "5": [
+    "str"
+   ],
+   "6": [
+    "str"
+   ]
+  }
+ },
+ "TrinketItemData": {
+  "chain": [
+   "TrinketItemData"
+  ],
+  "error": "62+seed: stuck after undo at round 1: no schema fits (last failure: zero field); 62+seed: stuck after undo at round 1: search budget exhausted (6 decisions); 62+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Equipment/ITEM_Trinket_Penguin_Ring.uasset; 62+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/Fishing/Content/Gameplay/Items/Equipment/ITEM_Trinket_Penguin_Ring.uasset; 62+seed: no schema fits RSDragonwilds/Plugins/GameFeatures/Fishing/Content",
+  "instances": 29
+ },
+ "UtilitySpellData": {
+  "chain": [
+   "UtilitySpellData"
+  ],
+  "error": "42+seed: stuck after undo at round 1: no schema fits (last failure: zero field); 42+seed: no schema fits RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_GetWaterFromWaterSource.uasset; 42+seed: no schema fits RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_GetWaterFromWaterSource.uasset; 42+seed: stuck after undo at round 1: no schema fits (last failure: zero field); 42+seed: no schema fits RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteraction",
+  "instances": 52
+ },
+ "WearableEquipmentData": {
+  "chain": [
+   "WearableEquipmentData"
+  ],
+  "id_index": 60,
+  "instances": 239,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "fix",
+    4
+   ],
+   "11": [
+    "fix",
+    1
+   ],
+   "16": [
+    "arr"
+   ],
+   "16/e": [
+    "fix",
+    4
+   ],
+   "17": [
+    "arr"
+   ],
+   "17/e": [
+    "fix",
+    8
+   ],
+   "19": [
+    "fix",
+    4
+   ],
+   "20": [
+    "fix",
+    4
+   ],
+   "22": [
+    "fix",
+    4
+   ],
+   "23": [
+    "struct"
+   ],
+   "23/0": [
+    "fix",
+    8
+   ],
+   "24": [
+    "fix",
+    4
+   ],
+   "25": [
+    "text"
+   ],
+   "26": [
+    "text"
+   ],
+   "27": [
+    "fix",
+    1
+   ],
+   "28": [
+    "arr"
+   ],
+   "28/e": [
+    "struct"
+   ],
+   "28/e/0": [
+    "text"
+   ],
+   "28/e/1": [
+    "text"
+   ],
+   "3": [
+    "struct"
+   ],
+   "3/0": [
+    "fix",
+    4
+   ],
+   "3/1": [
+    "fix",
+    8
+   ],
+   "30": [
+    "soft"
+   ],
+   "31": [
+    "soft"
+   ],
+   "32": [
+    "soft"
+   ],
+   "33": [
+    "fix",
+    1
+   ],
+   "36": [
+    "fix",
+    4
+   ],
+   "37": [
+    "fix",
+    4
+   ],
+   "39": [
+    "fix",
+    1
+   ],
+   "40": [
+    "fix",
+    4
+   ],
+   "41": [
+    "struct"
+   ],
+   "41/0": [
+    "fix",
+    8
+   ],
+   "43": [
+    "struct"
+   ],
+   "43/0": [
+    "fix",
+    8
+   ],
+   "44": [
+    "arr"
+   ],
+   "44/e": [
+    "fix",
+    8
+   ],
+   "45": [
+    "struct"
+   ],
+   "45/0": [
+    "fix",
+    8
+   ],
+   "48": [
+    "struct"
+   ],
+   "48/0": [
+    "fix",
+    4
+   ],
+   "48/1": [
+    "fix",
+    8
+   ],
+   "49": [
+    "fix",
+    4
+   ],
+   "52": [
+    "fix",
+    4
+   ],
+   "54": [
+    "fix",
+    4
+   ],
+   "55": [
+    "arr"
+   ],
+   "55/e": [
+    "struct"
+   ],
+   "55/e/0": [
+    "text"
+   ],
+   "55/e/1": [
+    "text"
+   ],
+   "55/e/2": [
+    "soft"
+   ],
+   "57": [
+    "fix",
+    4
+   ],
+   "58": [
+    "fix",
+    1
+   ],
+   "59": [
+    "fix",
+    1
+   ],
+   "6": [
+    "fix",
+    1
+   ],
+   "60": [
+    "str"
+   ],
+   "61": [
+    "str"
+   ],
+   "62": [
+    "fix",
+    1
+   ],
+   "9": [
+    "fix",
+    1
+   ]
+  }
+ },
+ "WhetstoneItemData": {
+  "chain": [
+   "WhetstoneItemData"
+  ],
+  "id_index": 51,
+  "instances": 4,
+  "schema": {
+   "0": [
+    "fix",
+    4
+   ],
+   "1": [
+    "struct"
+   ],
+   "1/0": [
+    "fix",
+    8
+   ],
+   "10": [
+    "fix",
+    4
+   ],
+   "11": [
+    "fix",
+    8
+   ],
+   "13": [
+    "fix",
+    1
+   ],
+   "14": [
+    "soft"
+   ],
+   "15": [
+    "fix",
+    4
+   ],
+   "16": [
+    "text"
+   ],
+   "17": [
+    "text"
+   ],
+   "2": [
+    "fix",
+    4
+   ],
+   "21": [
+    "soft"
+   ],
+   "22": [
+    "soft"
+   ],
+   "23": [
+    "soft"
+   ],
+   "24": [
+    "fix",
+    1
+   ],
+   "27": [
+    "fix",
+    4
+   ],
+   "28": [
+    "fix",
+    4
+   ],
+   "30": [
+    "fix",
+    1
+   ],
+   "31": [
+    "fix",
+    4
+   ],
+   "32": [
+    "struct"
+   ],
+   "32/0": [
+    "fix",
+    8
+   ],
+   "34": [
+    "struct"
+   ],
+   "34/0": [
+    "fix",
+    8
+   ],
+   "35": [
+    "arr"
+   ],
+   "35/e": [
+    "fix",
+    8
+   ],
+   "36": [
+    "struct"
+   ],
+   "36/0": [
+    "fix",
+    8
+   ],
+   "39": [
+    "struct"
+   ],
+   "39/0": [
+    "fix",
+    4
+   ],
+   "39/1": [
+    "fix",
+    8
+   ],
+   "4": [
+    "text"
+   ],
+   "43": [
+    "fix",
+    4
+   ],
+   "48": [
+    "fix",
+    4
+   ],
+   "51": [
+    "str"
+   ],
+   "52": [
+    "str"
+   ],
+   "53": [
+    "fix",
+    1
+   ]
+  }
+ }
+}

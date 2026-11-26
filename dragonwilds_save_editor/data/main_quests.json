@@ -1,0 +1,669 @@
+{
+  "generated": "2026-11-24",
+  "sources": {
+    "wiki": "https://dragonwilds.runescape.wiki/w/",
+    "datamine_questdata": "https://raw.githubusercontent.com/RSDWArchive/RSDWArchive/main/website/tools/QuestData/QuestData.json",
+    "datamine_flows": "https://github.com/RSDWArchive/RSDWArchive/blob/main/1.0.2.0/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/",
+    "game_version_of_datamine": "1.0.2.0"
+  },
+  "main_quest_order": [
+    "luaLQEzPXjx9_ICiz5zkNg",
+    "xa8o60AbJZ23FymQeiH3bg",
+    "SDcUrkVqRiTKKEyzEh5DWw",
+    "TgVnb0NCLvmEVRed59IgsQ",
+    "yrRZnkmro-IvH_OmZ3f-5A",
+    "uftGB0es-CGrvXyPoxW31w",
+    "3MpWS0mD8A6yFVmjVAA2Qg",
+    "kPtTW0exXrqw2BqELR_bFA",
+    "Nw3wiUaB8siRIN2bStWJmw"
+  ],
+  "quests": {
+    "luaLQEzPXjx9_ICiz5zkNg": {
+      "name": "First Steps",
+      "slug": "first-steps",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/First_Steps",
+      "internal_name": "ftue_fs2",
+      "related_quest_ids": [
+        "AmuXOUitB08PYDCmdVA_Ug",
+        "v9LCTEjS-igQFrq4bpvtsA",
+        "7i8X403LNgw6uY-XK5OgnA"
+      ],
+      "current": {
+        "QuestState": 2
+      },
+      "steps": [
+        {
+          "n": 1,
+          "title": "Tutorial (FTUE) chain",
+          "wiki_text": "Tutorial quest, auto-started on character creation.",
+          "save_vars": {
+            "QuestState": 2
+          },
+          "confidence": "high"
+        }
+      ]
+    },
+    "xa8o60AbJZ23FymQeiH3bg": {
+      "name": "Getting Started",
+      "slug": "getting-started",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Getting_Started",
+      "internal_name": "ftue_rtftj",
+      "current": {
+        "QuestState": 2
+      },
+      "steps": [
+        {
+          "n": 1,
+          "title": "Tutorial",
+          "wiki_text": "Tutorial primary quest.",
+          "save_vars": {
+            "QuestState": 2
+          },
+          "confidence": "high"
+        }
+      ]
+    },
+    "SDcUrkVqRiTKKEyzEh5DWw": {
+      "name": "Ratcatcher",
+      "slug": "ratcatcher",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Ratcatcher",
+      "internal_name": "ftue_rc",
+      "related_quest_ids": [
+        "4lW6rU0i0js1e3qFEAVI4w"
+      ],
+      "current": {
+        "QuestState": 2
+      },
+      "steps": [
+        {
+          "n": 1,
+          "title": "Tutorial",
+          "wiki_text": "Tutorial primary quest.",
+          "save_vars": {
+            "QuestState": 2
+          },
+          "confidence": "high"
+        }
+      ]
+    },
+    "TgVnb0NCLvmEVRed59IgsQ": {
+      "name": "Rune Mysteries",
+      "slug": "rune-mysteries",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Rune_Mysteries",
+      "internal_name": "ftue_rm_prt1",
+      "related_quest_ids": [
+        "zrqqFUNmx3lcF6umysJfvQ",
+        "EWRW7Ux-jHohLEKQCrkJJw"
+      ],
+      "current": {
+        "QuestState": 2
+      },
+      "steps": [
+        {
+          "n": 1,
+          "title": "Tutorial",
+          "wiki_text": "Tutorial primary quest. It has two save rows: prt1 TgVnb0... and prt2 zrqqFU... (HasApproachGeyser, HasGotFlax).",
+          "save_vars": {
+            "QuestState": 2
+          },
+          "confidence": "high"
+        }
+      ]
+    },
+    "yrRZnkmro-IvH_OmZ3f-5A": {
+      "name": "Dragon Slayer",
+      "slug": "dragon-slayer",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Dragon_Slayer",
+      "internal_name": "dragon_slayer",
+      "beat_var": "QuestBeat",
+      "current": {
+        "QuestState": 2,
+        "QuestBeat": 5,
+        "QuestObjective": "Return to the Wise old man after killing velgar"
+      },
+      "older_save_83": {
+        "QuestState": 1,
+        "QuestBeat": 2,
+        "QuestObjective": "Investigate the castle"
+      },
+      "rewards": "Tome of Construction Vol 1 (antlers step). DS reward pack Beat2 (3 clay, redberries, harralander) after following Cathan into Ghornfell. DS reward pack Beat5 (Tome of the Dragon Slayer, noxious draconic visage, anti-dragon shield) at the end. Challenge horn recipe from Cathan's ghost.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Build shelter, claim a bed",
+          "wiki_text": "Build a shelter with a bed roll, claim it, then talk to the Wise Old Man.",
+          "save_vars": {
+            "QuestBeat": 1,
+            "QuestObjective": "Claim a bed / Return to the Wise old man after claimed bed",
+            "HasBed": true
+          },
+          "confidence": "med",
+          "flow": "QF_DragonSlayer_Beat1"
+        },
+        {
+          "n": 2,
+          "title": "Hunt a deer for antlers",
+          "wiki_text": "The WOM casts a locator spell with the antlers. It points to the castle.",
+          "save_vars": {
+            "QuestBeat": 1,
+            "QuestObjective": "Find and hunt a deer",
+            "HasCompletedHuntDeerStep": true,
+            "CompletedBeat1": true
+          },
+          "confidence": "med",
+          "flow": "QF_DragonSlayer_Beat1"
+        },
+        {
+          "n": 3,
+          "title": "Investigate the castle (Keep of Blue Flames)",
+          "wiki_text": "Read Cathan's journal at the top of the keep. It points to the blue-flame door.",
+          "save_vars": {
+            "QuestBeat": 2,
+            "QuestObjective": "Investigate the castle",
+            "CompletedBeat1": true
+          },
+          "confidence": "high",
+          "note": "Exactly matches the v83 save (SaveCount 295).",
+          "flow": "QF_DragonSlayer_Beat2"
+        },
+        {
+          "n": 4,
+          "title": "Find Cathan in the vault, report to the WOM, go into Ghornfell",
+          "wiki_text": "Vertentis Kara vault and Spitfoot, back to the WOM, then Ghornfell.",
+          "save_vars": {
+            "QuestBeat": "2->3",
+            "QuestObjective": "Locate cathan in the vault / Return to the Wise old man / Venture into Ghornfell",
+            "KnowVelgar": true,
+            "HasCastleRecipePiece": true,
+            "HasSwampRecipePiece": true,
+            "HasSpokeToGolbin": true,
+            "CompletedBeat2": true,
+            "HasEnteredGhornfell": true
+          },
+          "confidence": "med",
+          "flow": "QF_DragonSlayer_Beat2"
+        },
+        {
+          "n": 5,
+          "title": "Cathan's ghost at Velgar's Rise, then craft the challenge horn",
+          "wiki_text": "The ghost gives the challenge horn recipe: dragon tooth, bloodwood sap and 5 bronze bars.",
+          "save_vars": {
+            "QuestBeat": "3->4",
+            "QuestObjective": "Look for evidence of Cathan at the tower / Craft the summon horn",
+            "GhostCathanVisible": true,
+            "HasSummonHornRecipe": true,
+            "FoundDragonTooth": true,
+            "FoundBloodWoodSap": true,
+            "CompletedBeat3": true
+          },
+          "confidence": "med",
+          "flow": "QF_DragonSlayer_Beat3"
+        },
+        {
+          "n": 6,
+          "title": "Challenge and defeat Velgar",
+          "wiki_text": "Place the horn on the dragonkin altar atop Velgar's Rise.",
+          "save_vars": {
+            "QuestBeat": "4->5",
+            "QuestObjective": "Challenge Velgar",
+            "CompletedBeat4": true,
+            "HasEverRecievedDragonHead": true
+          },
+          "confidence": "med",
+          "flow": "QF_DragonSlayer_Beat4"
+        },
+        {
+          "n": 7,
+          "title": "Return to the Wise Old Man with Velgar's head",
+          "wiki_text": "Hand in the head to complete the quest.",
+          "save_vars": {
+            "QuestBeat": 5,
+            "QuestObjective": "Return to the Wise old man after killing velgar",
+            "QuestState": 2
+          },
+          "confidence": "high",
+          "note": "Current save.",
+          "flow": "QF_DragonSlayer_Beat5"
+        }
+      ]
+    },
+    "uftGB0es-CGrvXyPoxW31w": {
+      "name": "Withering Heights",
+      "slug": "withering-heights",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Withering_Heights",
+      "internal_name": "DeathQuestMain",
+      "beat_var": "DeathQuest_Beat",
+      "current": {
+        "QuestState": 2,
+        "DeathQuest_Beat": 5,
+        "StandStoneInt": 2,
+        "SealsBroken": 3,
+        "QuestObjective": "ReturnToDeath"
+      },
+      "older_save_83": {
+        "QuestState": 0
+      },
+      "rewards": "Withering Heights reward pack (Tome of the Undying, undead draconic visage, dragoncurse shield) and the dragoncurse shield masterwork recipe.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "WOM, enter Fellhollow, search the structure, Postie Pete, unlock the gate",
+          "wiki_text": "Objectives TalkToWomNEGF, SearchTheStructure, SpeakToPostiePete, GoThroughDoorToFH, UnlockGate.",
+          "save_vars": {
+            "DeathQuest_Beat": "1->2"
+          },
+          "confidence": "med",
+          "flow": "QF_DeathQuest_Beat1"
+        },
+        {
+          "n": 2,
+          "title": "Find a cleansing pool",
+          "wiki_text": "Objective FindACleansingPool.",
+          "save_vars": {
+            "DeathQuest_Beat": 3,
+            "HasUsedCleansingPool": true
+          },
+          "confidence": "med",
+          "flow": "QF_DeathQuest_Beat2"
+        },
+        {
+          "n": 3,
+          "title": "Investigate the standing stones",
+          "wiki_text": "Objective InvestigateStandingStones.",
+          "save_vars": {
+            "DeathQuest_Beat": 4,
+            "InvestigatedStandingStones": true
+          },
+          "confidence": "med",
+          "flow": "QF_DeathQuest_Beat3"
+        },
+        {
+          "n": 4,
+          "title": "Break the three seals, challenge Imaru",
+          "wiki_text": "Objectives BreakTheThreeSeals, BreakRemainingtwoSeals, BreakTheFinalSeal, ChallangeImaru.",
+          "save_vars": {
+            "DeathQuest_Beat": "4->5",
+            "SealsBroken": "0..3",
+            "ImaruDefeated": true
+          },
+          "confidence": "med",
+          "flow": "QF_DeathQuest_Beat4"
+        },
+        {
+          "n": 5,
+          "title": "Return to Death",
+          "wiki_text": "Objective ReturnToDeath. The quest completes and Death then gives Black Knight's Fortress.",
+          "save_vars": {
+            "DeathQuest_Beat": 5,
+            "QuestObjective": "ReturnToDeath",
+            "QuestState": 2
+          },
+          "confidence": "high",
+          "flow": "QF_DeathQuest_Beat5"
+        }
+      ]
+    },
+    "3MpWS0mD8A6yFVmjVAA2Qg": {
+      "name": "Black Knight's Fortress",
+      "slug": "black-knights-fortress",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Black_Knight%27s_Fortress",
+      "internal_name": "Quest_DR_Black_Knight_Fortress",
+      "beat_var": "QuestBeat",
+      "objective_text_source": "https://github.com/RSDWArchive/RSDWArchive/blob/main/1.0.2.0/json/RSDragonwilds/Plugins/GameFeatures/DowdunReach/Content/Gameplay/Quests/Main/ST_DR_Main.json",
+      "current": {
+        "QuestState": 1,
+        "QuestBeat": 3,
+        "Shard_Amount": 13,
+        "QuestObjective": "DR_Main_Objective_5",
+        "GateOpen": true,
+        "FixedDreamstone": true,
+        "CanEnterBastion": "absent",
+        "GatekeeperDefeated": "absent",
+        "QuestLocations": {
+          "DR_GateKeeper": true,
+          "DR_MQ_DreamingStone": false
+        }
+      },
+      "older_save_83": {
+        "QuestState": 0
+      },
+      "rewards": "Black Knight's Fortress reward pack (Tome of the Titan, Titan's Wrath) and recipe RECIPE_Masterworks_Weapon_GreatSword_TitansWrath (PzF6r0v9aps3QVSoWKGy0A). Completing it auto-starts Icthlarin's Little Helper.",
+      "steps": [
+        {
+          "n": 0,
+          "title": "Speak to Death",
+          "wiki_text": "Death in the Forgotten Temple gives the quest after Withering Heights.",
+          "save_vars": {
+            "QuestState": 1,
+            "QuestObjective": "DR_Main_Objective_-1",
+            "GivenQuestOnLogin": true
+          },
+          "confidence": "high",
+          "objective_text": "Speak To Death",
+          "flow": "QF_DR_Main_ProvideQuestOnStart / QF_Death_PostQuestDialogue"
+        },
+        {
+          "n": 1,
+          "title": "Speak to Cathan at the eastern gates",
+          "wiki_text": "Cathan is near the ominous gatehouse south of Silverthorn Keep.",
+          "save_vars": {
+            "QuestBeat": 0,
+            "QuestObjective": "DR_Main_Objective_0",
+            "RecievedDRQuestFromDeath": true,
+            "loc:DR_MQ_Cathan": true
+          },
+          "confidence": "high",
+          "objective_text": "Speak to Cathan at the eastern gates in Fellhollow",
+          "flow": "QF_DR_MainQuest_Entry / QF_Death_PostQuestDialogue"
+        },
+        {
+          "n": 2,
+          "title": "Speak to the Wise Old Man in Dowdun Reach",
+          "wiki_text": "Go through the ominous door and The Approach to The Courtyard.",
+          "save_vars": {
+            "QuestBeat": 1,
+            "QuestObjective": "DR_Main_Objective_1",
+            "EnteredDRCathanCheck": true,
+            "loc:DR_MQ_Cathan": false,
+            "loc:DR_MQ_OldMan_Target": true
+          },
+          "confidence": "high",
+          "objective_text": "Speak to the Wise Old Man In Dowdun Reach",
+          "flow": "QF_DR_MainQuest_Entry (RegionEntry) / QF_DR_Main_Cathan"
+        },
+        {
+          "n": 3,
+          "title": "Speak to Doric in the Nexus",
+          "wiki_text": "The WOM says Doric is working on the barrier in the Nexus and suggests a base camp.",
+          "save_vars": {
+            "QuestBeat": 1,
+            "QuestObjective": "DR_Main_Objective_2",
+            "SpokenToOldMan": true,
+            "loc:DR_MQ_OldMan_Target": false,
+            "loc:DR_MQ_Doric": true
+          },
+          "confidence": "high",
+          "objective_text": "Speak to Doric in Dowdun Reach",
+          "flow": "QF_DR_MainQuest_OldMan"
+        },
+        {
+          "n": 4,
+          "title": "Investigate the Dreaming Stone",
+          "wiki_text": "Doric points at the broken stone. Inspecting it starts the shard hunt.",
+          "save_vars": {
+            "QuestBeat": 1,
+            "QuestObjective": "DR_Main_Objective_3",
+            "SpokenToDoric": true,
+            "loc:DR_MQ_Doric": false,
+            "loc:DR_MQ_DreamingStone": true
+          },
+          "confidence": "high",
+          "objective_text": "Investigate the Dreaming Stone",
+          "flow": "QF_DR_MainQuest_Doric"
+        },
+        {
+          "n": 5,
+          "title": "Collect the 13 Shards of the Dreaming Stone",
+          "wiki_text": "13 shards across Dowdun Reach: Cathedral, Garrison x2, Grand Hall (Spittletoe), Library x2 (Valerius), Menagerie x2, Pastures x2, Crypt, Demon Gate, Lake (Offalfoot).",
+          "save_vars": {
+            "QuestBeat": 2,
+            "QuestObjective": "DR_Main_Objective_4 .. DR_Main_Objective_4_12",
+            "SpokenToDreamstone": true,
+            "Fragment_N": "true per shard",
+            "Shard_Amount": "+1 per shard",
+            "loc:DR_MQ_Fragment_N": "revealed; hidden once collected"
+          },
+          "confidence": "high",
+          "objective_text": "Collect the Shards of the Dreaming Stone around Dowdun Reach: k/13",
+          "flow": "QF_DR_MainQuest_Dreamstone / QF_DR_MainQuest_Fragments"
+        },
+        {
+          "n": 6,
+          "title": "Return to the Dreaming Stone (13/13)",
+          "wiki_text": "With all 13 found, go back to the stone.",
+          "save_vars": {
+            "QuestBeat": 2,
+            "Shard_Amount": 13,
+            "QuestObjective": "DR_Main_Objective_4_13",
+            "Fragments_All": true,
+            "Fragments_LessThan5": false,
+            "Fragments_LessThan10": false,
+            "Fragments_LessThan13": false,
+            "GateOpen": false,
+            "FixedDreamstone": false,
+            "loc:DR_MQ_DreamingStone": true,
+            "loc:DR_GateKeeper": false
+          },
+          "confidence": "high",
+          "objective_text": "Return to the Dreaming Stone",
+          "flow": "QF_DR_MainQuest_Fragments (CheckAmount)"
+        },
+        {
+          "n": 7,
+          "title": "Defeat the Gatekeeper (Black Knight Titan)",
+          "wiki_text": "Avisk takes the 13 shards and drops the barrier. Go to The Bastion and kill the Titan.",
+          "save_vars": {
+            "QuestBeat": 3,
+            "QuestObjective": "DR_Main_Objective_5",
+            "GateOpen": true,
+            "FixedDreamstone": true,
+            "loc:DR_GateKeeper": true,
+            "loc:DR_MQ_DreamingStone": false,
+            "CanEnterBastion": "set true the first time the Bastion barrier is used"
+          },
+          "confidence": "high",
+          "objective_text": "Defeat the Gatekeeper",
+          "note": "CURRENT POSITION. CanEnterBastion is absent, so the Bastion barrier has never been used.",
+          "flow": "QF_DR_MainQuest_Dreamstone / QF_DR_MainQuest_Gatekeeper"
+        },
+        {
+          "n": 8,
+          "title": "Return to the Dreaming Stone",
+          "wiki_text": "The Titan is dead and drops Broken Titan's Wrath.",
+          "save_vars": {
+            "QuestBeat": 4,
+            "QuestObjective": "DR_Main_Objective_6",
+            "GatekeeperDefeated": true,
+            "loc:DR_GateKeeper": false,
+            "loc:DR_MQ_DreamingStone": true
+          },
+          "confidence": "high",
+          "objective_text": "Return to the Dreaming Stone",
+          "flow": "QF_DR_MainQuest_Gatekeeper (GatekeeperDead)"
+        },
+        {
+          "n": 9,
+          "title": "Quest complete",
+          "wiki_text": "Talk to Avisk while holding Broken Titan's Wrath to get the reward pack and the Titan's Wrath recipe. CompleteQuest runs and ILH starts.",
+          "save_vars": {
+            "QuestBeat": 4,
+            "QuestState": 2,
+            "requires_item": "Broken Titan's Wrath B_9Rt0HRTRhbZfSgUrQNTg"
+          },
+          "confidence": "high",
+          "flow": "QF_DR_MainQuest_Dreamstone"
+        }
+      ]
+    },
+    "kPtTW0exXrqw2BqELR_bFA": {
+      "name": "Icthlarin's Little Helper",
+      "slug": "icthlarins-little-helper",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Icthlarin%27s_Little_Helper",
+      "internal_name": "UmS_MainQuest",
+      "beat_var": "DT_QuestBeat",
+      "current": {
+        "QuestState": 0
+      },
+      "note": "import.js also maps this ID to 't-fuzan-trials'. The datamine (QuestData.json) says it is UmS_MainQuest, i.e. ILH.",
+      "rewards": "ILH reward pack (dragonfire shield, Tome of Volcano, smouldering draconic visage, new anti-dragon shield recipe) and 3 Moon Garou packs. Unlocks the Fight Caves and the Nightmare Crucible.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Enter the Umbral Sands, look for life",
+          "wiki_text": "EnterUmS / LookForLife",
+          "save_vars": {
+            "DT_QuestBeat": "1-2"
+          },
+          "confidence": "low"
+        },
+        {
+          "n": 2,
+          "title": "Speak to Icthlarin",
+          "wiki_text": "SpeakToIcthlarin",
+          "save_vars": {
+            "DT_QuestBeat": "2-3"
+          },
+          "confidence": "low"
+        },
+        {
+          "n": 3,
+          "title": "Earn Moon Garou reputation (tasks), find keys",
+          "wiki_text": "FirstGarouEarnReputation.*, FindThreeKeys, FindLastKey",
+          "save_vars": {
+            "DT_QuestBeat": "4-5",
+            "FirstCampFavour/TribeBFavour/TribeCFavour": "0..100",
+            "KeysFound": "n"
+          },
+          "confidence": "low"
+        },
+        {
+          "n": 4,
+          "title": "Repair the mirrors, fight Fuzan",
+          "wiki_text": "RepairTheMirrors, ReturnToIcthlarin, FightFuzan",
+          "save_vars": {
+            "DT_QuestBeat": "5-6",
+            "MirrorsRepaired": "n"
+          },
+          "confidence": "low"
+        },
+        {
+          "n": 5,
+          "title": "Speak to the Garou elder, complete",
+          "wiki_text": "SpeakToGarouElder, then CompleteQuest",
+          "save_vars": {
+            "QuestState": 2
+          },
+          "confidence": "low"
+        }
+      ]
+    },
+    "Nw3wiUaB8siRIN2bStWJmw": {
+      "name": "Regicide",
+      "slug": "regicide",
+      "wiki_url": "https://dragonwilds.runescape.wiki/w/Regicide",
+      "internal_name": "SW_MainQuest",
+      "current": {
+        "QuestState": 0
+      },
+      "rewards": "Regicide reward pack (Dragon kiteshield, Dragonslayer's cape, Queenslayer's reward pack), Lougrim's staff, and the Scorned Wilderness raid.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Bring the head, access the Scorned Wilderness",
+          "wiki_text": "BringHead, AccessSW",
+          "save_vars": {},
+          "confidence": "low"
+        },
+        {
+          "n": 2,
+          "title": "Speak to Zilyana",
+          "wiki_text": "SpeakZilyana",
+          "save_vars": {},
+          "confidence": "low"
+        },
+        {
+          "n": 3,
+          "title": "Defeat Kuldra",
+          "wiki_text": "DefeatKuldra",
+          "save_vars": {},
+          "confidence": "low"
+        },
+        {
+          "n": 4,
+          "title": "Return to Zilyana",
+          "wiki_text": "ReturnToZilyana, then CompleteQuest",
+          "save_vars": {
+            "QuestState": 2
+          },
+          "confidence": "low"
+        }
+      ]
+    }
+  },
+  "user_position": {
+    "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+    "step_n": 7,
+    "summary": "Black Knight's Fortress at QuestBeat 3: the Dreaming Stone is repaired and the barrier is open, but the Gatekeeper (Black Knight Titan) is not defeated yet."
+  },
+  "revert_plans": {
+    "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+    "current_step_n": 7,
+    "back_1": {
+      "target_step_n": 6,
+      "QuestState": 1,
+      "QuestInts": {
+        "QuestBeat": 2,
+        "Shard_Amount": 13
+      },
+      "QuestObjective": "DR_Main_Objective_4_13",
+      "QuestBools": {
+        "GateOpen": false,
+        "FixedDreamstone": false
+      },
+      "QuestLocations": {
+        "DR_GateKeeper": false,
+        "DR_MQ_DreamingStone": true
+      },
+      "QuestTrackedMain": "3MpWS0mD8A6yFVmjVAA2Qg",
+      "optional_inventory": {
+        "hJyKREoYCuSo8E20uZBB9g": 13
+      },
+      "confidence": "high"
+    },
+    "back_2": {
+      "target_step_n": 4,
+      "QuestState": 1,
+      "QuestInts": {
+        "QuestBeat": 1,
+        "Shard_Amount": 13
+      },
+      "QuestObjective": "DR_Main_Objective_3",
+      "QuestBools": {
+        "GateOpen": false,
+        "FixedDreamstone": false,
+        "SpokenToDreamstone": false
+      },
+      "QuestLocations": {
+        "DR_GateKeeper": false,
+        "DR_MQ_DreamingStone": true
+      },
+      "QuestTrackedMain": "3MpWS0mD8A6yFVmjVAA2Qg",
+      "optional_inventory": {
+        "hJyKREoYCuSo8E20uZBB9g": 13
+      },
+      "confidence": "med",
+      "note": "Fragment_1..13 and Fragments_All stay true, so the shard hunt is not replayed. The first stone talk sets QuestBeat 2; the next talk does the 13-shard repair."
+    },
+    "back_2_alt_full_shard_hunt": {
+      "QuestInts": {
+        "QuestBeat": 2,
+        "Shard_Amount": 0
+      },
+      "QuestObjective": "DR_Main_Objective_4",
+      "QuestBools": {
+        "Fragment_1..13": false,
+        "Fragments_All": false,
+        "Fragments_LessThan5": true,
+        "GateOpen": false,
+        "FixedDreamstone": false
+      },
+      "QuestLocations": {
+        "DR_MQ_Fragment_1..13": true,
+        "DR_GateKeeper": false,
+        "DR_MQ_DreamingStone": false
+      },
+      "confidence": "low",
+      "note": "Not recommended. World-side shard sources (slain shardbound demons, Sergeant Blister, vines, levers, the library door, the crypt grave) may not respawn. NPC bools (FishingGoblinShardGiven, PlayerGivenFragment_Chef, PlayerGivenFragmentMage, TakenGlassOwl, Library_*) would also need resetting."
+    }
+  }
+}

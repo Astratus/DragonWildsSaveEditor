@@ -1,0 +1,695 @@
+{
+ "PlayerHooksTriggered": {
+  "-A0hHk34hKPjJQ6WH4tj_Q": {
+   "asset": "PH_FirstClaimedBed",
+   "group": "FTUE",
+   "internal": "ph_firstclaimedbed",
+   "name": "FirstClaimedBed",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "06O_ekhxpxGVOaS5bBru_g": {
+   "asset": "PH_ImaruGazeStage3",
+   "group": "FTUE",
+   "internal": "ph_imarugazestg3",
+   "name": "ImaruGazeStage3",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "08DnvkgFUSNWXD6kxqio4g": {
+   "asset": "PH_FirstEquippedArmor",
+   "group": "FTUE",
+   "internal": "ph_firstequippedarmor",
+   "name": "FirstEquippedArmor",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "1MnmSUuARGW-QICkWZlNfA": {
+   "asset": "PH_FirstWakeUpInBed",
+   "group": "FTUE",
+   "internal": "ph_firstwakeupinbed",
+   "name": "FirstWakeUpInBed",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "2iVmJ0plnL_DLQy9Vj-mXQ": {
+   "asset": "PH_ImaruGazeStage1",
+   "group": "FTUE",
+   "internal": "ph_imarugazestg1",
+   "name": "ImaruGazeStage1",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "4kHW30wPRMN2fHSd0CULUg": {
+   "asset": "PH_MountUnlocked",
+   "group": "FTUE",
+   "internal": "ph_mountunlocked",
+   "name": "MountUnlocked",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "5m02BUYiuoWdqwaF4FH4_A": {
+   "asset": "PH_UmbralSandsIntro",
+   "group": "PlayerHook",
+   "internal": "umbral_intro",
+   "name": "UmbralSandsIntro",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "B8Uv_k2qaxkou0SnqZVwuw": {
+   "asset": "PH_ConstructedFirstWorkbench",
+   "group": "FTUE",
+   "internal": "ph_constructedfirstworkbench",
+   "name": "ConstructedFirstWorkbench",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Bloa8k1OU_oLC8-ZyZl5xg": {
+   "asset": "PH_FirstEncumbered",
+   "group": "FTUE",
+   "internal": "ph_firstencumbered",
+   "name": "FirstEncumbered",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "DuvBLEYy3K75vo6GAhBzcA": {
+   "asset": "PH_FirstEnteredBuildingPlacementMode",
+   "group": "FTUE",
+   "internal": "ph_firstenteredbuildingplacementmode",
+   "name": "FirstEnteredBuildingPlacementMode",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "EgOJ6UJEd8OpUYGqrkKJMw": {
+   "asset": "PH_FirstOpenedSpellBook",
+   "group": "FTUE",
+   "internal": "ph_firstopenedspellbook",
+   "name": "FirstOpenedSpellBook",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "FyjKdEkP-AN_d7ayoBNARw": {
+   "asset": "PH_UnlockedFirstBed",
+   "group": "FTUE",
+   "internal": "ph_unlockedfirstbed",
+   "name": "UnlockedFirstBed",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Go-s402keEoboTKcmMC3FQ": {
+   "asset": "PH_SecondRecipeUnlocked",
+   "group": "FTUE",
+   "internal": "ph_secondrecipeunlocked",
+   "name": "SecondRecipeUnlocked",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "IikXl0sXhZ0HGt-WUKijIA": {
+   "asset": "PH_UnlockedFirstBuildingBeam",
+   "group": "FTUE",
+   "internal": "ph_unlockedfirstbuildingbeam",
+   "name": "UnlockedFirstBuildingBeam",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "JOrjykCyTMhRlWuimes2DQ": {
+   "asset": "PH_ObtainedFirstResource",
+   "group": "FTUE",
+   "internal": "ph_obtainedfirstresource",
+   "name": "ObtainedFirstResource",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "JysPMUrEduVUnZSO7fkm9w": {
+   "asset": "PH_FirstNight",
+   "group": "FTUE",
+   "internal": "PH_FirstNight",
+   "name": "FirstNight",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "K9ib2k1vxhVUPtSnA3zaOg": {
+   "asset": "PH_ObtainedFirstFood",
+   "group": "FTUE",
+   "internal": "ph_obtainedfirstfood",
+   "name": "ObtainedFirstFood",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "KT6IL0MW-u0Z7fKfrRIlJA": {
+   "asset": "PH_ExitTempleOfSaradomin",
+   "group": "PlayerHook",
+   "internal": "exit_temple_of_saradomin",
+   "name": "ExitTempleOfSaradomin",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "NrNI6UeNYKBGW8-QleaePQ": {
+   "asset": "PH_FirstSpawnedInLWorld",
+   "group": "FTUE",
+   "internal": "ph_firstspawnedinlworld",
+   "name": "FirstSpawnedInLWorld",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Pm1ehUEyko4TuoiooMFT7A": {
+   "asset": "PH_BuildingUnlocked2",
+   "group": "FTUE",
+   "internal": "ph_buildingunlocked2",
+   "name": "BuildingUnlocked2",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Q-nbS0Ix4xYlDOmVGtHHGQ": {
+   "asset": "PH_FirstItemBroken",
+   "group": "FTUE",
+   "internal": "ph_firstitembroken",
+   "name": "FirstItemBroken",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "S9KlyUntCdY2goiksCTCfA": {
+   "asset": "PH_FirstDurabilityDropped",
+   "group": "FTUE",
+   "internal": "PH_FirstDurabilityDropped",
+   "name": "FirstDurabilityDropped",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "SUqI4k7g5bLdEJaxHWEBNw": {
+   "asset": "PH_FirstRespawned",
+   "group": "FTUE",
+   "internal": "ph_firstrespawn",
+   "name": "FirstRespawned",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "T9ZLkEak-vFqKiCTXUwHVg": {
+   "asset": "PH_UnlockedFirstBuildingPiece",
+   "group": "FTUE",
+   "internal": "ph_unlockedfirstbuildingpiece",
+   "name": "UnlockedFirstBuildingPiece",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "XUONlkj2SR7TxEulXWQ6_w": {
+   "asset": "PH_ImaruGazeStage2",
+   "group": "FTUE",
+   "internal": "ph_imarugazestg2",
+   "name": "ImaruGazeStage2",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "aLtQSklcimGNk0ydqGastg": {
+   "asset": "PH_ScornedWildernessIntro",
+   "group": "PlayerHook",
+   "internal": "scornedwilderness_intro",
+   "name": "ScornedWildernessIntro",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "dTO81EUhiV8eVjude2rkjQ": {
+   "asset": "PH_FirstSkillLevelUp",
+   "group": "FTUE",
+   "internal": "ph_firstskilllevelup",
+   "name": "FirstSkillLevelUp",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "etkzK0jorU-OFyqYToFOjw": {
+   "asset": "PH_ConstructedFirstCampfire",
+   "group": "FTUE",
+   "internal": "PH_ConstructedFirstCampfire",
+   "name": "ConstructedFirstCampfire",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "hPNURUuvQM4FSPy6k46F3g": {
+   "asset": "PH_UnlockedSpellBook",
+   "group": "FTUE",
+   "internal": "ph_unlockedspellbook",
+   "name": "UnlockedSpellBook",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "jFR5qkCPd_6arTSTRXLoQg": {
+   "asset": "PH_FirstHitOakTreeWithStoneAxe",
+   "group": "FTUE",
+   "internal": "ph_firsthitoaktreewithstoneaxe",
+   "name": "FirstHitOakTreeWithStoneAxe",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "jKa_mEbMYqgrvpqsaoUnuA": {
+   "asset": "PH_FirstInteractedWithWorkbench",
+   "group": "FTUE",
+   "internal": "ph_firstinteractedwithworkbench",
+   "name": "FirstInteractedWithWorkbench",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "mK4CD0MN1Mg_DhGr3PVIRg": {
+   "asset": "PH_FirstRecipeUnlocked",
+   "group": "FTUE",
+   "internal": "ph_firstrecipeunlocked",
+   "name": "FirstRecipeUnlocked",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "mt-kq0m4_CRb8ROfF_jqXw": {
+   "asset": "PH_FirstEnteredHigherPowerLevelRegion",
+   "group": "FTUE",
+   "internal": "ph_firstenteredhigherpowerlevelregion",
+   "name": "FirstEnteredHigherPowerLevelRegion",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "prbKS0g1X6EsOe6Lc17yAg": {
+   "asset": "PH_DowndunReachIntro",
+   "group": "PlayerHook",
+   "internal": "downdunreach_intro",
+   "name": "DowndunReachIntro",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "rL1csE9EGZ9eiuyhJjiizQ": {
+   "asset": "PH_FirstTakeDamage",
+   "group": "FTUE",
+   "internal": "ph_firsttakedamage",
+   "name": "FirstTakeDamage",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "ta6YSk116CeTvYmEcY-WKQ": {
+   "asset": "PH_MusicFTUE",
+   "group": "PlayerHook",
+   "internal": "resume_music",
+   "name": "MusicFTUE",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "w7i9eEkrmS07OdumshFxiA": {
+   "asset": "PH_FellHollowIntro",
+   "group": "PlayerHook",
+   "internal": "fellhollow_intro",
+   "name": "FellHollowIntro",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "wEG6aEJOf7-76Re4dIq2CA": {
+   "asset": "PH_FirstClosedCraftingMenu",
+   "group": "FTUE",
+   "internal": "ph_firstclosedcraftingmenu",
+   "name": "FirstClosedCraftingMenu",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "xrorgU9QidZcGcSGni-T2g": {
+   "asset": "PH_Stability",
+   "group": "FTUE",
+   "internal": "PH_Stability",
+   "name": "Stability",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "zEbE-Up0518eqo-MOwXAZw": {
+   "asset": "PH_NarrativeIntro",
+   "group": "PlayerHook",
+   "internal": "narrative_intro",
+   "name": "NarrativeIntro",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "zH30j0NjIViunj6M4mjxlg": {
+   "asset": "PH_UnlockedFirstStationUpgrade",
+   "group": "FTUE",
+   "internal": "ph_unlockedfirststationupgrade",
+   "name": "UnlockedFirstStationUpgrade",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "z_4plkvLwjSP0tKGTa_m_w": {
+   "asset": "PH_FirstHitCopperWithStonePickaxe",
+   "group": "FTUE",
+   "internal": "ph_firsthitcopperwithstonepickaxe",
+   "name": "FirstHitCopperWithStonePickaxe",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "zs2dMEkILRVKWE-AFdbqmg": {
+   "asset": "PH_FirstItemForaged",
+   "group": "FTUE",
+   "internal": "ph_firstitemforaged",
+   "name": "FirstItemForaged",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  }
+ },
+ "SkillPerks": {
+  "3By4OUqbFhppYr2GzAP5UQ": {
+   "asset": "PerkV2_Mining_RocksplosionUpgrade",
+   "group": "Mining",
+   "internal": "perk_mining_rocksplosion_upgrade",
+   "name": "Ultimate Burst",
+   "required_level": 51,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "3a8GsUsIS2H83qaZ9sMf9w": {
+   "asset": "PerkV2_Magic_SecondaryAttacks",
+   "group": "Magic",
+   "internal": "perk_magic_secondaryattacks",
+   "name": "Magic Special Actions",
+   "required_level": 5,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "PtRLykBLb1_D8luNpho_Dw": {
+   "asset": "PerkV2_Magic_WaterMagic",
+   "group": "Magic",
+   "internal": "perk_magic_watermagic",
+   "name": "Water Magic",
+   "required_level": 7,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "cQfN1EsBDwTU16m3eFSDKA": {
+   "asset": "PerkV2_Farming_Secateurs",
+   "group": "Farming",
+   "internal": "perk_farming_secateurs",
+   "name": "Iron Secateurs",
+   "required_level": 42,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "eEgMiEvVRA2A3eunlh4ZMA": {
+   "asset": "PerkV2_Ranged_TrickShot_Upgrade",
+   "group": "Ranged",
+   "internal": "perk_ranged_trickshot_upgrade",
+   "name": "Crossbow Trick Shot",
+   "required_level": 30,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "t-K3IED5a6PL2TiDumX-Nw": {
+   "asset": "PerkV2_Magic_ExtendCombo",
+   "group": "Magic",
+   "internal": "perk_magic_extendcombo",
+   "name": "Arcane Expertise",
+   "required_level": 16,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  }
+ },
+ "Skills": {
+  "0hreSMRVXUihq9qjDO2CFA": {
+   "asset": "SKILL_Magic",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Magic",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "4pefO9k1lUqfA6mvHNi1SA": {
+   "asset": "SKILL_Attack",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Attack",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "4zYUGF5u_0KbMLkWJmmBbQ": {
+   "asset": "SKILL_Woodcutting",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Woodcutting",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "JOeGVO8aVUaGeZK7DwsDMA": {
+   "asset": "SKILL_Defence",
+   "group": "Skill",
+   "name": "Defence",
+   "retired": true,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "NOqC-z-2ckqi0El22qMFlw": {
+   "asset": "SKILL_Runecrafting",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Runecrafting",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "PyUi-0LU_riFY46AnnFiWg": {
+   "asset": "SKILL_Farming",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Farming",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Tn7t6DQyX0-Q0cM5K7B90A": {
+   "asset": "SKILL_Cooking",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Cooking",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Wf3i7Ha-B06DH719j1vtBw": {
+   "asset": "SKILL_Artisan",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Artisan",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Z_h4bom-ME2cScgMMCAJRA": {
+   "asset": "SKILL_Herblore",
+   "group": "Skill",
+   "name": "Herblore",
+   "retired": true,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "bEYEBHGxEEyt4E_CgLoAVQ": {
+   "asset": "SKILL_Thieving",
+   "group": "Skill",
+   "name": "Thieving",
+   "retired": true,
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "heq7u88Q2UuLXFqLGTVwQw": {
+   "asset": "SKILL_Ranged",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Ranged",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "jqX0Gh6QI0GFFPCDFK_CJQ": {
+   "asset": "SKILL_Mining",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Mining",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "pJggvotwOkuoc98igUn7xA": {
+   "asset": "SKILL_Agility",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Agility",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "vwY5IkQJJDwb2PKEfoc8MQ": {
+   "asset": "SKILL_Fishing",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Fishing",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "waK-8EyQFQ2xEjCGYmuTRQ": {
+   "asset": "SKILL_Construction",
+   "group": "Skill",
+   "max_level": 99,
+   "name": "Construction",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  }
+ },
+ "SpellsUnlocked": {
+  "-iwcTUCLh8HpFpWP6t9ocg": {
+   "asset": "USD_SnareTrap",
+   "group": "Ranged",
+   "internal": "spell_snaretrap",
+   "name": "Snare",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "1IbvuUDxF5fdHkOa58a90Q": {
+   "asset": "USD_FishingFrenzy",
+   "group": "Fishing",
+   "internal": "spell_fishingfrenzy",
+   "name": "Fishing Frenzy",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "2Cqf50lVo8GHBZ2CsgCtlQ": {
+   "asset": "USD_EnchantWeapon_Fire",
+   "group": "Attack",
+   "internal": "spell_enchantweapon_fire",
+   "name": "Enchant Weapon: Fire",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "3UZevUVbZe1RG3mtp7BTEQ": {
+   "asset": "USD_FireSpirit",
+   "group": "Runecrafting",
+   "internal": "spell_firespirit",
+   "name": "Fire Spirit",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "9K9d1kMeBPZvWeCGQ8sxFQ": {
+   "asset": "USD_EnchantWeapon_Earth",
+   "group": "Attack",
+   "internal": "spell_enchantweapon_earth",
+   "name": "Enchant Weapon: Earth",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "9ZOfFkjO-IfJgEqc1RfwZA": {
+   "asset": "USD_HomeTeleport",
+   "group": "Runecrafting",
+   "internal": "spell_hometeleport",
+   "name": "Home Teleport",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "CzIO20x8xEYrm5eAybHASg": {
+   "asset": "USD_Treequipment",
+   "group": "Artisan",
+   "internal": "spell_barktobones",
+   "name": "Bark to Bones",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "F4HfiUNmHYRF3qmH6dkRUQ": {
+   "asset": "USD_CorruptionArrows",
+   "group": "Ranged",
+   "internal": "spell_corruptionarrows",
+   "name": "Spectral Arrows",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "FagbeUYSePGrCsq3N8e4mQ": {
+   "asset": "USD_InternalAlchemy",
+   "group": "Cooking",
+   "internal": "spell_internalalchemy",
+   "name": "Internal Alchemy",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "HegOiEb8gROM5UiIDvMVEg": {
+   "asset": "USD_AxtralProjection",
+   "group": "Woodcutting",
+   "internal": "spell_axtralprojection",
+   "name": "Axtral Projection",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "JtSIn0ix3zvWZlOaFgpvDw": {
+   "asset": "USD_EnchantWeapon_Water",
+   "group": "Attack",
+   "internal": "spell_enchantweapon_water",
+   "name": "Enchant Weapon: Water",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Kbp8Vkh9xhOA82GfvuGIXg": {
+   "asset": "USD_DetectOre",
+   "group": "Mining",
+   "internal": "spell_detectore",
+   "name": "Summon Stone Spirits",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Lak9PErrDtKGBUaWaZEB0g": {
+   "asset": "USD_BonesToPeaches",
+   "group": "Cooking",
+   "internal": "spell_bonestopeaches",
+   "name": "Bones to Peaches",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "Q7_YS0cT6pQp2cykPBxkxA": {
+   "asset": "USD_EyeOfOculus",
+   "group": "Construction",
+   "internal": "spell_eyeofoculus",
+   "name": "Eye Of Oculus",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "QbCOm0PXWOIGaLaJb0mMFg": {
+   "asset": "USD_Enfeeble",
+   "group": "Magic",
+   "internal": "spell_enfeeble",
+   "name": "Enfeeble",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "X5KsNkeTrRFzqOylC8kV-Q": {
+   "asset": "USD_DetectAnimaVents",
+   "group": "Runecrafting",
+   "internal": "spell_detectanimavents",
+   "name": "Summon Elemental Spirits",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "XboY60hOz4ZKUai_sxhtRw": {
+   "asset": "USD_Rocksplosion",
+   "group": "Mining",
+   "internal": "spell_rocksplosion",
+   "name": "Rocksplosion",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "YZOJIURm2He0FSiVNikuuw": {
+   "asset": "USD_AccessPersonalChest",
+   "group": "Construction",
+   "internal": "spell_accesspersonalchest",
+   "name": "Personal Chest",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "bbTvuUQxCXOlwmuYtgUXAQ": {
+   "asset": "USD_Confuse",
+   "group": "Magic",
+   "internal": "spell_confuse",
+   "name": "Confuse",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "c2KonU_Ke1FKIBy3CDTe3w": {
+   "asset": "USD_DivineRock",
+   "group": "Mining",
+   "internal": "spell_divinerock",
+   "name": "Divine Rock",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "dXCEyUWjMTCSI-u8rVpJNg": {
+   "asset": "USD_Windstep",
+   "group": "Agility",
+   "internal": "spell_windstep",
+   "name": "Windstep",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "dl7aeEv1ddNVT4OvxeGwKA": {
+   "asset": "USD_Humidify",
+   "group": "Farming",
+   "internal": "spell_humidify",
+   "name": "Humidify",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "dyBWckSRBNkbjvGxirFEKw": {
+   "asset": "USD_Splinter",
+   "group": "Woodcutting",
+   "internal": "spell_splinter",
+   "name": "Splinter",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "fN--EU7s-Vez5ICHyfHAWA": {
+   "asset": "USD_TempestShield",
+   "group": "Attack",
+   "internal": "spell_tempestshield",
+   "name": "Tempest Shield",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "fbCzak5hRwXSmGyhG4N0eg": {
+   "asset": "USD_EnchantWeapon_Air",
+   "group": "Attack",
+   "internal": "spell_enchantweapon_air",
+   "name": "Enchant Weapon: Air",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "iKetnUomD_TeAvW3QW1o4w": {
+   "asset": "USD_SpeedupStation",
+   "group": "Artisan",
+   "internal": "spell_speedupstation",
+   "name": "Overdrive",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "jom5Wk6oD-B0cyqsozzHXg": {
+   "asset": "USD_FerociousFurnace",
+   "group": "Artisan",
+   "internal": "spell_ferociousfurnace",
+   "name": "Superheat",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "ly7NnUR8OkU0rcKV_MtN7A": {
+   "asset": "USD_Recall",
+   "group": "Agility",
+   "internal": "spell_recall",
+   "name": "Recall",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "n_deu0x83JSQ0e2grNvJKA": {
+   "asset": "USD_Surge",
+   "group": "Magic",
+   "internal": "spell_surge",
+   "name": "Surge",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "nxIhHkBIYvwOjKeTqbkMwA": {
+   "asset": "USD_MagicalMending",
+   "group": "Artisan",
+   "internal": "spell_magicalmending",
+   "name": "Magical Mending",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "r7jgSkvRMo9RL0uHQ5Yekg": {
+   "asset": "USD_PhaseDash",
+   "group": "Magic",
+   "internal": "spell_phase_dash",
+   "name": "Phase Dash",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "tcLjt0ov83RbyYKJZMDaMQ": {
+   "asset": "USD_SummonShelter",
+   "group": "Construction",
+   "internal": "spell_summonshelter",
+   "name": "Summon Shelter",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  },
+  "wcO9mEIVOY4TWbyMOzwmRw": {
+   "asset": "USD_Harvest",
+   "group": "Farming",
+   "internal": "spell_harvest",
+   "name": "Uproot",
+   "source": "test fixture (subset of a catalog built from the installed game)"
+  }
+ }
+}

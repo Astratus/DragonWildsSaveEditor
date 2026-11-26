@@ -1,0 +1,87 @@
+{
+	"source_note": "Fixed (world) lodestones: BP_WorldLodestone_C actors in the World Partition cells of /Game/Maps/World/L_World (GameplayObjectRegistryIdentifier, baked per actor and the same in every world; DefaultSceneRoot location). First datamined from RSDWArchive 1.0.2.0 (Content/Maps/World/L_World/_Generated_/<cell>.json), then confirmed from an installed copy of the game (see install_check). Cross-checked with the wiki Lodestone page map (4 permanent locations) and with two world saves (ids match; for the 3 registered ones \"location\" is the exact double the game wrote, which equals the install value, so an activation writes the same bytes; Umbral Sands is not yet seen in a save and uses the install value). Player-built lodestones (BP_BaseBuilding_Lodestone_C) get a random id per placement and are not catalogued. See docs/research/lodestones.md.",
+	"install_check": {
+		"game_version": "1.0.2.2",
+		"tool": "python -m dragonwilds_save_editor.gamedata.world",
+		"confirmed_from_install": "id, actor, cell, tags and location of all 4 (the install has exactly 4 BP_WorldLodestone_C actors); locations equal the install's doubles exactly",
+		"changed_after_install_check": "Umbral Sands location was a rounded datamine value (max 0.008 uu off); replaced with the install's exact doubles",
+		"not_confirmed_from_install": "name and area (wiki, map region polygons) and spud_level (world saves)"
+	},
+	"lodestones": [
+		{
+			"id": "5E74232B4126EDE0BAEFF9856FFD03C6",
+			"name": "Temple of Saradomin",
+			"area": "Brynmoor / Temple Woods",
+			"location": [ 5065.111060671951, 189026.10601265208, -3632.75931668213 ],
+			"actor": "StaticMeshActor_UAID_7486E239CD4644CE01_2105747359",
+			"cell": "5DE2Q7722I32URAIIDX90NY5T",
+			"spud_level": "RSACell12800_X0_Y14",
+			"tags": [],
+			"note": "Starting-area lodestone (wiki: 'Lodestone (Inactive)'); registered even in a world with no built lodestones.",
+			"source": "install+wiki+save",
+			"confidence": "very high"
+		},
+		{
+			"id": "C29B965F4A6FE5855746CDB2FB61F658",
+			"name": "Death's Domain",
+			"area": "Fellhollow / Forgotten Temple",
+			"location": [ 133136.54834248466, 38671.65076235538, -3348.722355696561 ],
+			"actor": "StaticMeshActor_UAID_AC1A3DB43E39778602_1347654207",
+			"cell": "24MG3D1C2GJRN9CALY7J7APUE",
+			"spud_level": "RSACell12800_X10_Y3",
+			"tags": [ "CTX_Fellhollow" ],
+			"note": "Wiki name 'Death's Domain'; the map region polygon at this point is Forgotten Temple.",
+			"source": "install+wiki+save",
+			"confidence": "very high"
+		},
+		{
+			"id": "BEE7FC7343CE7CEA0DED91847DD83D19",
+			"name": "Dowdun Reach Entrance",
+			"area": "Dowdun Reach / The Approach",
+			"location": [ 220779.04103320185, 28801.810733836628, -5538.064120005275 ],
+			"actor": "StaticMeshActor_UAID_AC1A3DB43E3906B902_1575504920",
+			"cell": "8BLAK65ZWMQLJSO4WHZEFWBTL",
+			"spud_level": "RSACell12800_X17_Y2",
+			"tags": [ "CTX_Fellhollow", "CTX_DowdunReach" ],
+			"note": "Region polygons for The Approach and The Courtyard overlap here; the wiki says The Approach.",
+			"source": "install+wiki+save",
+			"confidence": "very high"
+		},
+		{
+			"id": "122F25504BAF11D411C40A917C5811F5",
+			"name": "Umbral Sands",
+			"area": "Umbral Sands / Alcarrid Oasis",
+			"location": [ 244688.567988, 96414.792213, 1373.703057 ],
+			"actor": "BP_WorldLodestone_C_UAID_AC1A3DB43E393BDC02_1489140288",
+			"cell": "D0PFFXG3QO5HY781FKOL02PKA",
+			"spud_level": "RSACell12800_X19_Y7",
+			"tags": [ "CTX_UmbralSands" ],
+			"note": "Not registered in either sample world (not yet seen in a save); id, actor, cell, tags and location confirmed from the installed game.",
+			"source": "install+wiki",
+			"confidence": "high"
+		}
+	],
+	"storage": {
+		"scope": "per-world (shared by every character in that world); nothing in the character JSON",
+		"registry": {
+			"file": "SaveGames/<world>.sav (also mirrored in Saved/SpudCache/L_World.lvl while a world is loaded)",
+			"level": "L_World",
+			"class": "/Script/Dominion.GameplayObjectRegistry",
+			"property": "Lodestones",
+			"spud_type": "record (64)",
+			"layout": "u32 count, then per entry UE5 tagged properties until 'None': Location (StructProperty Vector_NetQuantize: X,Y,Z DoubleProperty), RespawnLocation (same; Z = Location.Z + 145), Identifier (StructProperty Guid, 16 bytes)",
+			"meaning": "the set of lodestones usable as teleport targets; the map UI teleports by Identifier (log: HandleLodestoneIconClicked ... Lodestone with ID <Identifier>)"
+		},
+		"world_actor": {
+			"class": "/Game/Gameplay/World/Misc/BP_WorldLodestone.BP_WorldLodestone_C",
+			"spud_props": [ "Lodestone Component/GameplayObjectRegistryIdentifier (all zeros in saves)", "bCanBeDamaged" ],
+			"note": "no activated/repaired flag; only exists in the save for cells that have been streamed and saved"
+		},
+		"built_actor": {
+			"class": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_Lodestone.BP_BaseBuilding_Lodestone_C",
+			"spawned": true,
+			"spud_props": [ "Lodestone Component/GameplayObjectRegistryIdentifier (= registry Identifier)", "FurnitureBonus", "StabilityValue", "bIsGhosted", "HealthComponent/AuthoritativeHealth (max 750)", "BuildingPieceID", "bCanBeDamaged" ]
+		},
+		"character": "none: GameProgress.ActorsInteractedWith is a class-name list the game discards on load (log warning); no lodestone keys"
+	}
+}

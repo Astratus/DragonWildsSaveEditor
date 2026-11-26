@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Restoring a backup
+    url: https://github.com/Astratus/DragonWildsSaveEditor#restoring-a-backup
+    about: Lost progress or a broken save? Restore a backup first.
+  - name: Jagex support
+    url: https://support.runescape.com/
+    about: For problems with the game itself. Please don't contact Jagex about this unofficial tool.

@@ -1,0 +1,151 @@
+{
+  "_about": "Quest state that probably lives in the WORLD save (.sav, SPUD), not the character JSON. The editor does not change any of this. Each entry is a stub for future world-save work: what, which steps, evidence, and status. Shown as warnings in the Main Quest tab.",
+  "world_saves": {
+    "World B.sav": "251 KB; per prior string scan, almost no Dowdun Reach state and no WorldProgressManager boss records -> likely the safest world to replay in.",
+    "World A.sav": "7.9 MB; WorldProgressManager records Velgar and Imaru defeated, world hooks/tags, CachedCharacterStates (a guest 'GuestChar')."
+  },
+  "quests": {
+    "3MpWS0mD8A6yFVmjVAA2Qg": {
+      "name": "Black Knight's Fortress",
+      "stubs": [
+        {
+          "id": "bkf_barrier",
+          "steps_affected": [
+            6,
+            7
+          ],
+          "what": "Bastion barrier / gate actor state (open vs closed). The character flag GateOpen is set alongside it; the world may keep the barrier down after a character-only revert.",
+          "evidence": "World survey (read-only decode of both worlds, 2026-11-24): the Bastion barrier actor only stores bCanBeDamaged; no open/closed state. The character flags drive it.",
+          "status": "not in world save"
+        },
+        {
+          "id": "bkf_dreamstone_actor",
+          "steps_affected": [
+            6,
+            7,
+            8
+          ],
+          "what": "Dreaming Stone actor repaired/broken visual + interaction state (Avisk dialogue).",
+          "evidence": "World survey: Dreamstone actor only stores bCanBeDamaged.",
+          "status": "not in world save"
+        },
+        {
+          "id": "bkf_shard_pickups",
+          "steps_affected": [
+            4,
+            5,
+            6
+          ],
+          "what": "The 13 Shards of the Dreaming Stone world pickups (collected/hidden). Collected pickups stay collected in the world, so the shard hunt cannot be replayed with a character edit; editor never resets Fragment_N.",
+          "evidence": "World survey: 9 shard fragment actors found, each only bCanBeDamaged; no collected flag. Fragment_N on the character is what counts.",
+          "status": "not in world save"
+        },
+        {
+          "id": "bkf_titan",
+          "steps_affected": [
+            7,
+            8,
+            9
+          ],
+          "what": "Black Knight Titan (Gatekeeper) spawner / defeated state. Setting step 8+ on the character does not kill the Titan in the world; reverting from 8+ does not respawn it.",
+          "evidence": "World survey: nothing named Titan/Gatekeeper/Black Knight in either world; the Titan has not been defeated yet, so a record may only appear after the kill.",
+          "status": "not found in world save"
+        },
+        {
+          "id": "bkf_bastion_entry",
+          "steps_affected": [
+            7,
+            8
+          ],
+          "what": "CanEnterBastion (character bool, set on first barrier use) may have a world-side counterpart for the barrier interaction.",
+          "evidence": "World survey: no world counterpart found.",
+          "status": "not in world save"
+        },
+        {
+          "id": "bkf_npc_positions",
+          "steps_affected": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "what": "Cathan / Wise Old Man / Doric NPC placement and dialogue state in Dowdun Reach; reverting to the entry steps may leave NPCs where the later steps put them.",
+          "evidence": "World survey: Wise Old Man / Doric / Cathan variants only store bCanBeDamaged.",
+          "status": "not in world save"
+        },
+        {
+          "id": "bkf_reward",
+          "steps_affected": [
+            9
+          ],
+          "what": "Completion requires Broken Titan's Wrath and grants rewards; setting step 9 on the character grants nothing.",
+          "evidence": "main_quest_map.md",
+          "status": "known (character-side limitation)"
+        }
+      ]
+    },
+    "yrRZnkmro-IvH_OmZ3f-5A": {
+      "name": "Dragon Slayer",
+      "stubs": [
+        {
+          "id": "ds_velgar",
+          "steps_affected": [
+            6,
+            7
+          ],
+          "what": "Velgar defeated record in WorldProgressManager (confirmed present in World A.sav).",
+          "evidence": "World survey: WorldProgressManager list entry (undecoded property type) in World A.sav. No tool edits it; Velgar can be re-fought in game via the Challenge Horn.",
+          "status": "confirmed in world save"
+        },
+        {
+          "id": "ds_temple",
+          "steps_affected": [
+            1,
+            2,
+            3
+          ],
+          "what": "Wise Old Man temple visibility (WOMTempleHidden) and vault goblin visibility (VaultGoblinVisible) may have world actor counterparts.",
+          "evidence": "World survey: these bool names only appear inside CachedCharacterStates (guest character copy).",
+          "status": "not in world save"
+        }
+      ]
+    },
+    "uftGB0es-CGrvXyPoxW31w": {
+      "name": "Withering Heights",
+      "stubs": [
+        {
+          "id": "wh_imaru",
+          "steps_affected": [
+            4,
+            5
+          ],
+          "what": "Imaru defeated record in WorldProgressManager (confirmed present in World A.sav).",
+          "evidence": "World survey: WorldProgressManager entry plus linked tags and a spawn-trigger switch. Imaru can be re-fought by re-collecting the curse fragments.",
+          "status": "confirmed in world save"
+        },
+        {
+          "id": "wh_seals",
+          "steps_affected": [
+            4
+          ],
+          "what": "The three seal actors (broken/intact).",
+          "evidence": "World survey: a single switch byte.",
+          "status": "confirmed in world save"
+        }
+      ]
+    },
+    "_other_world_state": {
+      "name": "Other world state found by the survey",
+      "stubs": [
+        {
+          "id": "world_misc",
+          "steps_affected": [],
+          "what": "World hooks, dragon event timers (WorldEventManager), boss altar bSummoned flag, Dowdun Reach lever and chest states, and god statues. Byte flips are possible (world-save parser) but their in-game effect is unknown.",
+          "evidence": "world_save_survey.md",
+          "status": "confirmed in world save"
+        }
+      ]
+    }
+  },
+  "_survey": "Verified 2026-11-24 by read-only decode of both world saves. Recommendation: read-only display only; BKF needs no world edits."
+}

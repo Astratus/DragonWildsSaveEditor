@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+    tags-ignore: ["**"]   # tags are handled by release.yml
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Tests (${{ matrix.os }}, Python ${{ matrix.python }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest   # the platform the game and the exe run on
+            python: "3.12"
+          - os: ubuntu-latest    # headless: GUI tests skip themselves (no display)
+            python: "3.12"
+          - os: ubuntu-latest    # oldest supported Python (pyproject requires-python)
+            python: "3.10"
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Byte-compile every module
+        run: python -m compileall -q dragonwilds_save_editor tests packaging
+
+      # No network and no game install: checks the bundled item catalog's JSON, shape, counts and
+      # file hashes, and that the bundled map/lodestone/schema data parse.
+      - name: Bundled item catalog is valid
+        run: |
+          python packaging/build_catalog.py --verify
+          python -c "from dragonwilds_save_editor.gamedata import schemas; assert schemas.load_schemas()['ItemData'][1] == 36"
+
+      # Stdlib + tkinter only: nothing to install. Real-world-save tests (DW_TEST_WORLD) and the
+      # real-install tests (DW_TEST_GAME_DIR) self-skip on CI; the game-data reader is tested
+      # with synthetic IoStore fixtures, and NoNetworkTests guards the "no network" claim.
+      - name: Unit tests
+        run: python -m unittest discover -s tests -t . -v
+
+      # Installs the package (not editable) and runs it from outside the checkout, so a data
+      # file missing from the package data or an entry point typo fails here. No network and an
+      # empty user data folder: the bundled item catalog must be installed and used.
+      - name: Install package and check entry points
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check --quiet .
+          cd "$RUNNER_TEMP"
+          export LOCALAPPDATA="$RUNNER_TEMP/dw-empty"
+          dwsave --help > /dev/null
+          dwsave catalog --help > /dev/null
+          dwsave catalog status | grep "In use: bundled catalog"
+          dwsave catalog verify
+          python -c "
+          from dragonwilds_save_editor import __version__, catalog, lodestones, questline, save
+          from dragonwilds_save_editor import map as dwmap
+          assert not catalog.is_built() and catalog.active_status()['origin'] == 'bundled'
+          g = save.GameData()
+          assert not g.catalog_missing and len(g.items) >= 1600, len(g.items)
+          assert 'SkillPerks' in catalog.load_catalog('unlock_names')
+          assert len(g.skills) == 12 and len(g.xp_for_level) == 99
+          assert questline.load()['checkpoints'] and dwmap.load_map_data()['fog_bits']
+          assert lodestones.load_catalog()['lodestones']
+          print('installed', __version__)
+          "
+
+      - name: CHANGELOG has a section for the package version
+        run: python packaging/release_notes.py

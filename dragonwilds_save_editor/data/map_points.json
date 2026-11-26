@@ -1,0 +1,543 @@
+{
+ "source_note": "Originally datamined from RSDWArchive build 1.0.2.0 (Content/Maps/World/L_World.json: BP_MapRegion_C actors for fog bits, GameplayObjectRegistry.Landmarks for Sanguine Urns and kebbit burrows; Art/UI/Map/T_WorldMapRegions.png for sub-region lookup), then verified against an installed copy of the game (see install_check). Area gating from datamined quest flows plus the Dragonwilds wiki (paraphrased). 'shrines' are the save's Progress.ShrinesUnlocked list = Sanguine Urns (health shrines: each permanently adds +10 max health; NOT fast-travel points). Kebbit burrows are Agility shortcuts, discovered within 10 m (Progress.KebbitBurrowsFound) and dug (Progress.KebbitBurrowsActivated). fog bit N = MapRegion RegionID N in GameProgress.RevealedFog.RevealedRegionsBitmap. See docs/research/map_points.md.",
+ "install_check": {
+  "game_version": "1.0.2.2",
+  "tool": "python -m dragonwilds_save_editor.gamedata.world",
+  "confirmed_from_install": [
+   "fog_bits: one BP_MapRegion_C per RegionID 1-31 in /Game/Maps/World/L_World (no region 0); every region_name and area matches",
+   "shrines: all 21 ids are landmark-registry entries of category 6 (Sanguine Urn) in /Game/Maps/World/L_World; none missing, none extra",
+   "kebbit_burrows: all 19 ids are landmark-registry entries of category 8 in /Game/Maps/World/L_World; none missing, none extra; every area matches the entry's Agility.KebbitBurrow.Region.* tag"
+  ],
+  "not_confirmed_from_install": [
+   "the sub-region part of shrine/burrow names (from the map texture and region splines, RSDWArchive research)",
+   "areas gating (gated_by_quest, gate_note: quest-flow research on RSDWArchive data and the wiki)"
+  ]
+ },
+ "fog_bits": [
+  {
+   "bit": 0,
+   "region_name": "(no map region; always set by the game - keep it)",
+   "area": null
+  },
+  {
+   "bit": 1,
+   "region_name": "Temple Woods",
+   "area": "Brynmoor"
+  },
+  {
+   "bit": 2,
+   "region_name": "Bramblemead Valley",
+   "area": "Brynmoor"
+  },
+  {
+   "bit": 3,
+   "region_name": "Whispering Swamp",
+   "area": "Brynmoor"
+  },
+  {
+   "bit": 4,
+   "region_name": "Fractured Plains",
+   "area": "Ghornfell"
+  },
+  {
+   "bit": 5,
+   "region_name": "Stormtouched Highlands",
+   "area": "Ghornfell"
+  },
+  {
+   "bit": 6,
+   "region_name": "Bloodblight Swamp",
+   "area": "Ghornfell"
+  },
+  {
+   "bit": 7,
+   "region_name": "Bleakfields Valley",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 8,
+   "region_name": "Hope's Fall",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 9,
+   "region_name": "Lake of Lost Souls",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 10,
+   "region_name": "Coalridge Pass",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 11,
+   "region_name": "Silverthorn Keep",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 12,
+   "region_name": "Dragons' Run",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 13,
+   "region_name": "Witchwillow Range",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 14,
+   "region_name": "Emberwood",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 15,
+   "region_name": "Forgotten Temple",
+   "area": "Fellhollow"
+  },
+  {
+   "bit": 16,
+   "region_name": "The Approach",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 17,
+   "region_name": "The Library",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 18,
+   "region_name": "The Courtyard",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 19,
+   "region_name": "The Menagerie",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 20,
+   "region_name": "The Garrison",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 21,
+   "region_name": "The Nexus",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 22,
+   "region_name": "The Pastures",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 23,
+   "region_name": "The Cathedral",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 24,
+   "region_name": "The Bastion",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 25,
+   "region_name": "The Grand Hall",
+   "area": "Dowdun Reach"
+  },
+  {
+   "bit": 26,
+   "region_name": "Alcarrid Oasis",
+   "area": "Umbral Sands"
+  },
+  {
+   "bit": 27,
+   "region_name": "Dunes of Uzzer",
+   "area": "Umbral Sands"
+  },
+  {
+   "bit": 28,
+   "region_name": "Manafem Plains",
+   "area": "Umbral Sands"
+  },
+  {
+   "bit": 29,
+   "region_name": "The Burning Spire",
+   "area": "Umbral Sands"
+  },
+  {
+   "bit": 30,
+   "region_name": "Rasthin's Rest",
+   "area": "Scorned Wilderness"
+  },
+  {
+   "bit": 31,
+   "region_name": "Scorned Wilderness",
+   "area": "Scorned Wilderness"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Brynmoor",
+   "bits": [
+    1,
+    2,
+    3
+   ],
+   "gated_by_quest": null,
+   "gate_note": "Starting area; open from a new character.",
+   "gate_confidence": "very high"
+  },
+  {
+   "name": "Ghornfell",
+   "bits": [
+    4,
+    5,
+    6
+   ],
+   "gated_by_quest": null,
+   "gate_note": "Act 1 open-world area next to Brynmoor; no quest door found in the flows or wiki. Entering Fractured Plains (bit 4) fires QuestFlow.Entry.DragonSlayer.GhornfellTriggerEntry, which advances Dragon Slayer ('Venture into Ghornfell') but does not gate entry.",
+   "gate_confidence": "med"
+  },
+  {
+   "name": "Fellhollow",
+   "bits": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "gated_by_quest": "uftGB0es-CGrvXyPoxW31w",
+   "gate_note": "Withering Heights. Wiki (dev quote): Dragon Slayer complete and Withering Heights started. The WH Beat1 flow sets objective 'UnlockGate' and reveals EnterDeathsDomainTarget (the necromantic door near Ashien's Watch); Beat2 sets HasTriggeredFHTPVolume when you pass into Fellhollow. The door's own check was not traced. Bit 15 (Forgotten Temple, internally Death's Domain) is reached during WH.",
+   "gate_confidence": "high"
+  },
+  {
+   "name": "Dowdun Reach",
+   "bits": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "gated_by_quest": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "gate_note": "Black Knight's Fortress, objective DR_Main_Objective_0 ('Speak to Cathan at the eastern gates'). Traced in QF_DR_MainQuest_Entry, entry QuestFlow.Entry.BlackKnightsFortress.EnterDRDoor: if the prerequisite quest is not Complete the gatehouse shows 'DoorToDowdun_NotFinishedWitheringH'; otherwise, if BKF is not yet given, the door itself gives BKF (RecievedDRQuestFromDeath, DR_Main_Objective_0) and teleports you in; if BKF is given or complete it just teleports. So the real prerequisite is Withering Heights Complete, and BKF is given at the latest on first use of the gatehouse. Entering any DR region then fires RegionEntry -> DR_Main_Objective_1.",
+   "gate_confidence": "high"
+  },
+  {
+   "name": "Umbral Sands",
+   "bits": [
+    26,
+    27,
+    28,
+    29
+   ],
+   "gated_by_quest": "kPtTW0exXrqw2BqELR_bFA",
+   "gate_note": "Icthlarin's Little Helper, objective EnterUmS. ILH is given when BKF completes (StartQuest: Beat 1, EnterUmS, Bastion_DoorToUmS_Target revealed); going through the Umbral door in The Bastion fires TeleportedIntoUmS. Wiki: completing Black Knight's Fortress opens the door to Umbral Sands in The Bastion. The door blueprint's own check was not traced (inferred: ILH given / BKF complete). Entering Alcarrid Oasis (bit 26) fires UmS_MainQuest.TriggerExitCave.",
+   "gate_confidence": "high"
+  },
+  {
+   "name": "Scorned Wilderness",
+   "bits": [
+    30,
+    31
+   ],
+   "gated_by_quest": "Nw3wiUaB8siRIN2bStWJmw",
+   "gate_note": "Regicide, objective AccessSW ('Gain access to the Scorned Wilderness'). Given at the ILH hand-in via MQ_ScornedWilderness.UmSLink (GiveQuest, AccessSW, SW_Door marker); using the Dragon Gate in north-west Fractured Plains then sets SpeakZilyana. Wiki: complete ILH and start Regicide. The gate's own check was not traced. The area sits in a separate coordinate space (off the main map texture); bit 30 = Rasthin's Rest hub, bit 31 = the raid zone.",
+   "gate_confidence": "high"
+  }
+ ],
+ "shrines": [
+  {
+   "id": "DB621D2A40316F7B97255696742C2AA1",
+   "name": "Sanguine Urn - Bramblemead Valley #1",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "824A3798412A1067890E86A2AEB609FF",
+   "name": "Sanguine Urn - Bramblemead Valley (near the Wise Old Man)",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "13C2DCA14ADFC8C4A882FC9E92624D37",
+   "name": "Sanguine Urn - Bramblemead Valley #3",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree); within 1120 uu of the sub-region border",
+   "confidence": "high"
+  },
+  {
+   "id": "7DE4A84C4997053BD7171089B408AE13",
+   "name": "Sanguine Urn - Bramblemead Valley (near Wormelbow)",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "ABB5944041C18CAAC148EF8EB84CE0B7",
+   "name": "Sanguine Urn - Whispering Swamp (near the Saradomin statue)",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "485514AA4D440FC3EBF331B6F5128ECE",
+   "name": "Sanguine Urn - Whispering Swamp #2",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "DCF55CC14E4019584B5B03AB1D1ECC75",
+   "name": "Sanguine Urn - Fractured Plains",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "FFFC3EC542BE3EC01D043ABBD6DE12BD",
+   "name": "Sanguine Urn - Stormtouched Highlands",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "13A95FDF40A30E7465E66C96CAA63778",
+   "name": "Sanguine Urn - Bloodblight Swamp (near Doctor Fenkenstrain's lab)",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "186B64E241A3790BE54292A84653E981",
+   "name": "Sanguine Urn - Hope's Fall",
+   "area": "Fellhollow",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree); within 881 uu of the sub-region border",
+   "confidence": "high"
+  },
+  {
+   "id": "5D81E4DB41E190FF887E26B70012DCB6",
+   "name": "Sanguine Urn - Lake of Lost Souls (near Leonard The Bound)",
+   "area": "Fellhollow",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "BA041CF14868F751575411B22EFE218A",
+   "name": "Sanguine Urn - Emberwood",
+   "area": "Fellhollow",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "FBA02FCB4F0443D2E48EBAA3ABDC5FE2",
+   "name": "Sanguine Urn - The Menagerie",
+   "area": "Dowdun Reach",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "7F08EB5E423CA1F87DDC9C909EA0B3A8",
+   "name": "Sanguine Urn - The Garrison",
+   "area": "Dowdun Reach",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "F57EA8C8495F0671B12659A84D4D1239",
+   "name": "Sanguine Urn - The Grand Hall",
+   "area": "Dowdun Reach",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "30D8FACB490D76F52996A58311D5B528",
+   "name": "Sanguine Urn - Alcarrid Oasis",
+   "area": "Umbral Sands",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "D934D328425EF220C8050A82599895A8",
+   "name": "Sanguine Urn - Dunes of Uzzer",
+   "area": "Umbral Sands",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "00BD25DE45F90484B177FDA9F0AC392E",
+   "name": "Sanguine Urn - The Burning Spire",
+   "area": "Umbral Sands",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine 'Sanguine Urn'); sub-region from T_WorldMapRegions texture and MapRegion boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "189437844E5DD62D0458C9A415C5F5E2",
+   "name": "Sanguine Urn - Scorned Wilderness raid #1",
+   "area": "Scorned Wilderness",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine); region from the MapRegion boundary spline (off the map texture). Wiki puts 2 urns in 'Fragments of Ghornfell' and 1 in 'Cataclysm Keep'; which is which is unknown.",
+   "confidence": "high"
+  },
+  {
+   "id": "C5AFB2F3441D61ABE1DC7AACF61FC7E7",
+   "name": "Sanguine Urn - Scorned Wilderness raid #2",
+   "area": "Scorned Wilderness",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine); region from the MapRegion boundary spline (off the map texture). Wiki puts 2 urns in 'Fragments of Ghornfell' and 1 in 'Cataclysm Keep'; which is which is unknown.",
+   "confidence": "high"
+  },
+  {
+   "id": "93BA5CA64D045F23573ACBAC89221B83",
+   "name": "Sanguine Urn - Scorned Wilderness raid #3",
+   "area": "Scorned Wilderness",
+   "source": "L_World GameplayObjectRegistry.Landmarks (HealthShrine); region from the MapRegion boundary spline (off the map texture). Wiki puts 2 urns in 'Fragments of Ghornfell' and 1 in 'Cataclysm Keep'; which is which is unknown.",
+   "confidence": "high"
+  }
+ ],
+ "kebbit_burrows": [
+  {
+   "id": "37A73D4548E5AA4DE2E7E8900F9236F7",
+   "name": "Kebbit burrow - Bramblemead Valley #1",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Brynmoor); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "7713063049A18FDA3FBF958E154A34C9",
+   "name": "Kebbit burrow - Bramblemead Valley #2",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Brynmoor); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "0581A4424DCFE38990160EB3EF0178DF",
+   "name": "Kebbit burrow - Bramblemead Valley #3",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Brynmoor); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "0C3D67174C0A1B0FC3FF9C9CA3FF8B32",
+   "name": "Kebbit burrow - Bramblemead Valley (near Bilegut)",
+   "area": "Brynmoor",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Brynmoor); sub-region from map texture and boundary spline (agree); within 710 uu of the sub-region border",
+   "confidence": "high"
+  },
+  {
+   "id": "BAEAE3C3442F6EA066DA9E9A167C18E7",
+   "name": "Kebbit burrow - Fractured Plains #1",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Ghornfell); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "EC9B242D41CCBBCFB4D96687923F2056",
+   "name": "Kebbit burrow - Fractured Plains #2",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Ghornfell); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "4D76564C46D67E541E309392F38D735D",
+   "name": "Kebbit burrow - Fractured Plains #3",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Ghornfell); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "0A9739A740CFAC41147A8988CAFEF502",
+   "name": "Kebbit burrow - Stormtouched Highlands (near Lougrim's Shrine)",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Ghornfell); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "1174BD3D4D08B273B65F499342BBFC3F",
+   "name": "Kebbit burrow - Bloodblight Swamp (near Doctor Fenkenstrain's lab)",
+   "area": "Ghornfell",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Ghornfell); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "B29665A34A76BC52049B31AAD16CD3C4",
+   "name": "Kebbit burrow - Bleakfields Valley",
+   "area": "Fellhollow",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Fellhollow); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "774770F44B8DB02A050E9388A2C749D9",
+   "name": "Kebbit burrow - Hope's Fall",
+   "area": "Fellhollow",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Fellhollow); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "F094A6504328FA64FF4B0B8F0529E063",
+   "name": "Kebbit burrow - Coalridge Pass",
+   "area": "Fellhollow",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Fellhollow); sub-region from map texture and boundary spline (agree); within 443 uu of the sub-region border",
+   "confidence": "high"
+  },
+  {
+   "id": "0A642E58410CF6656DDECA9A39966D3E",
+   "name": "Kebbit burrow - Witchwillow Range",
+   "area": "Fellhollow",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.Fellhollow); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "EDB3BF37460645E5CCBFAC9444293910",
+   "name": "Kebbit burrow - The Menagerie",
+   "area": "Dowdun Reach",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.DowdunReach); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "804AED6240B09B374F6FEFB3A165FC09",
+   "name": "Kebbit burrow - The Pastures",
+   "area": "Dowdun Reach",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.DowdunReach); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "F5CF21AB4C362B5BF82F449AFEEB58A2",
+   "name": "Kebbit burrow - Alcarrid Oasis",
+   "area": "Umbral Sands",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.UmbralSands); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "A79537B44A3E9B51248460B7F8C93F0B",
+   "name": "Kebbit burrow - Dunes of Uzzer #1",
+   "area": "Umbral Sands",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.UmbralSands); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "7676442649467CAEFA301090628769B3",
+   "name": "Kebbit burrow - Dunes of Uzzer #2",
+   "area": "Umbral Sands",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.UmbralSands); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  },
+  {
+   "id": "8E9BBE764A12FCEE6F4C17BA867DD85F",
+   "name": "Kebbit burrow - Manafem Plains",
+   "area": "Umbral Sands",
+   "source": "L_World GameplayObjectRegistry.Landmarks (KebbitBurrow, tag Agility.KebbitBurrow.Region.UmbralSands); sub-region from map texture and boundary spline (agree)",
+   "confidence": "very high"
+  }
+ ]
+}

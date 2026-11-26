@@ -1,0 +1,78 @@
+name: Release
+
+# Push a tag like v0.1.0 (it must equal "v" + dragonwilds_save_editor.__version__) to build the Windows zip
+# and publish a GitHub Release. See docs/RELEASING.md.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write   # create the release and upload assets
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v7
+
+      - id: py
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Check tag matches the package version and extract release notes
+        shell: pwsh
+        run: |
+          python packaging/release_notes.py --check-tag "${{ github.ref_name }}" > release_notes.md
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+          Get-Content release_notes.md
+
+      # Same script as a local build: venv + pinned PyInstaller, unit tests
+      # (world-save tests self-skip on CI), build, zip, SHA256SUMS.txt.
+      - id: build
+        name: Test and build
+        shell: pwsh
+        run: ./packaging/build.ps1 -Python "${{ steps.py.outputs.python-path }}"
+
+      - id: kind
+        name: Decide pre-release
+        shell: pwsh
+        run: |
+          # 0.x versions and -suffixed versions (1.0.0-rc.1) are published as pre-releases.
+          $v = "${{ steps.build.outputs.version }}"
+          $pre = ($v -like '0.*') -or ($v -like '*-*')
+          "prerelease=$($pre.ToString().ToLower())" >> $env:GITHUB_OUTPUT
+
+      # The repository uses immutable releases: once published, a release's tag and assets
+      # can't change. So the release is created as a DRAFT, every asset is uploaded, and
+      # only then is it published.
+      - name: Create draft release and upload assets
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "${{ github.ref_name }}"
+          $zip = "dist/DragonwildsSaveEditor-${{ steps.build.outputs.version }}-win64.zip"
+          foreach ($f in @($zip, "dist/SHA256SUMS.txt")) { if (-not (Test-Path $f)) { throw "missing asset: $f" } }
+          $ghArgs = @("release", "create", $tag, $zip, "dist/SHA256SUMS.txt",
+                    "--draft", "--verify-tag",
+                    "--title", "Dragonwilds Save Editor $tag",
+                    "--notes-file", "release_notes.md")
+          if ("${{ steps.kind.outputs.prerelease }}" -eq "true") { $ghArgs += "--prerelease" }
+          gh @ghArgs
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+
+      - name: Publish release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release edit "${{ github.ref_name }}" --draft=false
+          if ($LASTEXITCODE -ne 0) { exit 1 }

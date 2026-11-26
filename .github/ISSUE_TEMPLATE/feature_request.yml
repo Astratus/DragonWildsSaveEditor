@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest a new feature or an improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check [docs/SCOPE.md](https://github.com/Astratus/DragonWildsSaveEditor/blob/main/docs/SCOPE.md) first. Some things are out of scope on purpose: forward quest jumps, arbitrary quest-step editing, world switches and events, and anything for multiplayer.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What do you want to do?
+      description: Describe the problem or the goal, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: How could the editor help?
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or research
+      description: For save-format or quest features, anything you know about the fields involved (from saves, the datamined game files or the wiki). Don't attach save files; anonymised excerpts are fine.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This is for single-player use and fits docs/SCOPE.md.
+          required: true

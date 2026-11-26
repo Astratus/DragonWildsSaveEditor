@@ -1,0 +1,25 @@
+# Normalise line endings in the repository; check out with the platform default.
+* text=auto
+
+# Windows-only scripts must keep CRLF.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Game save fixtures are byte-exact copies of the game's UE JSON (tabs, CRLF, no
+# trailing newline): never touch their line endings.
+tests/fixtures/*.json  -text
+
+# Bundled data is used byte for byte (some files are CRLF): keep it as committed.
+dragonwilds_save_editor/data/**  -text
+
+# Binary files.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.zip   binary
+*.exe   binary
+*.sav   binary

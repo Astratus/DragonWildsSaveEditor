@@ -1,0 +1,15 @@
+{
+ "counts": {
+  "PlayerHooksTriggered": 43,
+  "SkillPerks": 6,
+  "Skills": 15,
+  "SpellsUnlocked": 33,
+  "items": 92
+ },
+ "format": 1,
+ "game_version": "1.0.2.2",
+ "generator": "dragonwilds_save_editor.gamedata",
+ "generator_version": 2,
+ "mode": "fixture",
+ "source": "installed game"
+}

@@ -1,0 +1,83 @@
+name: Bug report
+description: Something in the editor doesn't work, or an edit had an unexpected result in game.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Please don't attach save files.** Character saves contain your character name and IDs, and world saves also contain other players' characters. If a maintainer needs data, they will ask, and a small anonymised excerpt is usually enough.
+
+        Replace your Windows user name in any paths or logs you paste (`C:\Users\<you>\...`).
+
+        If your save is broken, restore a backup first: see "Restoring a backup" in the README.
+  - type: input
+    id: version
+    attributes:
+      label: Editor version
+      description: Shown in the window title or the About box.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How do you run it?
+      options:
+        - Release zip (DragonwildsSaveEditor.exe)
+        - From source
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version or patch
+      description: If you know it.
+      placeholder: "1.0.2.2"
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Character / Skills
+        - Inventory / Add Items
+        - Unlocks
+        - Main Quest
+        - World (experimental)
+        - Backups
+        - Starting the app / install
+        - Command-line tool
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do?
+      description: Steps to reproduce, as exactly as you can.
+      placeholder: |
+        1. Opened my character
+        2. Went to the Main Quest tab and reverted to "..."
+        3. Saved and started the game
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Error message or log
+      description: Any error dialog text, or the startup log from `%LOCALAPPDATA%\DragonwildsSaveEditor\logs\`. Check it for personal information first.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The game was fully closed when I saved.
+        - label: I checked whether Steam Cloud restored an older copy of my save.
+        - label: I have not attached any save files or personal information.
+          required: true

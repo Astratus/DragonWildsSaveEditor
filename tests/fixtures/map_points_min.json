@@ -1,0 +1,24 @@
+{
+  "_about": "Tiny test fixture for tests/test_dw_map.py. Not real data; the real catalog is data/map_points.json.",
+  "fog_bits": [
+    {"bit": 16, "region_name": "Test region 16", "area": "Dowdun Reach"}
+  ],
+  "areas": [
+    {"name": "Brynmoor", "bits": [1, 2, 3], "gated_by_quest": null, "gate_note": "", "gate_confidence": ""},
+    {"name": "Ghornfell", "bits": [4, 5, 6], "gated_by_quest": null, "gate_note": "", "gate_confidence": ""},
+    {"name": "Fellhollow", "bits": [7, 8, 9, 10, 11, 12, 13, 14, 15], "gated_by_quest": "uftGB0es-CGrvXyPoxW31w", "gate_note": "test", "gate_confidence": "test"},
+    {"name": "Dowdun Reach", "bits": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "gated_by_quest": "3MpWS0mD8A6yFVmjVAA2Qg", "gate_note": "test", "gate_confidence": "test"},
+    {"name": "Umbral Sands", "bits": [26, 27, 28, 29], "gated_by_quest": "kPtTW0exXrqw2BqELR_bFA", "gate_note": "test", "gate_confidence": "test"},
+    {"name": "Scorned Wilderness", "bits": [30, 31], "gated_by_quest": null, "gate_note": "", "gate_confidence": ""}
+  ],
+  "shrines": [
+    {"id": "824A3798412A1067890E86A2AEB609FF", "name": "Test shrine A", "area": "Brynmoor", "source": "test", "confidence": "test"},
+    {"id": "FBA02FCB4F0443D2E48EBAA3ABDC5FE2", "name": "Test shrine Dowdun", "area": "Dowdun Reach", "source": "test", "confidence": "test"},
+    {"id": "00000000000000000000000000000ABC", "name": "Test shrine not unlocked", "area": "Dowdun Reach", "source": "test", "confidence": "test"}
+  ],
+  "kebbit_burrows": [
+    {"id": "804AED6240B09B374F6FEFB3A165FC09", "name": "Test burrow Dowdun found", "area": "Dowdun Reach"},
+    {"id": "EDB3BF37460645E5CCBFAC9444293910", "name": "Test burrow Dowdun activated", "area": "Dowdun Reach"},
+    {"id": "11111111111111111111111111111DEF", "name": "Test burrow new", "area": "Fellhollow"}
+  ]
+}

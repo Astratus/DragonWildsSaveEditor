@@ -1,0 +1,3506 @@
+{
+ "_about": "Linear main-questline checkpoints. Only very-high-confidence checkpoints are enabled. Derived from datamined quest flows (RSDWArchive 1.0.2.0), cross-checked against real saves; see checkpoints_flow.md, quest_samples.md, imaru_world.md.",
+ "main_quest_order": [
+  "luaLQEzPXjx9_ICiz5zkNg",
+  "xa8o60AbJZ23FymQeiH3bg",
+  "SDcUrkVqRiTKKEyzEh5DWw",
+  "TgVnb0NCLvmEVRed59IgsQ",
+  "yrRZnkmro-IvH_OmZ3f-5A",
+  "uftGB0es-CGrvXyPoxW31w",
+  "3MpWS0mD8A6yFVmjVAA2Qg",
+  "kPtTW0exXrqw2BqELR_bFA",
+  "Nw3wiUaB8siRIN2bStWJmw"
+ ],
+ "quest_names": {
+  "luaLQEzPXjx9_ICiz5zkNg": "First Steps",
+  "xa8o60AbJZ23FymQeiH3bg": "Getting Started",
+  "SDcUrkVqRiTKKEyzEh5DWw": "Ratcatcher",
+  "TgVnb0NCLvmEVRed59IgsQ": "Rune Mysteries",
+  "yrRZnkmro-IvH_OmZ3f-5A": "Dragon Slayer",
+  "uftGB0es-CGrvXyPoxW31w": "Withering Heights",
+  "3MpWS0mD8A6yFVmjVAA2Qg": "Black Knight's Fortress",
+  "kPtTW0exXrqw2BqELR_bFA": "Icthlarin's Little Helper",
+  "Nw3wiUaB8siRIN2bStWJmw": "Regicide"
+ },
+ "not_started": {
+  "QuestState": 0,
+  "QuestObjective": "None",
+  "QuestInts": [],
+  "QuestBools": []
+ },
+ "checkpoints": [
+  {
+   "id": "ds_investigate_castle",
+   "label": "Dragon Slayer: Investigate the castle (v83 sample)",
+   "quest_id": "yrRZnkmro-IvH_OmZ3f-5A",
+   "state": 1,
+   "objective": "Investigate the castle",
+   "ints": {
+    "QuestBeat": 2
+   },
+   "bools_true": [
+    "WOMTempleHidden",
+    "HasBed",
+    "HasCompletedFTUE",
+    "HasSpokeToWOM",
+    "HasMentionedKuldra",
+    "HasChoseTellMeAbtDragons",
+    "HasChoseTellMeAbtKuldra",
+    "CompletedBeat1",
+    "HasCompletedHuntDeerStep",
+    "VaultGoblinVisible",
+    "HasChoseTellMeAbtAdventurer"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "KnowVelgar",
+    "HasCastleRecipePiece",
+    "LearnedAboutDragonkin",
+    "HasAntiDragShieldRecipe",
+    "HasSpokeToGolbin",
+    "HasSwampRecipePiece",
+    "CompletedBeat2",
+    "GhostCathanVisible",
+    "HasEnteredGhornfell",
+    "HasSpokeToCathan",
+    "HasSummonHornRecipe",
+    "CompletedBeat3",
+    "FoundBloodWoodSap",
+    "CompletedBeat4",
+    "HasEverRecievedDragonHead",
+    "WoMAshiensWatch",
+    "FoundDragonTooth"
+   ],
+   "locations": {
+    "WomGFExitTarget": "__absent__",
+    "EnterDeathsDomainTarget": "__absent__",
+    "DeathsTempleArea": "__absent__",
+    "NPCDeath": "__absent__",
+    "PostiePeteTarget": "__absent__",
+    "EnterFHArea": "__absent__",
+    "CleansingPoolTarget": "__absent__",
+    "StandingStonesArea": "__absent__",
+    "StandStoneVillage": "__absent__",
+    "StandStoneWaterfall": "__absent__",
+    "StandStoneFortress": "__absent__",
+    "VillageArea": "__absent__",
+    "FortressArea": "__absent__",
+    "FallArea": "__absent__",
+    "SlayImaruTarget": "__absent__",
+    "DeathTempleTarget": "__absent__",
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__",
+    "WiseOldMan": true,
+    "WiseOldManObjectiveDS": false,
+    "BMCastle": true,
+    "BMSwamp": "__absent__",
+    "GhornfellArea": "__absent__",
+    "DragonsLairCathanArea": "__absent__",
+    "BloodblightRuin": "__absent__",
+    "HighlandsArea": "__absent__",
+    "DragonsLairChallengeVelgar": "__absent__",
+    "WiseOldManObjective_Lair": "__absent__"
+   },
+   "tracked_main": "yrRZnkmro-IvH_OmZ3f-5A",
+   "inventory_add": [],
+   "inventory_remove": [
+    {
+     "id": "3zU6qknpEF2Wg6STSQMHtQ",
+     "label": "Velgar's Head (ITEM_Resources_Velgar_Head)"
+    },
+    {
+     "id": "45qRbkCgpbXsxAuswso8Aw",
+     "label": "Challenge Horn"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "OeUUZEKiGnt36CqCIkqJgw",
+      "qelCL0cKP9oFmYaJkKg6wA",
+      "45qRbkCgpbXsxAuswso8Aw",
+      "3zU6qknpEF2Wg6STSQMHtQ"
+     ],
+     "label": "Bloodwood Sap, Dragon Tooth, Challenge Horn, Velgar Head (each fires a DS progression row)"
+    }
+   ],
+   "progress_remove_optional": [],
+   "world_note": "Velgar world state as for ds_ready_challenge_velgar.",
+   "evidence": [
+    "Real sample: the older (v83) reference save DS record (state 1, QuestBeat 2, 11 bools); a public Early Access sample has the same objective/beat/bool count",
+    "v83 ItemsPickedUp is an exact prefix of the live list (132 entries)",
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_DragonSlayer_Beat2.json WOMBeat2Entry deer branch (objective, BMCastle=true, VaultGoblinVisible)"
+   ],
+   "confidence": "med",
+   "open_questions": [
+    "The next step (CastlePieceFound) is fired from outside the DS flows and was not found in the dump; HasAntiDragShieldRecipe is written by the side flow QF_MasterworkStatues. Trigger and first-time gate untraced.",
+    "Everything earned after Beat 2 (Beat2/Beat5 packs, recipes, horn recipe, journal) stays."
+   ],
+   "source_group": "early",
+   "related_records": {},
+   "wiki_verification": [
+    {
+     "inference": "Trigger of the next step (CastlePieceFound) is untraced",
+     "verdict": "PARTIAL",
+     "wiki_summary": "Walkthrough: Cathan's Journal sits at the top of the castle by a loot chest; reading it sends the player to the Whispering Swamp. Names the in-game action, not the variable.",
+     "url": "https://dragonwilds.runescape.wiki/w/Dragon_Slayer"
+    },
+    {
+     "inference": "First-time gate of that trigger (can it fire again after a revert?)",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": "https://dragonwilds.runescape.wiki/w/Dragon_Slayer"
+    },
+    {
+     "inference": "HasAntiDragShieldRecipe comes from side flow QF_MasterworkStatues",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    }
+   ],
+   "hooks_remove": [
+    {
+     "id": "w7i9eEkrmS07OdumshFxiA",
+     "label": "Fellhollow intro"
+    },
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "ds_ready_challenge_velgar",
+   "label": "Dragon Slayer: horn crafted, ready to challenge Velgar at the Dragonkin Altar",
+   "quest_id": "yrRZnkmro-IvH_OmZ3f-5A",
+   "state": 1,
+   "objective": "Challenge Velgar",
+   "ints": {
+    "QuestBeat": 5
+   },
+   "bools_true": [
+    "WOMTempleHidden",
+    "HasBed",
+    "HasCompletedFTUE",
+    "HasSpokeToWOM",
+    "HasMentionedKuldra",
+    "HasChoseTellMeAbtDragons",
+    "HasChoseTellMeAbtKuldra",
+    "CompletedBeat1",
+    "HasCompletedHuntDeerStep",
+    "VaultGoblinVisible",
+    "HasChoseTellMeAbtAdventurer",
+    "KnowVelgar",
+    "HasCastleRecipePiece",
+    "LearnedAboutDragonkin",
+    "HasAntiDragShieldRecipe",
+    "HasSpokeToGolbin",
+    "HasSwampRecipePiece",
+    "CompletedBeat2",
+    "GhostCathanVisible",
+    "HasEnteredGhornfell",
+    "HasSummonHornRecipe",
+    "CompletedBeat3",
+    "FoundBloodWoodSap",
+    "CompletedBeat4"
+   ],
+   "bools_false": [
+    "HasSpokeToCathan"
+   ],
+   "bools_absent": [
+    "HasEverRecievedDragonHead",
+    "WoMAshiensWatch",
+    "FoundDragonTooth"
+   ],
+   "locations": {
+    "WomGFExitTarget": "__absent__",
+    "EnterDeathsDomainTarget": "__absent__",
+    "DeathsTempleArea": "__absent__",
+    "NPCDeath": "__absent__",
+    "PostiePeteTarget": "__absent__",
+    "EnterFHArea": "__absent__",
+    "CleansingPoolTarget": "__absent__",
+    "StandingStonesArea": "__absent__",
+    "StandStoneVillage": "__absent__",
+    "StandStoneWaterfall": "__absent__",
+    "StandStoneFortress": "__absent__",
+    "VillageArea": "__absent__",
+    "FortressArea": "__absent__",
+    "FallArea": "__absent__",
+    "SlayImaruTarget": "__absent__",
+    "DeathTempleTarget": "__absent__",
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__",
+    "BMCastle": false,
+    "BMSwamp": false,
+    "GhornfellArea": false,
+    "DragonsLairCathanArea": false,
+    "BloodblightRuin": false,
+    "HighlandsArea": false,
+    "DragonsLairChallengeVelgar": true,
+    "WiseOldMan": true,
+    "WiseOldManObjectiveDS": false,
+    "WiseOldManObjective_Lair": "__absent__"
+   },
+   "tracked_main": "yrRZnkmro-IvH_OmZ3f-5A",
+   "inventory_add": [
+    {
+     "id": "45qRbkCgpbXsxAuswso8Aw",
+     "label": "Challenge Horn (ITEM_Masterworks_Challenge_Horn) x1",
+     "count": 1
+    }
+   ],
+   "inventory_remove": [
+    {
+     "id": "3zU6qknpEF2Wg6STSQMHtQ",
+     "label": "Velgar's Head (ITEM_Resources_Velgar_Head)"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "3zU6qknpEF2Wg6STSQMHtQ"
+     ],
+     "label": "3zU6qknpEF2Wg6STSQMHtQ (Velgar's Head): row VelgarHead fires PickedUpVelgarHead on pickup"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "zGz3MkD3vLq_D1uuA2S44g"
+     ],
+     "label": "Dragon Slayer Reward Pack pickup record (cosmetic cleanup)"
+    }
+   ],
+   "world_note": "Velgar is summoned at the Dragonkin Altar (BP_BossAltar_Region1, SummonItem=Challenge Horn): QF_DragonSlayer_Beat5 SummonAltar needs only the horn in inventory, takes it, then QFT_TriggerBossAltarSummonBoss; no quest-variable gate. World A: DefeatedBossesInternalNames=[ai_boss_velgar, ai_boss_imaru], altar bSummoned=0 (ready). World B: DefeatedBosses empty, altar cell never saved (default state). ai_boss_velgar is referenced only by BP_AI_DragonVelgar_Data.InternalName; no spawn/altar asset reads it; community guides report horn rematches. bSummoned logic is native C++ (not in the dump). No world edit proposed.",
+   "evidence": [
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_DragonSlayer_Beat4.json RecievedChallengeHorn, QuestBeat==4 branch: objective \"Challenge Velgar\", BloodblightRuin/HighlandsArea=false, DragonsLairChallengeVelgar=true, CompletedBeat4=true, QuestBeat SET 5, HasSummonHornRecipe=true; fired by DT_Progression_Quests row ChallengeHorn (ItemsPickedUp)",
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_DragonSlayer_Beat5.json PickedUpVelgarHead (QuestBeat<=4 or ==5): only writer of HasEverRecievedDragonHead; objective \"Return to the Wise old man after killing velgar\", DragonsLairChallengeVelgar=false, WiseOldMan=false, WiseOldManObjective_Lair=true",
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_DragonSlayer_Beat5.json SummonAltar: PlayerHasItemAmount horn -> TakeItem horn -> QFT_TriggerBossAltarSummonBoss",
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_DragonSlayer_Beat2.json WOMBeat2Entry (WiseOldMan=true, WiseOldManObjectiveDS=false, CompletedBeat2, QuestBeat 3, GhostCathanVisible); QF_DragonSlayer_Beat3.json GhornfellTriggerEntry/GhostCathanEntry (HasEnteredGhornfell, HasSpokeToCathan written without NewValue = false, HasSummonHornRecipe, CompletedBeat3, QuestBeat 4)",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Beat1.json SetQuestBool_C_3 writes DS bool WoMAshiensWatch (WH era); also re-sets WiseOldMan=true / WiseOldManObjectiveDS=false",
+    "Live bool order: FoundDragonTooth is appended after WoMAshiensWatch, and Dragon Tooth is ItemsPickedUp[355], after Horn[263]/Head[264]: first written after DS completion",
+    "DT_LootDropTable row DragonVelgar: Velgar Head 100%, bAutoAddToInventory, one instance per player, only for players that dealt damage",
+    "Persistence IDs: ITEM_Masterworks_Challenge_Horn.json 45qRbkCgpbXsxAuswso8Aw, ITEM_Resources_Velgar_Head.json 3zU6qknpEF2Wg6STSQMHtQ"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "Altar bSummoned/respawn logic is native code (not in the dump); the horn rematch is community-reported.",
+    "QuestTrackedMain inferred (engine-managed).",
+    "FoundDragonTooth left absent per list order; true would also be harmless (read only at Beat 3/4)."
+   ],
+   "source_group": "early",
+   "related_records": {},
+   "wiki_verification": [
+    {
+     "inference": "Velgar can be summoned again with a new Challenge Horn after he has been defeated",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Velgar's infobox: he respawns for each new challenge-horn instance.",
+     "url": "https://dragonwilds.runescape.wiki/w/Velgar"
+    },
+    {
+     "inference": "Velgar's Head drops again on a rematch",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Velgar's Head is a guaranteed drop; after Dragon Slayer, extra heads can be traded to the Wise Old Man for a cosmetic reward.",
+     "url": "https://dragonwilds.runescape.wiki/w/Velgar%27s_Head"
+    },
+    {
+     "inference": "DefeatedBossesInternalNames (ai_boss_velgar) does not block the summon",
+     "verdict": "PARTIAL",
+     "wiki_summary": "Patch 0.10.1 note: once defeated, Velgar stops his random ambient attacks; the defeated state affects only that.",
+     "url": "https://dragonwilds.runescape.wiki/w/Velgar"
+    },
+    {
+     "inference": "Velgar's Head must be removed from ItemsPickedUp for the pickup to credit the quest again",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    },
+    {
+     "inference": "QuestTrackedMain engine-managed; FoundDragonTooth absent vs true",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    }
+   ],
+   "confidence_before_wiki": "high",
+   "inference_resolved": "Inferred, not traced: that Velgar's Head must be missing from the picked-up list for the head pickup to credit the quest again (same rule as Imaru; the game re-adds it on pickup, so removing it is harmless), and that Velgar can be summoned again even though World A lists him as defeated (the altar shows ready and no game data reads that list). If the summon fails, nothing breaks: the quest just waits at 'Challenge Velgar'.",
+   "hooks_remove": [
+    {
+     "id": "w7i9eEkrmS07OdumshFxiA",
+     "label": "Fellhollow intro"
+    },
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "ds_return_head_wom",
+   "label": "Dragon Slayer: Velgar slain, return his head to the Wise Old Man",
+   "quest_id": "yrRZnkmro-IvH_OmZ3f-5A",
+   "state": 1,
+   "objective": "Return to the Wise old man after killing velgar",
+   "ints": {
+    "QuestBeat": 5
+   },
+   "bools_true": [
+    "WOMTempleHidden",
+    "HasBed",
+    "HasCompletedFTUE",
+    "HasSpokeToWOM",
+    "HasMentionedKuldra",
+    "HasChoseTellMeAbtDragons",
+    "HasChoseTellMeAbtKuldra",
+    "CompletedBeat1",
+    "HasCompletedHuntDeerStep",
+    "VaultGoblinVisible",
+    "HasChoseTellMeAbtAdventurer",
+    "KnowVelgar",
+    "HasCastleRecipePiece",
+    "LearnedAboutDragonkin",
+    "HasAntiDragShieldRecipe",
+    "HasSpokeToGolbin",
+    "HasSwampRecipePiece",
+    "CompletedBeat2",
+    "GhostCathanVisible",
+    "HasEnteredGhornfell",
+    "HasSummonHornRecipe",
+    "CompletedBeat3",
+    "FoundBloodWoodSap",
+    "CompletedBeat4",
+    "HasEverRecievedDragonHead"
+   ],
+   "bools_false": [
+    "HasSpokeToCathan"
+   ],
+   "bools_absent": [
+    "WoMAshiensWatch",
+    "FoundDragonTooth"
+   ],
+   "locations": {
+    "WomGFExitTarget": "__absent__",
+    "EnterDeathsDomainTarget": "__absent__",
+    "DeathsTempleArea": "__absent__",
+    "NPCDeath": "__absent__",
+    "PostiePeteTarget": "__absent__",
+    "EnterFHArea": "__absent__",
+    "CleansingPoolTarget": "__absent__",
+    "StandingStonesArea": "__absent__",
+    "StandStoneVillage": "__absent__",
+    "StandStoneWaterfall": "__absent__",
+    "StandStoneFortress": "__absent__",
+    "VillageArea": "__absent__",
+    "FortressArea": "__absent__",
+    "FallArea": "__absent__",
+    "SlayImaruTarget": "__absent__",
+    "DeathTempleTarget": "__absent__",
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__",
+    "BMCastle": false,
+    "BMSwamp": false,
+    "GhornfellArea": false,
+    "DragonsLairCathanArea": false,
+    "BloodblightRuin": false,
+    "HighlandsArea": false,
+    "DragonsLairChallengeVelgar": false,
+    "WiseOldMan": false,
+    "WiseOldManObjectiveDS": false,
+    "WiseOldManObjective_Lair": true
+   },
+   "tracked_main": "yrRZnkmro-IvH_OmZ3f-5A",
+   "inventory_add": [
+    {
+     "id": "3zU6qknpEF2Wg6STSQMHtQ",
+     "label": "Velgar's Head x1 (required: WOMBeat5Entry checks and takes it)",
+     "count": 1
+    }
+   ],
+   "inventory_remove": [],
+   "progress_remove": [],
+   "progress_remove_optional": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "zGz3MkD3vLq_D1uuA2S44g"
+     ],
+     "label": "Dragon Slayer Reward Pack pickup record (cosmetic cleanup)"
+    }
+   ],
+   "world_note": "No world requirement: the hand-in is pure character state (WOM dialogue, head in inventory, one free slot for the reward pack). Same in World A and World B.",
+   "evidence": [
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_DragonSlayer_Beat5.json PickedUpVelgarHead writes (as above)",
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_DragonSlayer_Beat5.json WOMBeat5Entry: HasEverRecievedDragonHead + head held + space -> TakeItem head, GiveItem DragonSlayerRewardPackBeat5, GiveCraftingRecipe Shield_Dragonfire, CompleteQuest, WiseOldMan=true, WiseOldManObjectiveDS=false, then GiveQuest WH (objective TalkToWomNEGF, WomGFExitTarget=true). No DS bool/objective writes, so the completed live record keeps this objective.",
+    "...\\Content\\Gameplay\\Quests\\DragonSlayer\\QF_WiseOldMan.json routes CompletedBeat4==true to WOMBeat5Entry",
+    "Live DS record = this record + WoMAshiensWatch (false, WH Beat1) + FoundDragonTooth (appended later) + QuestState 2",
+    "GuestChar sample (DS complete, QuestBeat 4) is the SkipBeat path of PickedUpVelgarHead; no conflict"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "QuestTrackedMain inferred (engine-managed). The player needs one free slot for the reward pack or the WOM asks to clear space."
+   ],
+   "source_group": "early",
+   "related_records": {},
+   "hooks_remove": [
+    {
+     "id": "w7i9eEkrmS07OdumshFxiA",
+     "label": "Fellhollow intro"
+    },
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "wh_given",
+   "label": "Withering Heights step 1: given, 'Talk to the Wise Old Man at the Goblin Fortress exit' (TalkToWomNEGF)",
+   "quest_id": "uftGB0es-CGrvXyPoxW31w",
+   "state": 1,
+   "objective": "TalkToWomNEGF",
+   "ints": {},
+   "ints_absent": [
+    "DeathQuest_Beat",
+    "StandStoneInt",
+    "SealsBroken",
+    "NotFoundStones"
+   ],
+   "bools_true": [],
+   "bools_false": [],
+   "bools_absent": [
+    "HasEnteredBefore",
+    "HasTriggeredSearchStructureVolume",
+    "SpokenToDeath",
+    "LearnedAboutFragments",
+    "AskedAboutUnderworld",
+    "AskedAboutWithering",
+    "AskedAboutFellhollow",
+    "AskedAboutDeath",
+    "HasSpokenToPostiePete",
+    "HasTriggeredFHTPVolume",
+    "HasUsedCleansingPool",
+    "HasTriggeredSSVol",
+    "SpokenToCathan",
+    "WaterfallStoneDone",
+    "VillageStoneDone",
+    "FortressStoneDone",
+    "InvestigatedStandingStones",
+    "WaterfallSealBroken",
+    "SilverthornSealBroken",
+    "SpokenToSuspicious",
+    "LearnedCrime",
+    "LearnedMotive",
+    "SpokenToSnickering",
+    "SpokenToShady",
+    "ArmadylStatueSpokenTo",
+    "EmberwoodSealBroken",
+    "ImaruDefeated",
+    "HasRecievedImaruHead",
+    "WoMBlurb"
+   ],
+   "locations": {
+    "WomGFExitTarget": true,
+    "EnterDeathsDomainTarget": "__absent__",
+    "DeathsTempleArea": "__absent__",
+    "NPCDeath": "__absent__",
+    "PostiePeteTarget": "__absent__",
+    "EnterFHArea": "__absent__",
+    "CleansingPoolTarget": "__absent__",
+    "StandingStonesArea": "__absent__",
+    "StandStoneVillage": "__absent__",
+    "StandStoneWaterfall": "__absent__",
+    "StandStoneFortress": "__absent__",
+    "VillageArea": "__absent__",
+    "FortressArea": "__absent__",
+    "FallArea": "__absent__",
+    "SlayImaruTarget": "__absent__",
+    "DeathTempleTarget": "__absent__",
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "tracked_main": "uftGB0es-CGrvXyPoxW31w",
+   "inventory_add": [],
+   "inventory_remove": [
+    {
+     "id": "TQY6cUXdLjzqCIuXB3vAvw",
+     "label": "Curse Fragment (Rage) ITEM_Resources_SealBreakKey_Fall"
+    },
+    {
+     "id": "ObT03UmkX-U-WJ667Rk0vA",
+     "label": "Curse Fragment (Despair) ITEM_Resources_SealBreakKey_Fort"
+    },
+    {
+     "id": "o9Nec0TWzFiYJIeiYQBjVw",
+     "label": "Curse Fragment (Grief) ITEM_Resources_SealBreakKey_Vil"
+    },
+    {
+     "id": "ALQSs0j7loBVpum0CaDH2w",
+     "label": "Imaru's Head"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "ALQSs0j7loBVpum0CaDH2w"
+     ],
+     "label": "ALQSs0j7loBVpum0CaDH2w (Imaru's Head)"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "V6JWS0Q-GuvrJS2f3-c_DA"
+     ],
+     "label": "V6JWS0Q-GuvrJS2f3-c_DA (Dragoncurse Shield recipe)"
+    },
+    {
+     "list": "Journal.UnlockedEntries",
+     "ids": [
+      "5kyZzET-pZ_POWWDTZd7HQ"
+     ],
+     "label": "5kyZzET-pZ_POWWDTZd7HQ"
+    }
+   ],
+   "related_records": {},
+   "world_note": "No world edit. The three seals are BP_NPC_Seal_NecromanticFocus actors that store only bCanBeDamaged in both worlds; breaking is driven entirely by the character's <X>SealBroken bools. BP_Seal_Switchable is NOT a seal: it is the single Imaru lair door (participant ImaruLairTeleportDoor, SwitchPosition 0 in both worlds) and is only touched at Beat 5, so no switch reset is needed. Standing stones, cleansing pools and Death's-temple teleporter are stateless too. The Emberwood seal sits behind the Emberwood village barrier, which IS world switch state: in World A all four god shrines (Armadyl, Guthix_2, Zamorak, Saradomin_MissingPiece) are SwitchPosition 1, so the barrier stays open; in World B the FH cells were never saved, so the shrines are at defaults and the puzzle is replayed in game (flows not gated on WH beat; the Saradomin piece dispenser is at 0). Imaru fight afterwards: as wh_ready_imaru.",
+   "evidence": [
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_ProvideQuestOnStart.json AutoGiveQuest (GiveQuest, objective TalkToWomNEGF, WomGFExitTarget=true)",
+    "BP_Components_QuestProgress.json QuestCatchupConfigs[0] (DS Complete + WH Ungiven -> AutoGiveQuest): the same resting pattern as bkf_autogiven",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Beat1.json WomAtGFExit (Beat 0 + Given -> Beat SET 1, UnlockGate) and DS hand-in GiveQuest_C_1/SetQuestObjective_C_1/UpdateQuestLocation_C_5 (same writes)",
+    "DeathQuest_Beat is first written by WomAtGFExit (SET 1); absent reads as 0 (TestQuestInt with no TestValue)",
+    "DT_Progression_Quests row CleansingPool = ActorsInteractedWith BP_CleansingPool_Vines_C; neither the live save (ActorsInteractedWith = [BP_NPC_WiseOldMan_FTUE_C]) nor GuestChar (HasUsedCleansingPool true) persists it, so nothing to remove",
+    "World: SearchTheStructure/TeleportedIntoFH/ReachedStandStones trigger volumes are not saved in either world; GuestChar (a second character in World A) fired them after the host"
+   ],
+   "confidence": "high",
+   "open_questions": [
+    "If the character is standing inside Death's domain when applied, the spectral exit door refuses at Beat 0 until Death is spoken to (Beat0 -> DeathBeat1Entry); this skips the WoM/door/search steps but is not a soft-lock.",
+    "Beat 1 (SearchTheStructure) and Beat 2/3 (Postie Pete, FH teleport) were not mapped: they are volume/door driven transit states.",
+    "Fellhollow intro hook is removed here: Fellhollow is first entered later in WH (Death's domain / Postie Pete rift), so the one-time cutscene replays. The ImaruGaze FTUE popups are tutorial hooks and are left alone."
+   ],
+   "inference": "The level trigger volumes (search-the-structure, Fellhollow teleport) are not in the datamine; they are assumed to re-fire because they store nothing in either world and the guest GuestChar fired them in the same world. Nothing else is inferred beyond the usual engine-managed tracked quest.",
+   "source_group": "mid",
+   "wiki_verification": [
+    {
+     "inference": "Level trigger volumes (search the structure, Fellhollow teleport) re-fire after a revert",
+     "verdict": "PARTIAL",
+     "wiki_summary": "A short intro cutscene plays on first entry to Fellhollow, and first arrival grants permanent Fellhollow access in all worlds (one-time, account-wide effects).",
+     "url": "https://dragonwilds.runescape.wiki/w/Withering_Heights"
+    }
+   ],
+   "hooks_remove": [
+    {
+     "id": "w7i9eEkrmS07OdumshFxiA",
+     "label": "Fellhollow intro"
+    },
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "wh_after_pool",
+   "label": "Withering Heights: cleansing pool used, 'Investigate the standing stones' (InvestigateStandingStones)",
+   "quest_id": "uftGB0es-CGrvXyPoxW31w",
+   "state": 1,
+   "objective": "InvestigateStandingStones",
+   "ints": {
+    "DeathQuest_Beat": 4
+   },
+   "ints_absent": [
+    "StandStoneInt",
+    "SealsBroken",
+    "NotFoundStones"
+   ],
+   "bools_true": [
+    "HasEnteredBefore",
+    "HasTriggeredSearchStructureVolume",
+    "SpokenToDeath",
+    "LearnedAboutFragments",
+    "AskedAboutUnderworld",
+    "AskedAboutWithering",
+    "AskedAboutFellhollow",
+    "AskedAboutDeath",
+    "HasSpokenToPostiePete",
+    "HasTriggeredFHTPVolume",
+    "HasUsedCleansingPool"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "HasTriggeredSSVol",
+    "SpokenToCathan",
+    "WaterfallStoneDone",
+    "VillageStoneDone",
+    "FortressStoneDone",
+    "InvestigatedStandingStones",
+    "WaterfallSealBroken",
+    "SilverthornSealBroken",
+    "SpokenToSuspicious",
+    "LearnedCrime",
+    "LearnedMotive",
+    "SpokenToSnickering",
+    "SpokenToShady",
+    "ArmadylStatueSpokenTo",
+    "EmberwoodSealBroken",
+    "ImaruDefeated",
+    "HasRecievedImaruHead",
+    "WoMBlurb"
+   ],
+   "locations": {
+    "WomGFExitTarget": false,
+    "EnterDeathsDomainTarget": false,
+    "DeathsTempleArea": false,
+    "NPCDeath": true,
+    "PostiePeteTarget": false,
+    "EnterFHArea": false,
+    "CleansingPoolTarget": false,
+    "StandingStonesArea": true,
+    "StandStoneVillage": "__absent__",
+    "StandStoneWaterfall": "__absent__",
+    "StandStoneFortress": "__absent__",
+    "VillageArea": "__absent__",
+    "FortressArea": "__absent__",
+    "FallArea": "__absent__",
+    "SlayImaruTarget": "__absent__",
+    "DeathTempleTarget": "__absent__",
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "tracked_main": "uftGB0es-CGrvXyPoxW31w",
+   "inventory_add": [],
+   "inventory_remove": [
+    {
+     "id": "TQY6cUXdLjzqCIuXB3vAvw",
+     "label": "Curse Fragment (Rage) ITEM_Resources_SealBreakKey_Fall"
+    },
+    {
+     "id": "ObT03UmkX-U-WJ667Rk0vA",
+     "label": "Curse Fragment (Despair) ITEM_Resources_SealBreakKey_Fort"
+    },
+    {
+     "id": "o9Nec0TWzFiYJIeiYQBjVw",
+     "label": "Curse Fragment (Grief) ITEM_Resources_SealBreakKey_Vil"
+    },
+    {
+     "id": "ALQSs0j7loBVpum0CaDH2w",
+     "label": "Imaru's Head"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "ALQSs0j7loBVpum0CaDH2w"
+     ],
+     "label": "ALQSs0j7loBVpum0CaDH2w (Imaru's Head)"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "V6JWS0Q-GuvrJS2f3-c_DA"
+     ],
+     "label": "V6JWS0Q-GuvrJS2f3-c_DA (Dragoncurse Shield recipe)"
+    },
+    {
+     "list": "Journal.UnlockedEntries",
+     "ids": [
+      "5kyZzET-pZ_POWWDTZd7HQ"
+     ],
+     "label": "5kyZzET-pZ_POWWDTZd7HQ"
+    }
+   ],
+   "related_records": {},
+   "world_note": "No world edit. The three seals are BP_NPC_Seal_NecromanticFocus actors that store only bCanBeDamaged in both worlds; breaking is driven entirely by the character's <X>SealBroken bools. BP_Seal_Switchable is NOT a seal: it is the single Imaru lair door (participant ImaruLairTeleportDoor, SwitchPosition 0 in both worlds) and is only touched at Beat 5, so no switch reset is needed. Standing stones, cleansing pools and Death's-temple teleporter are stateless too. The Emberwood seal sits behind the Emberwood village barrier, which IS world switch state: in World A all four god shrines (Armadyl, Guthix_2, Zamorak, Saradomin_MissingPiece) are SwitchPosition 1, so the barrier stays open; in World B the FH cells were never saved, so the shrines are at defaults and the puzzle is replayed in game (flows not gated on WH beat; the Saradomin piece dispenser is at 0). Imaru fight afterwards: as wh_ready_imaru.",
+   "evidence": [
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Beat3.json InteractedWithCleansingPool (Beat==3 & !HasUsedCleansingPool): HasUsedCleansingPool, objective InvestigateStandingStones, Beat SET 4, CleansingPoolTarget=false, StandingStonesArea=true",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Beat1/2.json, QF_PostiePete.json, QF_DeathsTempleDoorTeleporters.json, QF_Death_OptionalDialogue.json: writers of the 10 earlier bools and the earlier locations",
+    "Live WH bool append order: the first 11 bools end at HasUsedCleansingPool; the next (HasTriggeredSSVol) is the ReachedStandStones volume (Beat4)",
+    "GuestChar: same 11 bools in the same positions (AskedAbout* permuted), same location values for these keys"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "The ReachedStandStones volume only changes the objective text and reveals the 3 stone markers; the stones themselves need only Beat 4 + <X>StoneDone false."
+   ],
+   "source_group": "mid",
+   "hooks_remove": [
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "wh_stones_done",
+   "label": "Withering Heights: standing stones read, 'Break the three seals' (BreakTheThreeSeals, 0 seals)",
+   "quest_id": "uftGB0es-CGrvXyPoxW31w",
+   "state": 1,
+   "objective": "BreakTheThreeSeals",
+   "ints": {
+    "DeathQuest_Beat": 4,
+    "StandStoneInt": 2
+   },
+   "ints_absent": [
+    "SealsBroken",
+    "NotFoundStones"
+   ],
+   "bools_true": [
+    "HasEnteredBefore",
+    "HasTriggeredSearchStructureVolume",
+    "SpokenToDeath",
+    "LearnedAboutFragments",
+    "AskedAboutUnderworld",
+    "AskedAboutWithering",
+    "AskedAboutFellhollow",
+    "AskedAboutDeath",
+    "HasSpokenToPostiePete",
+    "HasTriggeredFHTPVolume",
+    "HasUsedCleansingPool",
+    "HasTriggeredSSVol",
+    "SpokenToCathan",
+    "WaterfallStoneDone",
+    "VillageStoneDone",
+    "FortressStoneDone",
+    "InvestigatedStandingStones"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "WaterfallSealBroken",
+    "SilverthornSealBroken",
+    "SpokenToSuspicious",
+    "LearnedCrime",
+    "LearnedMotive",
+    "SpokenToSnickering",
+    "SpokenToShady",
+    "ArmadylStatueSpokenTo",
+    "EmberwoodSealBroken",
+    "ImaruDefeated",
+    "HasRecievedImaruHead",
+    "WoMBlurb"
+   ],
+   "locations": {
+    "WomGFExitTarget": false,
+    "EnterDeathsDomainTarget": false,
+    "DeathsTempleArea": false,
+    "NPCDeath": true,
+    "PostiePeteTarget": false,
+    "EnterFHArea": false,
+    "CleansingPoolTarget": false,
+    "StandingStonesArea": false,
+    "StandStoneVillage": false,
+    "StandStoneWaterfall": false,
+    "StandStoneFortress": false,
+    "VillageArea": true,
+    "FortressArea": true,
+    "FallArea": true,
+    "SlayImaruTarget": "__absent__",
+    "DeathTempleTarget": "__absent__",
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "tracked_main": "uftGB0es-CGrvXyPoxW31w",
+   "inventory_add": [],
+   "inventory_remove": [
+    {
+     "id": "TQY6cUXdLjzqCIuXB3vAvw",
+     "label": "Curse Fragment (Rage) ITEM_Resources_SealBreakKey_Fall"
+    },
+    {
+     "id": "ObT03UmkX-U-WJ667Rk0vA",
+     "label": "Curse Fragment (Despair) ITEM_Resources_SealBreakKey_Fort"
+    },
+    {
+     "id": "o9Nec0TWzFiYJIeiYQBjVw",
+     "label": "Curse Fragment (Grief) ITEM_Resources_SealBreakKey_Vil"
+    },
+    {
+     "id": "ALQSs0j7loBVpum0CaDH2w",
+     "label": "Imaru's Head"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "ALQSs0j7loBVpum0CaDH2w"
+     ],
+     "label": "ALQSs0j7loBVpum0CaDH2w (Imaru's Head)"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "V6JWS0Q-GuvrJS2f3-c_DA"
+     ],
+     "label": "V6JWS0Q-GuvrJS2f3-c_DA (Dragoncurse Shield recipe)"
+    },
+    {
+     "list": "Journal.UnlockedEntries",
+     "ids": [
+      "5kyZzET-pZ_POWWDTZd7HQ"
+     ],
+     "label": "5kyZzET-pZ_POWWDTZd7HQ"
+    }
+   ],
+   "related_records": {},
+   "world_note": "No world edit. The three seals are BP_NPC_Seal_NecromanticFocus actors that store only bCanBeDamaged in both worlds; breaking is driven entirely by the character's <X>SealBroken bools. BP_Seal_Switchable is NOT a seal: it is the single Imaru lair door (participant ImaruLairTeleportDoor, SwitchPosition 0 in both worlds) and is only touched at Beat 5, so no switch reset is needed. Standing stones, cleansing pools and Death's-temple teleporter are stateless too. The Emberwood seal sits behind the Emberwood village barrier, which IS world switch state: in World A all four god shrines (Armadyl, Guthix_2, Zamorak, Saradomin_MissingPiece) are SwitchPosition 1, so the barrier stays open; in World B the FH cells were never saved, so the shrines are at defaults and the puzzle is replayed in game (flows not gated on WH beat; the Saradomin piece dispenser is at 0). Imaru fight afterwards: as wh_ready_imaru.",
+   "evidence": [
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Beat4.json StandingStones.* (third stone, StandStoneInt==2): objective BreakTheThreeSeals, InvestigatedStandingStones, Village/Fortress/FallArea=true; StandStoneInt stays 2",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Beat4.json ReachedStandStones (HasTriggeredSSVol, StandingStonesArea=false, StandStone*=true then false per stone)",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Cathan.json (first talk: SpokenToCathan only; NotFoundStones ADD only on repeat talks before the stones; the reference player's record never had it)",
+    "Live append order: SpokenToCathan..InvestigatedStandingStones precede WaterfallSealBroken",
+    "GuestChar (1 seal) = this record + WaterfallSealBroken/SealsBroken 1/FallArea false, plus its own NotFoundStones 2"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "Seals at Beat 4 need only <X>SealBroken false (InvestigatedStandingStones is not tested), so this is a stable rest point."
+   ],
+   "source_group": "mid",
+   "hooks_remove": [
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "wh_one_seal",
+   "label": "Withering Heights: first seal (Waterfall) broken, 'Break the remaining two seals' (BreakRemainingtwoSeals)",
+   "quest_id": "uftGB0es-CGrvXyPoxW31w",
+   "state": 1,
+   "objective": "BreakRemainingtwoSeals",
+   "ints": {
+    "DeathQuest_Beat": 4,
+    "StandStoneInt": 2,
+    "SealsBroken": 1
+   },
+   "ints_absent": [
+    "NotFoundStones"
+   ],
+   "bools_true": [
+    "HasEnteredBefore",
+    "HasTriggeredSearchStructureVolume",
+    "SpokenToDeath",
+    "LearnedAboutFragments",
+    "AskedAboutUnderworld",
+    "AskedAboutWithering",
+    "AskedAboutFellhollow",
+    "AskedAboutDeath",
+    "HasSpokenToPostiePete",
+    "HasTriggeredFHTPVolume",
+    "HasUsedCleansingPool",
+    "HasTriggeredSSVol",
+    "SpokenToCathan",
+    "WaterfallStoneDone",
+    "VillageStoneDone",
+    "FortressStoneDone",
+    "InvestigatedStandingStones",
+    "WaterfallSealBroken"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "SilverthornSealBroken",
+    "SpokenToSuspicious",
+    "LearnedCrime",
+    "LearnedMotive",
+    "SpokenToSnickering",
+    "SpokenToShady",
+    "ArmadylStatueSpokenTo",
+    "EmberwoodSealBroken",
+    "ImaruDefeated",
+    "HasRecievedImaruHead",
+    "WoMBlurb"
+   ],
+   "locations": {
+    "WomGFExitTarget": false,
+    "EnterDeathsDomainTarget": false,
+    "DeathsTempleArea": false,
+    "NPCDeath": true,
+    "PostiePeteTarget": false,
+    "EnterFHArea": false,
+    "CleansingPoolTarget": false,
+    "StandingStonesArea": false,
+    "StandStoneVillage": false,
+    "StandStoneWaterfall": false,
+    "StandStoneFortress": false,
+    "VillageArea": true,
+    "FortressArea": true,
+    "FallArea": false,
+    "SlayImaruTarget": "__absent__",
+    "DeathTempleTarget": "__absent__",
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "tracked_main": "uftGB0es-CGrvXyPoxW31w",
+   "inventory_add": [
+    {
+     "id": "TQY6cUXdLjzqCIuXB3vAvw",
+     "label": "Curse Fragment (Rage) ITEM_Resources_SealBreakKey_Fall",
+     "count": 1
+    }
+   ],
+   "inventory_remove": [
+    {
+     "id": "ObT03UmkX-U-WJ667Rk0vA",
+     "label": "Curse Fragment (Despair) ITEM_Resources_SealBreakKey_Fort"
+    },
+    {
+     "id": "o9Nec0TWzFiYJIeiYQBjVw",
+     "label": "Curse Fragment (Grief) ITEM_Resources_SealBreakKey_Vil"
+    },
+    {
+     "id": "ALQSs0j7loBVpum0CaDH2w",
+     "label": "Imaru's Head"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "ALQSs0j7loBVpum0CaDH2w"
+     ],
+     "label": "ALQSs0j7loBVpum0CaDH2w (Imaru's Head)"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "V6JWS0Q-GuvrJS2f3-c_DA"
+     ],
+     "label": "V6JWS0Q-GuvrJS2f3-c_DA (Dragoncurse Shield recipe)"
+    },
+    {
+     "list": "Journal.UnlockedEntries",
+     "ids": [
+      "5kyZzET-pZ_POWWDTZd7HQ"
+     ],
+     "label": "5kyZzET-pZ_POWWDTZd7HQ"
+    }
+   ],
+   "related_records": {},
+   "world_note": "No world edit. The three seals are BP_NPC_Seal_NecromanticFocus actors that store only bCanBeDamaged in both worlds; breaking is driven entirely by the character's <X>SealBroken bools. BP_Seal_Switchable is NOT a seal: it is the single Imaru lair door (participant ImaruLairTeleportDoor, SwitchPosition 0 in both worlds) and is only touched at Beat 5, so no switch reset is needed. Standing stones, cleansing pools and Death's-temple teleporter are stateless too. The Emberwood seal sits behind the Emberwood village barrier, which IS world switch state: in World A all four god shrines (Armadyl, Guthix_2, Zamorak, Saradomin_MissingPiece) are SwitchPosition 1, so the barrier stays open; in World B the FH cells were never saved, so the shrines are at defaults and the puzzle is replayed in game (flows not gated on WH beat; the Saradomin piece dispenser is at 0). Imaru fight afterwards: as wh_ready_imaru.",
+   "evidence": [
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\QF_DeathQuest_Beat4.json Seals.Waterfall (Beat 4, !WaterfallSealBroken): GiveItem SealBreakKey_Fall (C_10), WaterfallSealBroken, SealsBroken ADD 1, SealsBroken==1 -> objective BreakRemainingtwoSeals (C_17), FallArea=false (C_35)",
+    "Live append order: WaterfallSealBroken is the reference player's first seal, then SilverthornSealBroken, then the Emberwood puzzle bools, then EmberwoodSealBroken",
+    "GuestChar (World A cache, real save at this exact step): objective, DeathQuest_Beat 4, StandStoneInt 2, SealsBroken 1, the same 18 bools, FallArea=false, Village/FortressArea=true, SlayImaruTarget/DeathTempleTarget/DR_MQ_* absent, Rage key TQY6cUXdLjzqCIuXB3vAvw in inventory slot 106 - all identical (only extra: its own NotFoundStones 2)"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "The Rage key is re-obtainable anyway: at Beat 4 a broken seal hands its key back if missing (Blank_C_63 -> GiveItem_C_7)."
+   ],
+   "source_group": "mid",
+   "hooks_remove": [
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "wh_ready_imaru",
+   "label": "Withering Heights: all three seals broken, ready to challenge Imaru",
+   "quest_id": "uftGB0es-CGrvXyPoxW31w",
+   "state": 1,
+   "objective": "ChallangeImaru",
+   "ints": {
+    "DeathQuest_Beat": 5,
+    "StandStoneInt": 2,
+    "SealsBroken": 3
+   },
+   "bools_true": [
+    "HasEnteredBefore",
+    "HasTriggeredSearchStructureVolume",
+    "SpokenToDeath",
+    "LearnedAboutFragments",
+    "AskedAboutUnderworld",
+    "AskedAboutWithering",
+    "AskedAboutFellhollow",
+    "AskedAboutDeath",
+    "HasSpokenToPostiePete",
+    "HasTriggeredFHTPVolume",
+    "HasUsedCleansingPool",
+    "HasTriggeredSSVol",
+    "SpokenToCathan",
+    "WaterfallStoneDone",
+    "VillageStoneDone",
+    "FortressStoneDone",
+    "InvestigatedStandingStones",
+    "WaterfallSealBroken",
+    "SilverthornSealBroken",
+    "SpokenToSuspicious",
+    "LearnedCrime",
+    "LearnedMotive",
+    "SpokenToSnickering",
+    "SpokenToShady",
+    "ArmadylStatueSpokenTo",
+    "EmberwoodSealBroken"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "ImaruDefeated",
+    "HasRecievedImaruHead"
+   ],
+   "locations": {
+    "SlayImaruTarget": true,
+    "DeathTempleTarget": "__absent__",
+    "NPCDeath": true,
+    "VillageArea": false,
+    "FortressArea": false,
+    "FallArea": false,
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_Death": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "tracked_main": "uftGB0es-CGrvXyPoxW31w",
+   "inventory_add": [
+    {
+     "id": "TQY6cUXdLjzqCIuXB3vAvw",
+     "label": "Curse Fragment (Rage) ITEM_Resources_SealBreakKey_Fall x1",
+     "count": 1
+    },
+    {
+     "id": "ObT03UmkX-U-WJ667Rk0vA",
+     "label": "Curse Fragment (Despair) ITEM_Resources_SealBreakKey_Fort x1",
+     "count": 1
+    },
+    {
+     "id": "o9Nec0TWzFiYJIeiYQBjVw",
+     "label": "Curse Fragment (Grief) ITEM_Resources_SealBreakKey_Vil x1",
+     "count": 1
+    }
+   ],
+   "evidence": [
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\\\QF_DeathQuest_Beat4.json: Seals.Waterfall/Silverthorn/Emberwood entries, SealsBroken>=3 branch (QFT_SetQuestObjective_C_12/13/14 ChallangeImaru, QFT_ModifyQuestInt_C_9/10/11 DeathQuest_Beat=5 SET, QFT_UpdateQuestLocation_C_0/1/3 SlayImaruTarget=true)",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\\\QF_DeathQuest_Beat4.json: StandingStones.* entries (StandStoneInt ADD, *StoneDone, InvestigatedStandingStones)",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\\\QF_DeathQuest_Beat5.json: RecievedImaruHead entry (the only writer of ImaruDefeated/HasRecievedImaruHead)",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\\\QF_DeathQuest_Beat5.json: ImarusLair entry (needs all 3 SealBreakKey items, takes them)",
+    "...\\Content\\Gameplay\\Progress\\DT_Progression_Quests.json row ImaruHead (ItemsPickedUp Imaru's Head -> QuestFlow.Entry.DeathQuestMain.RecievedImaruHead)",
+    "...\\FH_Quests\\FH_EmberWoodVillage\\QF_EmberwoodVillagePuzzle.json (SpokenToShady/Suspicious/Snickering, LearnedCrime/Motive, ArmadylStatueSpokenTo)",
+    "Empirical: GuestChar cached in World A.sav (Beat 4, 1 seal: objective BreakRemainingtwoSeals, FallArea=false, Village/FortressArea=true, SlayImaruTarget/DeathTempleTarget absent) matches the flow",
+    "Empirical: game log 2026-11-21 19:55:00 'Your soul resonates with Imaru's grief' (= QFT_PromptMessage_C_124/129/133 on the 3rd-seal branch)"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "QuestTrackedMain is never written by any flow (engine-managed); WH id is inferred, absence is also seen in real saves.",
+    "Removing Imaru's Head from ItemsPickedUp is inferred to be needed so the ImaruHead progression row fires again on pickup (no separate 'progression unlocked' list exists in the save).",
+    "World side: the reference player's worlds have ai_boss_imaru in DefeatedBossesInternalNames and the lair seal door state; the fight is only replayable in a world where Imaru is alive.",
+    "Curse fragments can also be re-obtained in game: at Beat 5, interacting with an already-broken seal gives its key again if missing (Beat4 Blank_C_14/16/18 branches)."
+   ],
+   "world_note": "No world edit needed (Imaru research): the lair door only checks the 3 Curse Fragments in your inventory; both worlds are in the reset ready-to-unleash state. Spawn confidence medium-high.",
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "ALQSs0j7loBVpum0CaDH2w"
+     ],
+     "label": "ALQSs0j7loBVpum0CaDH2w (Imaru's Head)"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "V6JWS0Q-GuvrJS2f3-c_DA"
+     ],
+     "label": "V6JWS0Q-GuvrJS2f3-c_DA (Dragoncurse Shield recipe)"
+    },
+    {
+     "list": "Journal.UnlockedEntries",
+     "ids": [
+      "5kyZzET-pZ_POWWDTZd7HQ"
+     ],
+     "label": "5kyZzET-pZ_POWWDTZd7HQ"
+    }
+   ],
+   "inventory_remove": [],
+   "related_records": {},
+   "hooks_remove": [
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "bkf_autogiven",
+   "label": "BKF step 0: auto-given, 'Speak To Death' (DR_Main_Objective_-1)",
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "objective": "DR_Main_Objective_-1",
+   "ints": {},
+   "bools_true": [
+    "GivenQuestOnLogin"
+   ],
+   "bools_false": [],
+   "locations": {
+    "DR_MQ_Death": true,
+    "DR_MQ_Cathan": "__absent__",
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "evidence": [
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\\\QF_DR_Main_ProvideQuestOnStart.json AutoGiveDRMainQuest entry",
+    "BP_Components_QuestProgress.json QuestCatchupConfigs[1]"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "WH must be state 2 as in wh_complete_bkf_ungiven."
+   ],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "inventory_add": [],
+   "inventory_remove": [],
+   "related_records": {},
+   "hooks_remove": [
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "bkf_given_by_death",
+   "label": "BKF step 1: given by Death, 'Speak to Cathan' (DR_Main_Objective_0)",
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "objective": "DR_Main_Objective_0",
+   "ints": {},
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath"
+   ],
+   "bools_false": [],
+   "locations": {
+    "DR_MQ_Cathan": true,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": "__absent__",
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "evidence": [
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\\\QF_Death_PostQuestDialogue.json InitiateDRQuest entry, QuestBeat==0 branch: GiveQuest_C_1 (if not Given), SetQuestBool_C_2 GivenQuestOnLogin, SetQuestObjective_C_1 DR_Main_Objective_0, UpdateQuestLocation_C_0 DR_MQ_Cathan=true, SetQuestBool_C_0 RecievedDRQuestFromDeath, UpdateQuestLocation_C_2 DR_MQ_Death=false",
+    "...\\FH_Quests\\DeathQuest_Fellhollow\\\\QF_Death.json (Complete -> PostQuestEntry -> InitiateDRQuest when RecievedDRQuestFromDeath false)",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\\\QF_DR_MainQuest_Entry.json EnterDRDoor (alternative giver, same bool/objective/location)"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "QuestBeat is never written before Cathan/region entry; absent reads as 0 (TestQuestInt with no TestValue)."
+   ],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "inventory_add": [],
+   "inventory_remove": [],
+   "related_records": {},
+   "hooks_remove": [
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "bools_false": [],
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "inventory_add": [],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "related_records": {},
+   "world_note": "No world edit. Survey: Cathan/WOM/Doric NPC variants, Dreamstone, 9 shard actors, DeadMage (glass-owl), LucidMage, quest fishing node, library books/barrier, bastion barrier and DR teleporters all store only bCanBeDamaged (fishing node: no catch state) in World A; World B has no DR cells. No Titan/Gatekeeper record in either world.",
+   "id": "bkf_speak_wom",
+   "label": "BKF step 2: Cathan spoken to, 'Speak to the Wise Old Man' (DR_Main_Objective_1)",
+   "objective": "DR_Main_Objective_1",
+   "ints": {
+    "QuestBeat": 1
+   },
+   "ints_absent": [
+    "Shard_Amount"
+   ],
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath",
+    "EnteredDRCathanCheck"
+   ],
+   "bools_absent": [
+    "SpokenToDoric",
+    "SpokenToOldMan",
+    "LearnedAboutInfernalFragments",
+    "WOM_Optional_1",
+    "WOM_Optional_2",
+    "WOM_Optional_3",
+    "WOM_Optional_4",
+    "Library_Book1",
+    "Library_Book2",
+    "Library_Book3",
+    "Library_Book4",
+    "Library_Puzzle_Complete",
+    "SpokenToDreamstone",
+    "SpokenToFishingGoblin",
+    "FishingGoblinShardGiven",
+    "SpokenToMage",
+    "TakenGlassOwl",
+    "PlayerGivenFragmentMage",
+    "SpokenToChef",
+    "PlayerGivenFragment_Chef",
+    "Fragments_LessThan5",
+    "Fragments_LessThan10",
+    "Fragments_LessThan13",
+    "Fragments_All",
+    "Fragment_1",
+    "Fragment_2",
+    "Fragment_3",
+    "Fragment_4",
+    "Fragment_5",
+    "Fragment_6",
+    "Fragment_7",
+    "Fragment_8",
+    "Fragment_9",
+    "Fragment_10",
+    "Fragment_11",
+    "Fragment_12",
+    "Fragment_13",
+    "GateOpen",
+    "FixedDreamstone",
+    "CanEnterBastion",
+    "GatekeeperDefeated",
+    "WhatHappenedRevealed",
+    "AviskRevealed",
+    "BehindDoorRevealed"
+   ],
+   "locations": {
+    "DR_MQ_Cathan": false,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": true,
+    "DR_MQ_Doric": "__absent__",
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "inventory_remove": [
+    {
+     "id": "B_9Rt0HRTRhbZfSgUrQNTg",
+     "label": "Broken Titan's Wrath ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword"
+    },
+    {
+     "id": "hJyKREoYCuSo8E20uZBB9g",
+     "label": "Shard of the Dreaming Stone"
+    },
+    {
+     "id": "PeVzmkAypE8k92yqKOvaDQ",
+     "label": "Glass Owl ITEM_Quest_Glass_Owl"
+    },
+    {
+     "id": "PGr-_U1RdW7DxSyRq38KHw",
+     "label": "Unusual Trout ITEM_Resources_Fish_Raw_UnusualTrout_Quest"
+    }
+   ],
+   "evidence": [
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_Main_Cathan.json (Beat 0, !EnteredDRCathanCheck): DR_MQ_Cathan=false, DR_MQ_OldMan_Target=true, objective DR_Main_Objective_1, EnteredDRCathanCheck, QuestBeat SET 1",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Entry.json RegionEntry: identical writes (alternative trigger)",
+    "Live BKF bool append order: GivenQuestOnLogin, RecievedDRQuestFromDeath, EnteredDRCathanCheck, then SpokenToDoric - this is the reference player's own state after Cathan",
+    "Side content later in the reference player's history (WOM_Optional_*, LearnedAboutInfernalFragments, Library_*, all Fragment/NPC-shard bools, Shard_Amount) is removed; every one is re-settable by its own flow (guards are those same bools) and every actor involved is stateless in the world save"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "Next: WOM (sets objective _2) or Doric directly (sets _3) - both valid.",
+    "Dowdun Reach intro: on the walkthrough path (Cathan at the gate first, then the ominous door) the intro plays AFTER this state, so its hook is removed. The door-first path reaches the same record via RegionEntry after the intro has played; removing it then only replays the cutscene once (cosmetic)."
+   ],
+   "source_group": "mid",
+   "hooks_remove": [
+    {
+     "id": "prbKS0g1X6EsOe6Lc17yAg",
+     "label": "Dowdun Reach intro"
+    },
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "bools_false": [],
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "inventory_add": [],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "related_records": {},
+   "world_note": "No world edit. Survey: Cathan/WOM/Doric NPC variants, Dreamstone, 9 shard actors, DeadMage (glass-owl), LucidMage, quest fishing node, library books/barrier, bastion barrier and DR teleporters all store only bCanBeDamaged (fishing node: no catch state) in World A; World B has no DR cells. No Titan/Gatekeeper record in either world.",
+   "id": "bkf_speak_doric",
+   "label": "BKF step 3: WOM spoken to first, 'Speak to Doric' (DR_Main_Objective_2)",
+   "objective": "DR_Main_Objective_2",
+   "ints": {
+    "QuestBeat": 1
+   },
+   "ints_absent": [
+    "Shard_Amount"
+   ],
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath",
+    "EnteredDRCathanCheck",
+    "SpokenToOldMan"
+   ],
+   "bools_absent": [
+    "SpokenToDoric",
+    "LearnedAboutInfernalFragments",
+    "WOM_Optional_1",
+    "WOM_Optional_2",
+    "WOM_Optional_3",
+    "WOM_Optional_4",
+    "Library_Book1",
+    "Library_Book2",
+    "Library_Book3",
+    "Library_Book4",
+    "Library_Puzzle_Complete",
+    "SpokenToDreamstone",
+    "SpokenToFishingGoblin",
+    "FishingGoblinShardGiven",
+    "SpokenToMage",
+    "TakenGlassOwl",
+    "PlayerGivenFragmentMage",
+    "SpokenToChef",
+    "PlayerGivenFragment_Chef",
+    "Fragments_LessThan5",
+    "Fragments_LessThan10",
+    "Fragments_LessThan13",
+    "Fragments_All",
+    "Fragment_1",
+    "Fragment_2",
+    "Fragment_3",
+    "Fragment_4",
+    "Fragment_5",
+    "Fragment_6",
+    "Fragment_7",
+    "Fragment_8",
+    "Fragment_9",
+    "Fragment_10",
+    "Fragment_11",
+    "Fragment_12",
+    "Fragment_13",
+    "GateOpen",
+    "FixedDreamstone",
+    "CanEnterBastion",
+    "GatekeeperDefeated",
+    "WhatHappenedRevealed",
+    "AviskRevealed",
+    "BehindDoorRevealed"
+   ],
+   "locations": {
+    "DR_MQ_Cathan": false,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": false,
+    "DR_MQ_Doric": true,
+    "DR_MQ_DreamingStone": "__absent__",
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "inventory_remove": [
+    {
+     "id": "B_9Rt0HRTRhbZfSgUrQNTg",
+     "label": "Broken Titan's Wrath ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword"
+    },
+    {
+     "id": "hJyKREoYCuSo8E20uZBB9g",
+     "label": "Shard of the Dreaming Stone"
+    },
+    {
+     "id": "PeVzmkAypE8k92yqKOvaDQ",
+     "label": "Glass Owl ITEM_Quest_Glass_Owl"
+    },
+    {
+     "id": "PGr-_U1RdW7DxSyRq38KHw",
+     "label": "Unusual Trout ITEM_Resources_Fish_Raw_UnusualTrout_Quest"
+    }
+   ],
+   "evidence": [
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_OldMan.json WiseOldMan (!SpokenToOldMan, QuestBeat 0/1/-1, !SpokenToDoric): SetQuestObjective_C_0 DR_Main_Objective_2 (guard QuestBeat != -1), DR_MQ_Doric=true (C_0), DR_MQ_OldMan_Target=false (C_1), SpokenToOldMan (SetQuestBool_C_0)",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Doric.json (Beat 0/1, !SpokenToDoric) continues to _3"
+   ],
+   "confidence": "very high",
+   "open_questions": [],
+   "source_group": "mid",
+   "wiki_verification": [
+    {
+     "inference": "WOM-before-Doric order exists in normal play (objective _2 built only from flow writes)",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Walkthrough order: the Wise Old Man points the player to Doric, who is dispelling a barrier in the Nexus; the player then meets Doric there.",
+     "url": "https://dragonwilds.runescape.wiki/w/Black_Knight%27s_Fortress"
+    },
+    {
+     "inference": "WOM_Optional_1-4 omitted (dialogue-only flags)",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    }
+   ],
+   "confidence_before_wiki": "high",
+   "inference_resolved": "The reference player never had this objective (they spoke to Doric before the Wise Old Man), so no save shows it; the record is assembled purely from the WOM node's writes. WOM_Optional_1-4 are left out because they are dialogue-only flags that no flow tests outside the WOM's own optional menu, so either choice is safe.",
+   "hooks_remove": [
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "bools_false": [],
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "inventory_add": [],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "related_records": {},
+   "world_note": "No world edit. Survey: Cathan/WOM/Doric NPC variants, Dreamstone, 9 shard actors, DeadMage (glass-owl), LucidMage, quest fishing node, library books/barrier, bastion barrier and DR teleporters all store only bCanBeDamaged (fishing node: no catch state) in World A; World B has no DR cells. No Titan/Gatekeeper record in either world.",
+   "id": "bkf_investigate_stone",
+   "label": "BKF step 4: Doric spoken to, 'Investigate the Dreaming Stone' (DR_Main_Objective_3)",
+   "objective": "DR_Main_Objective_3",
+   "ints": {
+    "QuestBeat": 1
+   },
+   "ints_absent": [
+    "Shard_Amount"
+   ],
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath",
+    "EnteredDRCathanCheck",
+    "SpokenToDoric"
+   ],
+   "bools_absent": [
+    "SpokenToOldMan",
+    "LearnedAboutInfernalFragments",
+    "WOM_Optional_1",
+    "WOM_Optional_2",
+    "WOM_Optional_3",
+    "WOM_Optional_4",
+    "Library_Book1",
+    "Library_Book2",
+    "Library_Book3",
+    "Library_Book4",
+    "Library_Puzzle_Complete",
+    "SpokenToDreamstone",
+    "SpokenToFishingGoblin",
+    "FishingGoblinShardGiven",
+    "SpokenToMage",
+    "TakenGlassOwl",
+    "PlayerGivenFragmentMage",
+    "SpokenToChef",
+    "PlayerGivenFragment_Chef",
+    "Fragments_LessThan5",
+    "Fragments_LessThan10",
+    "Fragments_LessThan13",
+    "Fragments_All",
+    "Fragment_1",
+    "Fragment_2",
+    "Fragment_3",
+    "Fragment_4",
+    "Fragment_5",
+    "Fragment_6",
+    "Fragment_7",
+    "Fragment_8",
+    "Fragment_9",
+    "Fragment_10",
+    "Fragment_11",
+    "Fragment_12",
+    "Fragment_13",
+    "GateOpen",
+    "FixedDreamstone",
+    "CanEnterBastion",
+    "GatekeeperDefeated",
+    "WhatHappenedRevealed",
+    "AviskRevealed",
+    "BehindDoorRevealed"
+   ],
+   "locations": {
+    "DR_MQ_Cathan": false,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": false,
+    "DR_MQ_Doric": false,
+    "DR_MQ_DreamingStone": true,
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Fragment_1": "__absent__",
+    "DR_MQ_Fragment_2": "__absent__",
+    "DR_MQ_Fragment_3": "__absent__",
+    "DR_MQ_Fragment_4": "__absent__",
+    "DR_MQ_Fragment_5": "__absent__",
+    "DR_MQ_Fragment_6": "__absent__",
+    "DR_MQ_Fragment_7": "__absent__",
+    "DR_MQ_Fragment_8": "__absent__",
+    "DR_MQ_Fragment_9": "__absent__",
+    "DR_MQ_Fragment_10": "__absent__",
+    "DR_MQ_Fragment_11": "__absent__",
+    "DR_MQ_Fragment_12": "__absent__",
+    "DR_MQ_Fragment_13": "__absent__"
+   },
+   "inventory_remove": [
+    {
+     "id": "B_9Rt0HRTRhbZfSgUrQNTg",
+     "label": "Broken Titan's Wrath ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword"
+    },
+    {
+     "id": "hJyKREoYCuSo8E20uZBB9g",
+     "label": "Shard of the Dreaming Stone"
+    },
+    {
+     "id": "PeVzmkAypE8k92yqKOvaDQ",
+     "label": "Glass Owl ITEM_Quest_Glass_Owl"
+    },
+    {
+     "id": "PGr-_U1RdW7DxSyRq38KHw",
+     "label": "Unusual Trout ITEM_Resources_Fish_Raw_UnusualTrout_Quest"
+    }
+   ],
+   "evidence": [
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Doric.json (QuestBeat 0/1, !SpokenToDoric): objective DR_Main_Objective_3 (C_1), DR_MQ_Doric=false (C_1), DR_MQ_DreamingStone=true (C_0), SpokenToDoric (C_0), DR_MQ_OldMan_Target=false (C_2); then links ThinkingWithPortals.Doric (side quest, writes nothing to BKF)",
+    "Live append order: SpokenToDoric directly follows EnteredDRCathanCheck - the reference player's own state",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Dreamstone.json first talk (!SpokenToDreamstone, any beat): SpokenToDreamstone, DR_MQ_DreamingStone=false, QuestBeat SET 2, reveals un-collected DR_MQ_Fragment_N, links CheckAmount",
+    "Explains the live DR_MQ_Doric=true: QF_DR_MainQuest_Fragments.json CheckAmount at QuestBeat 0/1 (the reference player picked Fragment_3 before visiting the stone) sets QuestBeat -1, objective _4_-1, DR_MQ_OldMan_Target=false, DR_MQ_Doric=true (C_13/C_14). It is genuine state, not a leftover."
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "The WOM can still be visited afterwards (sets SpokenToOldMan, no objective change), as the reference player did."
+   ],
+   "source_group": "mid",
+   "hooks_remove": [
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "bools_false": [
+    "Library_Book4",
+    "Fragments_LessThan5",
+    "Fragments_LessThan10",
+    "Fragments_LessThan13"
+   ],
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "inventory_add": [
+    {
+     "id": "hJyKREoYCuSo8E20uZBB9g",
+     "label": "Shard of the Dreaming Stone x13 (the repair takes 13; added so the take cannot fall short)",
+     "count": 13
+    }
+   ],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "related_records": {},
+   "world_note": "No world edit. Survey: Cathan/WOM/Doric NPC variants, Dreamstone, 9 shard actors, DeadMage (glass-owl), LucidMage, quest fishing node, library books/barrier, bastion barrier and DR teleporters all store only bCanBeDamaged (fishing node: no catch state) in World A; World B has no DR cells. No Titan/Gatekeeper record in either world.",
+   "id": "bkf_step6_return_stone",
+   "label": "BKF step 6: Return to the Dreaming Stone 13/13 (re-rated)",
+   "objective": "DR_Main_Objective_4_13",
+   "ints": {
+    "QuestBeat": 2,
+    "Shard_Amount": 13
+   },
+   "ints_absent": [],
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath",
+    "EnteredDRCathanCheck",
+    "SpokenToDoric",
+    "LearnedAboutInfernalFragments",
+    "SpokenToOldMan",
+    "WOM_Optional_2",
+    "WOM_Optional_3",
+    "WOM_Optional_4",
+    "WOM_Optional_1",
+    "Library_Book1",
+    "Library_Book2",
+    "Library_Book3",
+    "Library_Puzzle_Complete",
+    "Fragment_3",
+    "Fragment_8",
+    "SpokenToDreamstone",
+    "Fragment_4",
+    "SpokenToFishingGoblin",
+    "SpokenToMage",
+    "Fragment_7",
+    "TakenGlassOwl",
+    "PlayerGivenFragmentMage",
+    "Fragment_11",
+    "FishingGoblinShardGiven",
+    "Fragment_5",
+    "Fragment_6",
+    "Fragment_10",
+    "Fragment_1",
+    "SpokenToChef",
+    "PlayerGivenFragment_Chef",
+    "Fragment_9",
+    "Fragment_2",
+    "Fragment_13",
+    "Fragment_12",
+    "Fragments_All"
+   ],
+   "bools_absent": [
+    "GateOpen",
+    "FixedDreamstone",
+    "CanEnterBastion",
+    "GatekeeperDefeated",
+    "WhatHappenedRevealed",
+    "AviskRevealed",
+    "BehindDoorRevealed"
+   ],
+   "locations": {
+    "DR_MQ_DreamingStone": true,
+    "DR_GateKeeper": "__absent__",
+    "DR_MQ_Doric": true,
+    "DR_MQ_Cathan": false,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": false,
+    "DR_MQ_Fragment_1": false,
+    "DR_MQ_Fragment_2": false,
+    "DR_MQ_Fragment_3": false,
+    "DR_MQ_Fragment_4": false,
+    "DR_MQ_Fragment_5": false,
+    "DR_MQ_Fragment_6": false,
+    "DR_MQ_Fragment_7": false,
+    "DR_MQ_Fragment_8": false,
+    "DR_MQ_Fragment_9": false,
+    "DR_MQ_Fragment_10": false,
+    "DR_MQ_Fragment_11": false,
+    "DR_MQ_Fragment_12": false,
+    "DR_MQ_Fragment_13": false
+   },
+   "inventory_remove": [
+    {
+     "id": "B_9Rt0HRTRhbZfSgUrQNTg",
+     "label": "Broken Titan's Wrath ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword"
+    }
+   ],
+   "evidence": [
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Dreamstone.json: GateOpen/FixedDreamstone are written ONLY true (SetQuestBool_C_5/C_7 in the 13-shard repair; Gatekeeper/UmS catch-up branches also only true). No flow ever writes them false.",
+    "Readers: Dreamstone optional dialogue tests GateOpen with no TestValue (=false) / true; Gatekeeper BastionBarrier tests GateOpen; Doric tests FixedDreamstone true/no-value. Absent bools read as false: proven by GuestChar's NotFoundStones=2, produced by QF_DeathQuest_Cathan Blank_C_7 (TestQuestBool InvestigatedStandingStones, no TestValue) while that bool was absent.",
+    "Live save: GateOpen/FixedDreamstone are the last two bools appended (right after Fragments_All), i.e. first written at the repair -> genuine step-6 state has them ABSENT.",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Fragments.json CheckAmount 13 branch (objective _4_13, DR_MQ_DreamingStone=true, LessThan*=false, Fragments_All=true)",
+    "DR_MQ_Doric=true traced to CheckAmount QuestBeat 0/1 branch (C_14) - genuine, not a leftover"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "Resolved: GateOpen and FixedDreamstone must be ABSENT (never written before the repair). false would behave identically (every reader treats absent as false) but is not a state the game produces."
+   ],
+   "source_group": "mid",
+   "wiki_verification": [
+    {
+     "inference": "GateOpen / FixedDreamstone absent vs false",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    },
+    {
+     "inference": "Barrier to the Bastion opens only after the stone repair",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Walkthrough: the barrier comes down after the stone is repaired, and the dropped barrier leads into The Bastion.",
+     "url": "https://dragonwilds.runescape.wiki/w/Black_Knight%27s_Fortress"
+    },
+    {
+     "inference": "Broken Titan's Wrath must not be in ItemsPickedUp",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    }
+   ],
+   "hooks_remove": [
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "bkf_step7_gatekeeper",
+   "label": "BKF step 7: Defeat the Gatekeeper (user's live state)",
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "objective": "DR_Main_Objective_5",
+   "ints": {
+    "QuestBeat": 3,
+    "Shard_Amount": 13
+   },
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath",
+    "EnteredDRCathanCheck",
+    "SpokenToDoric",
+    "LearnedAboutInfernalFragments",
+    "SpokenToOldMan",
+    "WOM_Optional_2",
+    "WOM_Optional_3",
+    "WOM_Optional_4",
+    "WOM_Optional_1",
+    "Library_Book1",
+    "Library_Book2",
+    "Library_Book3",
+    "Library_Puzzle_Complete",
+    "Fragment_3",
+    "Fragment_8",
+    "SpokenToDreamstone",
+    "Fragment_4",
+    "SpokenToFishingGoblin",
+    "SpokenToMage",
+    "Fragment_7",
+    "TakenGlassOwl",
+    "PlayerGivenFragmentMage",
+    "Fragment_11",
+    "FishingGoblinShardGiven",
+    "Fragment_5",
+    "Fragment_6",
+    "Fragment_10",
+    "Fragment_1",
+    "SpokenToChef",
+    "PlayerGivenFragment_Chef",
+    "Fragment_9",
+    "Fragment_2",
+    "Fragment_13",
+    "Fragment_12",
+    "Fragments_All",
+    "GateOpen",
+    "FixedDreamstone"
+   ],
+   "bools_false": [
+    "Library_Book4",
+    "Fragments_LessThan5",
+    "Fragments_LessThan10",
+    "Fragments_LessThan13"
+   ],
+   "bools_absent": [
+    "CanEnterBastion",
+    "GatekeeperDefeated"
+   ],
+   "locations": {
+    "DR_MQ_DreamingStone": false,
+    "DR_GateKeeper": true,
+    "DR_MQ_Doric": true,
+    "DR_MQ_Cathan": false,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": false,
+    "DR_MQ_Fragment_1": false,
+    "DR_MQ_Fragment_2": false,
+    "DR_MQ_Fragment_3": false,
+    "DR_MQ_Fragment_4": false,
+    "DR_MQ_Fragment_5": false,
+    "DR_MQ_Fragment_6": false,
+    "DR_MQ_Fragment_7": false,
+    "DR_MQ_Fragment_8": false,
+    "DR_MQ_Fragment_9": false,
+    "DR_MQ_Fragment_10": false,
+    "DR_MQ_Fragment_11": false,
+    "DR_MQ_Fragment_12": false,
+    "DR_MQ_Fragment_13": false
+   },
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "evidence": [
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\\\QF_DR_MainQuest_Dreamstone.json repair branch",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\\\QF_DR_MainQuest_Gatekeeper.json GatekeeperDead (QuestBeat==3 branch -> objective _6, GatekeeperDefeated, QuestBeat=4); fired by DT_Progression_Quests row on picking up ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword (B_9Rt0HRTRhbZfSgUrQNTg)",
+    "Live save the reference save (identical)"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "B_9Rt0HRTRhbZfSgUrQNTg must stay out of ItemsPickedUp for the Titan kill to advance the quest."
+   ],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "inventory_add": [],
+   "inventory_remove": [],
+   "related_records": {},
+   "hooks_remove": [
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 1,
+   "bools_false": [
+    "Library_Book4",
+    "Fragments_LessThan5",
+    "Fragments_LessThan10",
+    "Fragments_LessThan13"
+   ],
+   "tracked_main": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "inventory_add": [
+    {
+     "id": "B_9Rt0HRTRhbZfSgUrQNTg",
+     "label": "Broken Titan's Wrath ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword x1 (held after the kill; not required by the hand-in)",
+     "count": 1
+    }
+   ],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "related_records": {},
+   "world_note": "No world edit. Survey: Cathan/WOM/Doric NPC variants, Dreamstone, 9 shard actors, DeadMage (glass-owl), LucidMage, quest fishing node, library books/barrier, bastion barrier and DR teleporters all store only bCanBeDamaged (fishing node: no catch state) in World A; World B has no DR cells. No Titan/Gatekeeper record in either world.",
+   "id": "bkf_titan_defeated",
+   "label": "BKF step 8: Titan defeated, 'Return to the Dreaming Stone' (DR_Main_Objective_6)",
+   "objective": "DR_Main_Objective_6",
+   "ints": {
+    "QuestBeat": 4,
+    "Shard_Amount": 13
+   },
+   "ints_absent": [],
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath",
+    "EnteredDRCathanCheck",
+    "SpokenToDoric",
+    "LearnedAboutInfernalFragments",
+    "SpokenToOldMan",
+    "WOM_Optional_2",
+    "WOM_Optional_3",
+    "WOM_Optional_4",
+    "WOM_Optional_1",
+    "Library_Book1",
+    "Library_Book2",
+    "Library_Book3",
+    "Library_Puzzle_Complete",
+    "Fragment_3",
+    "Fragment_8",
+    "SpokenToDreamstone",
+    "Fragment_4",
+    "SpokenToFishingGoblin",
+    "SpokenToMage",
+    "Fragment_7",
+    "TakenGlassOwl",
+    "PlayerGivenFragmentMage",
+    "Fragment_11",
+    "FishingGoblinShardGiven",
+    "Fragment_5",
+    "Fragment_6",
+    "Fragment_10",
+    "Fragment_1",
+    "SpokenToChef",
+    "PlayerGivenFragment_Chef",
+    "Fragment_9",
+    "Fragment_2",
+    "Fragment_13",
+    "Fragment_12",
+    "Fragments_All",
+    "GateOpen",
+    "FixedDreamstone",
+    "GatekeeperDefeated"
+   ],
+   "bools_absent": [
+    "CanEnterBastion",
+    "WhatHappenedRevealed",
+    "AviskRevealed",
+    "BehindDoorRevealed"
+   ],
+   "locations": {
+    "DR_MQ_DreamingStone": true,
+    "DR_GateKeeper": false,
+    "DR_MQ_Doric": true,
+    "DR_MQ_Cathan": false,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": false,
+    "DR_MQ_Fragment_1": false,
+    "DR_MQ_Fragment_2": false,
+    "DR_MQ_Fragment_3": false,
+    "DR_MQ_Fragment_4": false,
+    "DR_MQ_Fragment_5": false,
+    "DR_MQ_Fragment_6": false,
+    "DR_MQ_Fragment_7": false,
+    "DR_MQ_Fragment_8": false,
+    "DR_MQ_Fragment_9": false,
+    "DR_MQ_Fragment_10": false,
+    "DR_MQ_Fragment_11": false,
+    "DR_MQ_Fragment_12": false,
+    "DR_MQ_Fragment_13": false
+   },
+   "inventory_remove": [],
+   "evidence": [
+    "Kill credit: DT_LootDropTable_DowdunReach row Knight_Black_Titan drops ITEM_Quest_DR_Main_Broken_Gatekeeper_Greatsword (100%, auto-add, one per player, damage dealers only) -> DT_Progression_Quests row BrokenTitanGreatsword (ItemsPickedUp) -> QuestFlow.Entry.BlackKnightsFortress.GatekeeperDead",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Gatekeeper.json GatekeeperDead QuestBeat==3 branch: objective DR_Main_Objective_6 (C_1), GatekeeperDefeated (C_0), DR_MQ_DreamingStone=true (C_1/C_15), QuestBeat SET 4 (C_0), DR_GateKeeper=false (C_4)",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Dreamstone.json QuestBeat==4 -> PromptMessage_C_70 (TitanDefeated) -> space check -> completion; the greatsword is not tested on this path"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "Not offerable as a forward jump: the Titan's other drop (20-30 T6 upgrade shards) and journal entry are not reproduced."
+   ],
+   "source_group": "mid",
+   "wiki_verification": [
+    {
+     "inference": "Black Knight Titan can be fought again",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Infobox: the Titan respawns via the symbol in the room; after the first kill the arena centre becomes a Titan Seal usable after about a minute for a rematch.",
+     "url": "https://dragonwilds.runescape.wiki/w/Black_Knight_Titan"
+    },
+    {
+     "inference": "Titan drops Broken Titan's Wrath on every kill",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Broken Titan's Wrath is a guaranteed drop, stays a quest item after the quest, and later drops go to the quest tab automatically.",
+     "url": "https://dragonwilds.runescape.wiki/w/Broken_Titan%27s_Wrath"
+    },
+    {
+     "inference": "Holding the Wrath + its ItemsPickedUp entry; re-fire at Beat 4 is idempotent",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    }
+   ],
+   "confidence_before_wiki": "high",
+   "inference_resolved": "Ahead of the reference player, so no save shows it; the record is the live step-7 record plus the GatekeeperDead node's writes. Holding Broken Titan's Wrath and its ItemsPickedUp entry are inferred from the loot row; if the pickup row re-fired at Beat 4 it would only re-run an idempotent catch-up branch, so either way is safe.",
+   "hooks_remove": [
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "quest_id": "3MpWS0mD8A6yFVmjVAA2Qg",
+   "state": 2,
+   "bools_false": [
+    "Library_Book4",
+    "Fragments_LessThan5",
+    "Fragments_LessThan10",
+    "Fragments_LessThan13"
+   ],
+   "tracked_main": "kPtTW0exXrqw2BqELR_bFA",
+   "inventory_add": [],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "related_records": {},
+   "world_note": "No world edit. Survey: Cathan/WOM/Doric NPC variants, Dreamstone, 9 shard actors, DeadMage (glass-owl), LucidMage, quest fishing node, library books/barrier, bastion barrier and DR teleporters all store only bCanBeDamaged (fishing node: no catch state) in World A; World B has no DR cells. No Titan/Gatekeeper record in either world.",
+   "id": "bkf_complete",
+   "label": "BKF step 9: complete (ILH auto-given)",
+   "objective": "DR_Main_Objective_6",
+   "ints": {
+    "QuestBeat": 4,
+    "Shard_Amount": 13
+   },
+   "ints_absent": [],
+   "bools_true": [
+    "GivenQuestOnLogin",
+    "RecievedDRQuestFromDeath",
+    "EnteredDRCathanCheck",
+    "SpokenToDoric",
+    "LearnedAboutInfernalFragments",
+    "SpokenToOldMan",
+    "WOM_Optional_2",
+    "WOM_Optional_3",
+    "WOM_Optional_4",
+    "WOM_Optional_1",
+    "Library_Book1",
+    "Library_Book2",
+    "Library_Book3",
+    "Library_Puzzle_Complete",
+    "Fragment_3",
+    "Fragment_8",
+    "SpokenToDreamstone",
+    "Fragment_4",
+    "SpokenToFishingGoblin",
+    "SpokenToMage",
+    "Fragment_7",
+    "TakenGlassOwl",
+    "PlayerGivenFragmentMage",
+    "Fragment_11",
+    "FishingGoblinShardGiven",
+    "Fragment_5",
+    "Fragment_6",
+    "Fragment_10",
+    "Fragment_1",
+    "SpokenToChef",
+    "PlayerGivenFragment_Chef",
+    "Fragment_9",
+    "Fragment_2",
+    "Fragment_13",
+    "Fragment_12",
+    "Fragments_All",
+    "GateOpen",
+    "FixedDreamstone",
+    "GatekeeperDefeated"
+   ],
+   "bools_absent": [
+    "CanEnterBastion",
+    "WhatHappenedRevealed",
+    "AviskRevealed",
+    "BehindDoorRevealed"
+   ],
+   "locations": {
+    "DR_MQ_DreamingStone": false,
+    "DR_GateKeeper": false,
+    "DR_MQ_Doric": true,
+    "DR_MQ_Cathan": false,
+    "DR_MQ_Death": false,
+    "DR_MQ_OldMan_Target": false,
+    "DR_MQ_Fragment_1": false,
+    "DR_MQ_Fragment_2": false,
+    "DR_MQ_Fragment_3": false,
+    "DR_MQ_Fragment_4": false,
+    "DR_MQ_Fragment_5": false,
+    "DR_MQ_Fragment_6": false,
+    "DR_MQ_Fragment_7": false,
+    "DR_MQ_Fragment_8": false,
+    "DR_MQ_Fragment_9": false,
+    "DR_MQ_Fragment_10": false,
+    "DR_MQ_Fragment_11": false,
+    "DR_MQ_Fragment_12": false,
+    "DR_MQ_Fragment_13": false
+   },
+   "inventory_remove": [],
+   "evidence": [
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Dreamstone.json completion: DR_MQ_DreamingStone=false (C_0), GiveItem BlackKnightFortresssRewardPack1, GiveCraftingRecipe RECIPE_Masterworks_Weapon_GreatSword_TitansWrath, CompleteQuest, QuestBeat SET 4, link UmS_MainQuest.StartQuest. No objective write (stays _6).",
+    "...\\UmbralSands\\...\\QF_UmS_MQ_Beat1.json StartQuest: GiveQuest, EnterUmS, Bastion_DoorToUmS_Target=true, DT_QuestBeat SET 1; QuestCatchupConfigs[2] re-runs it whenever BKF Complete + UmS Ungiven",
+    "Same resting point as checkpoints_ilh.md ilh_given (this BKF record is its prerequisite)"
+   ],
+   "confidence": "med",
+   "open_questions": [
+    "Not a separate resting state: ILH is auto-given at completion (like WH->BKF); use ilh_given. Reward pack mQeJ6kJZdcr49cGHQ1qcHw and the Titan's Wrath recipe are not written by the engine, so it is not offerable as a forward jump."
+   ],
+   "source_group": "mid",
+   "wiki_verification": [
+    {
+     "inference": "Not a separate resting state (ILH auto-given); BKF rewards not reproduced",
+     "verdict": "PARTIAL",
+     "wiki_summary": "The ILH walkthrough starts right after the Titan fight and talking to Avisk, by returning to The Bastion's door to the Umbral Sands.",
+     "url": "https://dragonwilds.runescape.wiki/w/Icthlarin%27s_Little_Helper"
+    }
+   ],
+   "hooks_remove": [
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "ilh_given",
+   "label": "Icthlarin's Little Helper step 1: given at BKF completion, 'EnterUmS' (go through the Bastion door)",
+   "quest_id": "kPtTW0exXrqw2BqELR_bFA",
+   "state": 1,
+   "objective": "EnterUmS",
+   "ints": {
+    "DT_QuestBeat": 1
+   },
+   "bools_true": [],
+   "bools_false": [],
+   "bools_absent": [
+    "TeleportedIntoUmS",
+    "TriggeredReveal",
+    "Overheard",
+    "SpokeToGarouAllyIntro"
+   ],
+   "locations": {
+    "Bastion_DoorToUmS_Target": true,
+    "CampLeader_A_Target": "__absent__",
+    "CampLeader_B_Target": "__absent__",
+    "CampLeader_C_Target": "__absent__",
+    "FightFuzan": "__absent__",
+    "FirstGarou.CampNPC": "__absent__",
+    "FirstGarouInCave_Target": "__absent__",
+    "GarouCamp_A_Area": "__absent__",
+    "Icthlarin.Mirror": "__absent__",
+    "Icthlarin_Mirror_Target": "__absent__",
+    "The Radiant": "__absent__",
+    "TribeA.Task1": "__absent__",
+    "TribeA.Task2": "__absent__",
+    "TribeA.Task3": "__absent__",
+    "TribeA.Taskgiver1": "__absent__",
+    "TribeA.Taskgiver2": "__absent__",
+    "TribeA.Taskgiver3": "__absent__",
+    "TribeA_Task1_NPC": "__absent__",
+    "TribeA_Task2_Area_01": "__absent__",
+    "TribeA_Task2_Area_02": "__absent__",
+    "TribeA_Task2_Area_03": "__absent__",
+    "TribeA_Task2_NPC": "__absent__",
+    "TribeA_Task2_Target": "__absent__",
+    "TribeA_Task3_NPC": "__absent__",
+    "TribeB.Camp": "__absent__",
+    "TribeB.Leader": "__absent__",
+    "TribeB.Task1": "__absent__",
+    "TribeB.Task1_Area_step2": "__absent__",
+    "TribeB.Task1_Target_1": "__absent__",
+    "TribeB.Task1_Target_step2": "__absent__",
+    "TribeB.Task2": "__absent__",
+    "TribeB.Task3.Noble1": "__absent__",
+    "TribeB.Task3.Noble2": "__absent__",
+    "TribeB.Task3.Noble3": "__absent__",
+    "TribeB.TaskGiver1": "__absent__",
+    "TribeB.TaskGiver2": "__absent__",
+    "TribeB.Taskgiver1": "__absent__",
+    "TribeB.Taskgiver2": "__absent__",
+    "TribeB.Taskgiver3": "__absent__",
+    "TribeB_Taskgiver1_NPC": "__absent__",
+    "TribeB_Taskgiver1_Target": "__absent__",
+    "TribeB_Taskgiver2_NPC": "__absent__",
+    "TribeB_Taskgiver2_Target": "__absent__",
+    "TribeB_Taskgiver3_NPC": "__absent__",
+    "TribeB_Taskgiver3_Target": "__absent__",
+    "TribeC.Camp": "__absent__",
+    "TribeC.Elder": "__absent__",
+    "TribeC.Task1.Mirage1": "__absent__",
+    "TribeC.Task1.Mirage2": "__absent__",
+    "TribeC.Task1.Mirage3": "__absent__",
+    "TribeC.Task1.Mirage4": "__absent__",
+    "TribeC.Task2": "__absent__",
+    "TribeC.Task2.1": "__absent__",
+    "TribeC.Task2.2": "__absent__",
+    "TribeC.Task3.Statue1": "__absent__",
+    "TribeC.Task3.Statue2": "__absent__",
+    "TribeC.Task3.Statue3": "__absent__",
+    "TribeC.Task3.Statue4": "__absent__",
+    "TribeC.Task3.Statue5": "__absent__",
+    "TribeC.TaskGiver1": "__absent__",
+    "TribeC.TaskGiver2": "__absent__",
+    "TribeC.TaskGiver3": "__absent__",
+    "TribeC.Taskgiver1": "__absent__",
+    "TribeC.Taskgiver2": "__absent__",
+    "TribeC.Taskgiver3": "__absent__",
+    "TribeC_Taskgiver1_NPC": "__absent__",
+    "TribeC_Taskgiver2_NPC": "__absent__",
+    "TribeC_Taskgiver2_Target": "__absent__",
+    "TribeC_Taskgiver3_NPC": "__absent__",
+    "UmS_TribeA_Mirror_1_Target": "__absent__",
+    "UmS_TribeA_Mirror_2_Target": "__absent__",
+    "UmS_TribeA_Mirror_3_Target": "__absent__"
+   },
+   "tracked_main": "kPtTW0exXrqw2BqELR_bFA",
+   "inventory_add": [],
+   "inventory_remove": [
+    {
+     "id": "Y2WogUE5ZiQMtuawA1-_Cg",
+     "label": "Mirror Lens - Alcarrid (ITEM_Resource_Key_FightCaveKey_A)"
+    },
+    {
+     "id": "xGroCUd5KBipUW2PlHbwjQ",
+     "label": "Mirror Lens - Uzzer (ITEM_Resource_Key_FightCaveKey_B)"
+    },
+    {
+     "id": "4lMsdEwqu7pGlZy-MN7Stg",
+     "label": "Mirror Lens - Manafem (ITEM_Resource_Key_FightCaveKey_C)"
+    },
+    {
+     "id": "lovpE0A99m4svQy2BGmy1Q",
+     "label": "Fuzan's Head (ITEM_Resources_Fuzan_Head)"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "lovpE0A99m4svQy2BGmy1Q"
+     ],
+     "label": "lovpE0A99m4svQy2BGmy1Q (Fuzan's Head (ITEM_Resources_Fuzan_Head)): row FuzanHead -> QuestFlow.Entry.UmS_MainQuest.DefeatFuzan must fire again"
+    },
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "cLv5j0HjjATZ2FSMtJ2CSg"
+     ],
+     "label": "cLv5j0HjjATZ2FSMtJ2CSg (The Radiant's Heart (ITEM_Resources_DragonsHeart; TribeC Task2 credit row TheRadientHeart))"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "myqnDkdJSshMLUq3sMlSLA"
+     ],
+     "label": "myqnDkdJSshMLUq3sMlSLA (RECIPE_Weapon_Shield_FuzanDragonfireShield, ILH reward)"
+    }
+   ],
+   "related_records": {
+    "1BhNkkkP6y7ireu6yVR5tg": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "d6s4dUyoCduLy7eRc2KndQ": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "d6M5Dkpx9Pjw_V2mNJh6eA": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "XElCtUmXXqK35p63tua9og": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "8Rb0t0upslwKHXWYGnTKgg": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "nIvEyEv-kvSwgqOLc5VopQ": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "0cB0D0QD_L4nrpu6CxZEsw": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "Bnon4kzm_EdvZz-bma5HBg": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "Xb1KUkU_wOIHvzahULr6yA": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    }
+   },
+   "world_note": "No world edit. Up to the Fight Caves ILH is character-driven. The Bastion door into the Umbral Sands (BP_InteractablePlayerTeleporter_UmbralDoor) has no quest check in CanTeleport (only a facing test); its open state is a world switch left open by BKF in the player's own world. Neither world holds any WorldProgress.Fuzan.* tag or ai_boss_fuzan yet.",
+   "evidence": [
+    "...\\Content\\Gameplay\\Character\\Components\\BP_Components_QuestProgress.json QuestCatchupConfigs[2]: CompleteQuestData=Quest_DR_MainQuest, UngivenQuestData=Quest_UmS_MainQuest -> QuestFlow.Entry.UmS_MainQuest.StartQuest",
+    "...\\DowdunReach\\Content\\Gameplay\\Quests\\Main\\QF_DR_MainQuest_Dreamstone.json: BKF hand-in (has Broken Titan's Wrath, space for pack) -> BKF pack -> Titan's Wrath recipe -> CompleteQuest -> QuestBeat SET 4 -> ConversationLinkNode_8 QuestFlow.Entry.UmS_MainQuest.StartQuest",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat1.json ENTRY StartQuest (no conditions): GiveQuest#1 -> SetQuestObjective#0 EnterUmS -> UpdateQuestLocation#0 Bastion_DoorToUmS_Target=true -> ModifyQuestInt#1 DT_QuestBeat SET 1",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat1.json ENTRY TeleportedIntoUmS / TriggerExitCave: the first writes after this point (TeleportedIntoUmS, TriggeredReveal, LookForLife, Beat 2)",
+    "Quest_UmS_MainQuest PersistenceID kPtTW0exXrqw2BqELR_bFA (InternalName UmS_MainQuest). The 9 task QuestData (bIsTaskQuest) map to the import.js t-* slugs.",
+    "Empirical: the live save has ILH in the not-started form and no task rows. Consistent; there is no in-progress sample."
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "There is no 'given / not started' boundary state like BKF's DR_Main_Objective_-1. The BKF hand-in and the login catch-up both run the same StartQuest entry. 'BKF complete, ILH state 0' is transient, because the catch-up gives ILH on load.",
+    "QuestTrackedMain is engine-managed (inferred ILH).",
+    "Mounts (flying carpets), Moon Garou vendor reputation and chits earned later are not reverted."
+   ],
+   "source_group": "ilh",
+   "wiki_verification": [
+    {
+     "inference": "Bastion door to Umbral Sands is open once BKF is complete",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Umbral Sands page: completing Black Knight's Fortress opens the Bastion door to the Umbral Sands.",
+     "url": "https://dragonwilds.runescape.wiki/w/Umbral_Sands"
+    },
+    {
+     "inference": "Fuzan's Head is re-obtainable (supports removing it from ItemsPickedUp)",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "After the quest, extra Fuzan's Heads can be traded to Icthlarin for a cosmetic reward.",
+     "url": "https://dragonwilds.runescape.wiki/w/Fuzan%27s_Head"
+    },
+    {
+     "inference": "Radiant Heart re-obtainable",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "The Radiant Heart page describes it as a tally of repeat red-dragon kills as they respawn.",
+     "url": "https://dragonwilds.runescape.wiki/w/The_Radiant_Heart"
+    },
+    {
+     "inference": "Removing Fuzan's Head / Radiant Heart from ItemsPickedUp is needed for re-credit",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    }
+   ],
+   "confidence_before_wiki": "high",
+   "inference_resolved": "The Bastion door's open state is world-side and not traced to a quest flow. It is inferred to be open once BKF is complete, which this checkpoint already requires. Removing Fuzan's Head and the Radiant's Heart from ItemsPickedUp is inferred to be needed for re-credit (the same pattern as Imaru's head) and is harmless if it isn't.",
+   "hooks_remove": [
+    {
+     "id": "5m02BUYiuoWdqwaF4FH4_A",
+     "label": "Umbral Sands intro"
+    },
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "ilh_speak_garou_elder",
+   "label": "ILH: Icthlarin met, 'SpeakToGarouElder' (go to the Alcarrid camp elder)",
+   "quest_id": "kPtTW0exXrqw2BqELR_bFA",
+   "state": 1,
+   "objective": "SpeakToGarouElder",
+   "ints": {
+    "DT_QuestBeat": 3
+   },
+   "bools_true": [
+    "TeleportedIntoUmS",
+    "SpokeToGarouAllyIntro",
+    "Overheard",
+    "TriggeredReveal"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "TribeA.SpokenToElder",
+    "HideStartNPC",
+    "FirstCampMaxFavourEarned",
+    "FinishedCampA",
+    "ReadyToRepMirrors",
+    "CanFightFuzan"
+   ],
+   "locations": {
+    "Bastion_DoorToUmS_Target": false,
+    "CampLeader_A_Target": true,
+    "CampLeader_B_Target": "__absent__",
+    "CampLeader_C_Target": "__absent__",
+    "FightFuzan": "__absent__",
+    "FirstGarou.CampNPC": "__absent__",
+    "FirstGarouInCave_Target": false,
+    "GarouCamp_A_Area": false,
+    "Icthlarin.Mirror": "__absent__",
+    "Icthlarin_Mirror_Target": false,
+    "The Radiant": "__absent__",
+    "TribeA.Task1": "__absent__",
+    "TribeA.Task2": "__absent__",
+    "TribeA.Task3": "__absent__",
+    "TribeA.Taskgiver1": "__absent__",
+    "TribeA.Taskgiver2": "__absent__",
+    "TribeA.Taskgiver3": "__absent__",
+    "TribeA_Task1_NPC": "__absent__",
+    "TribeA_Task2_Area_01": "__absent__",
+    "TribeA_Task2_Area_02": "__absent__",
+    "TribeA_Task2_Area_03": "__absent__",
+    "TribeA_Task2_NPC": "__absent__",
+    "TribeA_Task2_Target": "__absent__",
+    "TribeA_Task3_NPC": "__absent__",
+    "TribeB.Camp": "__absent__",
+    "TribeB.Leader": "__absent__",
+    "TribeB.Task1": "__absent__",
+    "TribeB.Task1_Area_step2": "__absent__",
+    "TribeB.Task1_Target_1": "__absent__",
+    "TribeB.Task1_Target_step2": "__absent__",
+    "TribeB.Task2": "__absent__",
+    "TribeB.Task3.Noble1": "__absent__",
+    "TribeB.Task3.Noble2": "__absent__",
+    "TribeB.Task3.Noble3": "__absent__",
+    "TribeB.TaskGiver1": "__absent__",
+    "TribeB.TaskGiver2": "__absent__",
+    "TribeB.Taskgiver1": "__absent__",
+    "TribeB.Taskgiver2": "__absent__",
+    "TribeB.Taskgiver3": "__absent__",
+    "TribeB_Taskgiver1_NPC": "__absent__",
+    "TribeB_Taskgiver1_Target": "__absent__",
+    "TribeB_Taskgiver2_NPC": "__absent__",
+    "TribeB_Taskgiver2_Target": "__absent__",
+    "TribeB_Taskgiver3_NPC": "__absent__",
+    "TribeB_Taskgiver3_Target": "__absent__",
+    "TribeC.Camp": "__absent__",
+    "TribeC.Elder": "__absent__",
+    "TribeC.Task1.Mirage1": "__absent__",
+    "TribeC.Task1.Mirage2": "__absent__",
+    "TribeC.Task1.Mirage3": "__absent__",
+    "TribeC.Task1.Mirage4": "__absent__",
+    "TribeC.Task2": "__absent__",
+    "TribeC.Task2.1": "__absent__",
+    "TribeC.Task2.2": "__absent__",
+    "TribeC.Task3.Statue1": "__absent__",
+    "TribeC.Task3.Statue2": "__absent__",
+    "TribeC.Task3.Statue3": "__absent__",
+    "TribeC.Task3.Statue4": "__absent__",
+    "TribeC.Task3.Statue5": "__absent__",
+    "TribeC.TaskGiver1": "__absent__",
+    "TribeC.TaskGiver2": "__absent__",
+    "TribeC.TaskGiver3": "__absent__",
+    "TribeC.Taskgiver1": "__absent__",
+    "TribeC.Taskgiver2": "__absent__",
+    "TribeC.Taskgiver3": "__absent__",
+    "TribeC_Taskgiver1_NPC": "__absent__",
+    "TribeC_Taskgiver2_NPC": "__absent__",
+    "TribeC_Taskgiver2_Target": "__absent__",
+    "TribeC_Taskgiver3_NPC": "__absent__",
+    "UmS_TribeA_Mirror_1_Target": "__absent__",
+    "UmS_TribeA_Mirror_2_Target": "__absent__",
+    "UmS_TribeA_Mirror_3_Target": "__absent__"
+   },
+   "tracked_main": "kPtTW0exXrqw2BqELR_bFA",
+   "inventory_add": [],
+   "inventory_remove": [
+    {
+     "id": "Y2WogUE5ZiQMtuawA1-_Cg",
+     "label": "Mirror Lens - Alcarrid (ITEM_Resource_Key_FightCaveKey_A)"
+    },
+    {
+     "id": "xGroCUd5KBipUW2PlHbwjQ",
+     "label": "Mirror Lens - Uzzer (ITEM_Resource_Key_FightCaveKey_B)"
+    },
+    {
+     "id": "4lMsdEwqu7pGlZy-MN7Stg",
+     "label": "Mirror Lens - Manafem (ITEM_Resource_Key_FightCaveKey_C)"
+    },
+    {
+     "id": "lovpE0A99m4svQy2BGmy1Q",
+     "label": "Fuzan's Head (ITEM_Resources_Fuzan_Head)"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "lovpE0A99m4svQy2BGmy1Q"
+     ],
+     "label": "lovpE0A99m4svQy2BGmy1Q (Fuzan's Head (ITEM_Resources_Fuzan_Head)): row FuzanHead -> QuestFlow.Entry.UmS_MainQuest.DefeatFuzan must fire again"
+    },
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "cLv5j0HjjATZ2FSMtJ2CSg"
+     ],
+     "label": "cLv5j0HjjATZ2FSMtJ2CSg (The Radiant's Heart (ITEM_Resources_DragonsHeart; TribeC Task2 credit row TheRadientHeart))"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "myqnDkdJSshMLUq3sMlSLA"
+     ],
+     "label": "myqnDkdJSshMLUq3sMlSLA (RECIPE_Weapon_Shield_FuzanDragonfireShield, ILH reward)"
+    }
+   ],
+   "related_records": {
+    "1BhNkkkP6y7ireu6yVR5tg": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "d6s4dUyoCduLy7eRc2KndQ": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "d6M5Dkpx9Pjw_V2mNJh6eA": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "XElCtUmXXqK35p63tua9og": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "8Rb0t0upslwKHXWYGnTKgg": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "nIvEyEv-kvSwgqOLc5VopQ": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "0cB0D0QD_L4nrpu6CxZEsw": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "Bnon4kzm_EdvZz-bma5HBg": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "Xb1KUkU_wOIHvzahULr6yA": {
+     "QuestState": 0,
+     "QuestObjective": "None",
+     "QuestInts": [],
+     "QuestBools": []
+    }
+   },
+   "world_note": "No world edit. The next step is the camp elder's dialogue (QuestFlow.Entry.UmS_MainQuest.FirstGarou.GarouCamp at Beat 3 with TribeA.SpokenToElder false). There is no item or world gate.",
+   "evidence": [
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat1.json ENTRY StartQuest (no conditions): GiveQuest#1 -> SetQuestObjective#0 EnterUmS -> UpdateQuestLocation#0 Bastion_DoorToUmS_Target=true -> ModifyQuestInt#1 DT_QuestBeat SET 1",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat1.json ENTRY TeleportedIntoUmS: TeleportedIntoUmS=true, Bastion_DoorToUmS_Target=false",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat1.json ENTRY TriggerExitCave (Overheard false, Beat 1, TriggeredReveal false): TriggeredReveal=true, LookForLife, DT_QuestBeat SET 2, GarouCamp_A_Area=true, Bastion=false",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat1.json ENTRY FirstGarou.UmbralStart (Beat 0/1): SpokeToGarouAllyIntro=true (the Shangruuh intro)",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat2.json ENTRY Icthlarin.Approach (Beat 1/2, Overheard false): Overheard=true, SpeakToIcthlarin, GarouCamp_A_Area=false, Icthlarin_Mirror_Target=true, Bastion=false, FirstGarouInCave_Target=false",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Icthlarin.json ENTRY Icthlarin.Mirror, Given: Beat<=1 and TriggeredReveal false -> TriggeredReveal=true, Beat SET 2, GarouCamp_A_Area=false, Bastion=false. At Beat 2 -> Icthlarin.Intro -> ModifyQuestInt#3 DT_QuestBeat SET 3 -> SpeakToGarouElder -> CampLeader_A_Target=true -> Icthlarin_Mirror_Target=false -> GarouCamp_A_Area=false",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat3.json ENTRY FirstGarou.GarouCamp, Beat 3, TribeA.SpokenToElder false: the next writes are FirstGarouEarnReputation.NoReputation, TribeA.Taskgiver1-3, FirstGarou.CampNPC, TribeA.SpokenToElder, HideStartNPC"
+   ],
+   "confidence": "high",
+   "inference": "Overheard, SpokeToGarouAllyIntro and FirstGarouInCave_Target come from optional paths (the Icthlarin approach volume and the cave Garou's intro), so a real save may lack them; the checkpoint uses the full natural path. Once DT_QuestBeat is 3, no flow reads them, so it plays the same either way.",
+   "open_questions": [
+    "The bool order in a real save depends on path order. No flow reads the order."
+   ],
+   "source_group": "ilh",
+   "wiki_verification": [
+    {
+     "inference": "Overheard / SpokeToGarouAllyIntro / FirstGarouInCave_Target come from optional paths",
+     "verdict": "PARTIAL",
+     "wiki_summary": "Shangruuh is described as the first NPC the player talks to, on arrival, to start ILH.",
+     "url": "https://dragonwilds.runescape.wiki/w/Shangruuh_-_Alcarrid_Envoy"
+    }
+   ],
+   "hooks_remove": [
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "ilh_ready_fuzan",
+   "label": "ILH: all three mirrors repaired, 'FightFuzan' (enter the Fight Caves)",
+   "quest_id": "kPtTW0exXrqw2BqELR_bFA",
+   "state": 1,
+   "objective": "FightFuzan",
+   "ints": {
+    "DT_QuestBeat": 5,
+    "Task1FavourGained": 25,
+    "FirstCampFavour": 100,
+    "TribeBFavour": 100,
+    "TribeCFavour": 100,
+    "KeysFound": 2,
+    "MirrorsRepaired": 3
+   },
+   "bools_true": [
+    "TeleportedIntoUmS",
+    "SpokeToGarouAllyIntro",
+    "Overheard",
+    "TriggeredReveal",
+    "TribeA.SpokenToElder",
+    "HideStartNPC",
+    "TribeA.Taskgiver1.TaskGiven",
+    "TribeA.Task1.HandedIn",
+    "TribeA.Taskgiver2.SpokenTo",
+    "TribeA.Task2.HandedIn",
+    "TribeA.Task2Complete",
+    "TribeA.Taskgiver3.SpokenTo",
+    "TribeA.Task3.Complete",
+    "FirstCampMaxFavourEarned",
+    "FinishedCampA",
+    "SpokenToTribeBElder",
+    "ApproachedB",
+    "SpokenToTribeCElder",
+    "ApproachedC",
+    "TribeB.Taskgiver1.SpokenTo",
+    "TribeB_Take1_NmCTriggerHit",
+    "TribeB_Take1_NmCCompleted",
+    "TribeB.Task1.Complete",
+    "TribeB.Taskgiver2.SpokenTo",
+    "TribeB.Task2.Complete",
+    "TribeB.Taskgiver3.SpokenTo",
+    "TribeB.Task3.Noble1Convinced",
+    "TribeB.Task3.Noble2Convinced",
+    "TribeB.Task3.Noble3Convinced",
+    "TribeB.Task3.HandedIn",
+    "TribeB.Task3.Complete",
+    "TribeC.Taskgiver1.SpokenTo",
+    "TribeC.Task1.HandedIn",
+    "TribeC.Task1.Complete",
+    "TribeC.Task2.SpokenToTaskgiver",
+    "FoundClue1",
+    "FoundClue2",
+    "FoundClue3",
+    "FoundAllClues",
+    "TribeC_Task2_RecievedDragonItem",
+    "TribeC.Task2.HandedIn",
+    "TribeC.Taskgiver3.SpokenTo",
+    "TribeC.Task3.Statue1.Found",
+    "TribeC.Task3.Statue2.Found",
+    "TribeC.Task3.Statue3.Found",
+    "TribeC.Task3.HandedIn",
+    "TribeC.Task3.Complete",
+    "TribeBMaxFavourEarned",
+    "TribeCMaxFavourEarned",
+    "CollectedReward_B",
+    "CollectedReward_C",
+    "ReadyToRepMirrors",
+    "Mirror_1_Repaired",
+    "Mirror_2_Repaired",
+    "Mirror_3_Repaired",
+    "CanFightFuzan"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "UmS_MQ_DebugMirrorOverride",
+    "Ums_MQ_FCOpen",
+    "RepairedAllMirrors"
+   ],
+   "locations": {
+    "Bastion_DoorToUmS_Target": false,
+    "CampLeader_A_Target": false,
+    "CampLeader_B_Target": false,
+    "CampLeader_C_Target": false,
+    "FightFuzan": true,
+    "FirstGarou.CampNPC": false,
+    "FirstGarouInCave_Target": false,
+    "GarouCamp_A_Area": false,
+    "Icthlarin.Mirror": true,
+    "Icthlarin_Mirror_Target": false,
+    "The Radiant": "__absent__",
+    "TribeA.Task1": "__absent__",
+    "TribeA.Task2": "__absent__",
+    "TribeA.Task3": "__absent__",
+    "TribeA.Taskgiver1": "__absent__",
+    "TribeA.Taskgiver2": "__absent__",
+    "TribeA.Taskgiver3": "__absent__",
+    "TribeA_Task1_NPC": "__absent__",
+    "TribeA_Task2_Area_01": "__absent__",
+    "TribeA_Task2_Area_02": "__absent__",
+    "TribeA_Task2_Area_03": "__absent__",
+    "TribeA_Task2_NPC": "__absent__",
+    "TribeA_Task2_Target": "__absent__",
+    "TribeA_Task3_NPC": "__absent__",
+    "TribeB.Camp": false,
+    "TribeB.Leader": false,
+    "TribeB.Task1": "__absent__",
+    "TribeB.Task1_Area_step2": "__absent__",
+    "TribeB.Task1_Target_1": "__absent__",
+    "TribeB.Task1_Target_step2": "__absent__",
+    "TribeB.Task2": "__absent__",
+    "TribeB.Task3.Noble1": "__absent__",
+    "TribeB.Task3.Noble2": "__absent__",
+    "TribeB.Task3.Noble3": "__absent__",
+    "TribeB.TaskGiver1": "__absent__",
+    "TribeB.TaskGiver2": "__absent__",
+    "TribeB.Taskgiver1": "__absent__",
+    "TribeB.Taskgiver2": "__absent__",
+    "TribeB.Taskgiver3": "__absent__",
+    "TribeB_Taskgiver1_NPC": "__absent__",
+    "TribeB_Taskgiver1_Target": "__absent__",
+    "TribeB_Taskgiver2_NPC": "__absent__",
+    "TribeB_Taskgiver2_Target": "__absent__",
+    "TribeB_Taskgiver3_NPC": "__absent__",
+    "TribeB_Taskgiver3_Target": "__absent__",
+    "TribeC.Camp": false,
+    "TribeC.Elder": false,
+    "TribeC.Task1.Mirage1": "__absent__",
+    "TribeC.Task1.Mirage2": "__absent__",
+    "TribeC.Task1.Mirage3": "__absent__",
+    "TribeC.Task1.Mirage4": "__absent__",
+    "TribeC.Task2": "__absent__",
+    "TribeC.Task2.1": "__absent__",
+    "TribeC.Task2.2": "__absent__",
+    "TribeC.Task3.Statue1": "__absent__",
+    "TribeC.Task3.Statue2": "__absent__",
+    "TribeC.Task3.Statue3": "__absent__",
+    "TribeC.Task3.Statue4": "__absent__",
+    "TribeC.Task3.Statue5": "__absent__",
+    "TribeC.TaskGiver1": "__absent__",
+    "TribeC.TaskGiver2": "__absent__",
+    "TribeC.TaskGiver3": "__absent__",
+    "TribeC.Taskgiver1": "__absent__",
+    "TribeC.Taskgiver2": "__absent__",
+    "TribeC.Taskgiver3": "__absent__",
+    "TribeC_Taskgiver1_NPC": "__absent__",
+    "TribeC_Taskgiver2_NPC": "__absent__",
+    "TribeC_Taskgiver2_Target": "__absent__",
+    "TribeC_Taskgiver3_NPC": "__absent__",
+    "UmS_TribeA_Mirror_1_Target": false,
+    "UmS_TribeA_Mirror_2_Target": false,
+    "UmS_TribeA_Mirror_3_Target": false
+   },
+   "tracked_main": "kPtTW0exXrqw2BqELR_bFA",
+   "inventory_add": [],
+   "inventory_remove": [
+    {
+     "id": "lovpE0A99m4svQy2BGmy1Q",
+     "label": "Fuzan's Head (ITEM_Resources_Fuzan_Head)"
+    }
+   ],
+   "progress_remove": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "lovpE0A99m4svQy2BGmy1Q"
+     ],
+     "label": "lovpE0A99m4svQy2BGmy1Q (Fuzan's Head (ITEM_Resources_Fuzan_Head)): row FuzanHead -> QuestFlow.Entry.UmS_MainQuest.DefeatFuzan must fire again"
+    }
+   ],
+   "progress_remove_optional": [
+    {
+     "list": "RecipesUnlocked",
+     "ids": [
+      "myqnDkdJSshMLUq3sMlSLA"
+     ],
+     "label": "myqnDkdJSshMLUq3sMlSLA (RECIPE_Weapon_Shield_FuzanDragonfireShield, ILH reward)"
+    }
+   ],
+   "related_records": {
+    "1BhNkkkP6y7ireu6yVR5tg": {
+     "QuestState": 2,
+     "QuestObjective": "GatherIngredients",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "d6s4dUyoCduLy7eRc2KndQ": {
+     "QuestState": 2,
+     "QuestObjective": "ReturnToShopkeeper",
+     "QuestInts": [],
+     "QuestBools": [
+      {
+       "QuestVariableName": "HasMoonStone1",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "HasMoonStone2",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "HasMoonStone3",
+       "QuestVariableValue": true
+      }
+     ]
+    },
+    "d6M5Dkpx9Pjw_V2mNJh6eA": {
+     "QuestState": 2,
+     "QuestObjective": "BringBars",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "XElCtUmXXqK35p63tua9og": {
+     "QuestState": 2,
+     "QuestObjective": "ReturnToBard",
+     "QuestInts": [
+      {
+       "QuestVariableName": "NmCClueLocationsFound",
+       "QuestVariableValue": 4
+      }
+     ],
+     "QuestBools": [
+      {
+       "QuestVariableName": "TribeB_RecievedTask_1",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "TallRockLoc1Done",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "TallRockLoc2Done",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "TallRockLoc3Done",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "TallRockLoc4Done",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "CompletedCluesStep",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "ReadStoneAtNmC",
+       "QuestVariableValue": true
+      }
+     ]
+    },
+    "8Rb0t0upslwKHXWYGnTKgg": {
+     "QuestState": 2,
+     "QuestObjective": "ReturnToArchaeologist",
+     "QuestInts": [
+      {
+       "QuestVariableName": "Scrolls",
+       "QuestVariableValue": 4
+      }
+     ],
+     "QuestBools": [
+      {
+       "QuestVariableName": "TribeB_Task2_GotScroll1",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "TribeB_Task2_GotScroll2",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "TribeB_Task2_GotScroll3",
+       "QuestVariableValue": true
+      },
+      {
+       "QuestVariableName": "TribeB_Task2_GotScroll4",
+       "QuestVariableValue": true
+      }
+     ]
+    },
+    "nIvEyEv-kvSwgqOLc5VopQ": {
+     "QuestState": 2,
+     "QuestObjective": "ReturnToShangruuh",
+     "QuestInts": [
+      {
+       "QuestVariableName": "NoblesConvinced",
+       "QuestVariableValue": 3
+      }
+     ],
+     "QuestBools": [
+      {
+       "QuestVariableName": "TribeB.Task3.Complete",
+       "QuestVariableValue": true
+      }
+     ]
+    },
+    "0cB0D0QD_L4nrpu6CxZEsw": {
+     "QuestState": 2,
+     "QuestObjective": "Return",
+     "QuestInts": [],
+     "QuestBools": []
+    },
+    "Bnon4kzm_EdvZz-bma5HBg": {
+     "QuestState": 2,
+     "QuestObjective": "ReturnToGarou",
+     "QuestInts": [],
+     "QuestBools": [
+      {
+       "QuestVariableName": "GotDragonHeart",
+       "QuestVariableValue": true
+      }
+     ]
+    },
+    "Xb1KUkU_wOIHvzahULr6yA": {
+     "QuestState": 2,
+     "QuestObjective": "Return",
+     "QuestInts": [
+      {
+       "QuestVariableName": "StatuesFound",
+       "QuestVariableValue": 3
+      }
+     ],
+     "QuestBools": []
+    }
+   },
+   "world_note": "Character gate: FightCavesEntrance admits you only with CanFightFuzan=true (or ILH complete). Fuzan's spawn is world-side: BP_DragonFuzan_SpawnTrigger reads WorldProgress.Fuzan.FightCave.StoryModeComplete, ChallengeModeComplete and ResetPending (inferred: the Fight Cave waves must be cleared first), and BP_DragonFuzan_SpawnPoint picks the story or challenge variant by ChallengeModeComplete. Neither world has these tags yet (defaults). Credit: loot row DragonFuzan gives Fuzan's Head at 100%, auto-added, per player. The FuzanHead ItemsPickedUp row fires DefeatFuzan, which has no conditions: DT_QuestBeat SET 6, ReturnToIcthlarin, FightFuzan=false, Icthlarin.Mirror=false, Icthlarin_Mirror_Target=true. Icthlarin at Beat 6 then takes the head and gives the pack and recipe, runs CompleteQuest, and links to Regicide (MQ_ScornedWilderness.UmSLink).",
+   "evidence": [
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat3.json FavourIncrease/TasksComplete (FirstCampFavour>=100 SET 100, FirstCampMaxFavourEarned, FinishedCampA, mount, FindThreeKeys, key A, DT_QuestBeat SET 4, camp B/C reveals, Hawker rep 3000, CampA pack)",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat4.json Tribe B/C elders, FavourIncrease, rewards (KeysFound ADD 1 + key B/C), KeyCheck (KeysFound 1 -> FindLastKey; 2 -> SpeakToIcthlarin, DT_QuestBeat SET 5)",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Icthlarin.json Beat 5 with RepairedAllMirrors false (written nowhere in the dump) and ReadyToRepMirrors false -> RepairTheMirrors, 3 mirror targets, Icthlarin.Mirror=true, ReadyToRepMirrors=true",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_Beat5.json Mirrors.Mirror1-3 (Beat 5, ReadyToRepMirrors): take key A/B/C, MirrorsRepaired ADD 1, Mirror_n_Repaired; at 3: CanFightFuzan, FightFuzan objective and location, DT_QuestBeat SET 5",
+    "...\\UmbralSands\\Content\\Gameplay\\Quests\\UmS_MainQuest\\QF_UmS_MQ_FightCaves.json FightCavesEntrance gate (CanFightFuzan)",
+    "9 task flows: favour ADDs per tribe (A 25/25/50, B 25/50/25, C 25/50/25) sum to exactly 100, so all 9 tasks are required",
+    "DT_Progression_Quests / DT_Composite_Progression row FuzanHead; DT_LootDropTable row DragonFuzan; BP_AI_DragonFuzan_Data InternalName ai_boss_fuzan"
+   ],
+   "confidence": "med",
+   "open_questions": [
+    "Task flows write extra main-record bools whose final values depend on completion order: TribeB.LowFavour/medFavour/HighFavour (the Tribe C favour flow also writes these, a copy-paste in the data) and the MirageBeast.* toggles, which are set and later cleared. They are left out here.",
+    "Task-row final objectives and bools come from the write list, not from a node-by-node walk.",
+    "The Fight Cave StoryModeComplete gate is inferred from variable names.",
+    "The Mirror Lens keys are consumed by the mirrors, so none are held at this point."
+   ],
+   "source_group": "ilh",
+   "wiki_verification": [
+    {
+     "inference": "TribeB.*Favour and MirageBeast.* bool final values (order-dependent)",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    },
+    {
+     "inference": "All 9 tribe tasks are gating (taken from the write list)",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Each clan has three tasks that must be completed to obtain its lens.",
+     "url": "https://dragonwilds.runescape.wiki/w/Icthlarin%27s_Little_Helper"
+    },
+    {
+     "inference": "Fight Cave story mode must be cleared before Fuzan spawns (StoryModeComplete gate)",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Fight Cave: clearing all ten trial waves unlocks the path to Fuzan's Lair; during the quest only the Trials of Fuzan option exists, and the full activity unlocks afterwards.",
+     "url": "https://dragonwilds.runescape.wiki/w/Fight_Cave"
+    },
+    {
+     "inference": "Mirror Lens keys are consumed by the mirrors",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": "https://dragonwilds.runescape.wiki/w/Mirror_Lens"
+    }
+   ],
+   "hooks_remove": [
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "rg_access_sw",
+   "label": "Regicide step 1: given after ILH, 'Gain access to the Scorned Wilderness' (AccessSW)",
+   "quest_id": "Nw3wiUaB8siRIN2bStWJmw",
+   "state": 1,
+   "objective": "AccessSW",
+   "ints": {},
+   "bools_true": [],
+   "bools_false": [],
+   "bools_absent": [
+    "GateIntroGiven",
+    "IntroDone",
+    "KuldraEverKilled"
+   ],
+   "locations": {
+    "SW_Door": true,
+    "ZilyanaNPC": "__absent__"
+   },
+   "tracked_main": "Nw3wiUaB8siRIN2bStWJmw",
+   "inventory_add": [],
+   "progress_remove": [],
+   "progress_remove_optional": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "4vL1iUE8hFPCUjy34QVYpg"
+     ],
+     "label": "Kuldra's Head (lets the KuldraHead progression row re-fire -> objective BringHead; Zilyana only checks inventory, so optional)"
+    }
+   ],
+   "related_records": {},
+   "world_note": "No world edit needed. Kuldra is a repeatable raid boss: BP_DragonKuldra_Character loot row SW_Raid_Kuldra (DT_EnemyLootDropTable) auto-adds Kuldra's Head to every damaging player each kill; the arena resets WorldProgress.Teleporter.SW.Checkpoint1-4 to 0 and sets SWRaid.ResetPending.1-4. Kuldra data (BP_DragonKuldra_Data_New, row 'Kuldra') has no ai_boss_* InternalName, so DefeatedBossesInternalNames is not a gate. Raid start option 'Dragontail Vines' is always offered (Checkpoint4==0). Gate (entry Entrance_Teleport) needs DS, WH and UmS Complete; GateIntroGiven false replays the intro barks.",
+   "evidence": [
+    ".../Content/Gameplay/Quests/ScornedWilderness/QF_SW_MainQuest.json entry MQ_ScornedWilderness.UmSLink: GiveQuest_C_0, SetQuestObjective_C_1 AccessSW, UpdateQuestLocation_C_0 SW_Door=true",
+    ".../UmbralSands/.../QF_UmS_MQ_Icthlarin.json Icthlarin.Mirror: CompleteQuest UmS -> ... -> ConversationLinkNode_C_1 to UmSLink (same conversation as ILH completion)",
+    "BP_Components_QuestProgress QuestCatchupConfigs: UmS Complete + SW Ungiven -> UmSLink (same writes)"
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "Prereq: ILH (kPtTW0exXrqw2BqELR_bFA) must be state 2; the gate and Zilyana dialogue test Quest_UmS_MainQuest==Complete (also DS and WH Complete for the gate). ILH record itself is the ILH group's job.",
+    "No real save has a Regicide record beyond state 0; record built purely from flow writes.",
+    "No stable 'ILH complete, Regicide ungiven' state: ILH hand-in links straight to UmSLink and catch-up re-gives it on login (same as WH->BKF)."
+   ],
+   "inventory_remove": [
+    {
+     "id": "4vL1iUE8hFPCUjy34QVYpg",
+     "label": "Kuldra's Head (Zilyana completes the quest whenever IntroDone=true and the head is held: QF_SW_MainQuest Blank_C_31; at steps 1-2 that happens on the next talk after the intro)"
+    }
+   ],
+   "source_group": "late",
+   "hooks_remove": [
+    {
+     "id": "aLtQSklcimGNk0ydqGastg",
+     "label": "Scorned Wilderness intro"
+    }
+   ]
+  },
+  {
+   "id": "rg_speak_zilyana",
+   "label": "Regicide step 2: through the Dragon Gate, 'Speak to Zilyana' (SpeakZilyana)",
+   "quest_id": "Nw3wiUaB8siRIN2bStWJmw",
+   "state": 1,
+   "objective": "SpeakZilyana",
+   "ints": {},
+   "bools_true": [
+    "GateIntroGiven"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "IntroDone",
+    "KuldraEverKilled"
+   ],
+   "locations": {
+    "SW_Door": false,
+    "ZilyanaNPC": true
+   },
+   "tracked_main": "Nw3wiUaB8siRIN2bStWJmw",
+   "inventory_add": [],
+   "progress_remove": [],
+   "progress_remove_optional": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "4vL1iUE8hFPCUjy34QVYpg"
+     ],
+     "label": "Kuldra's Head (lets the KuldraHead progression row re-fire -> objective BringHead; Zilyana only checks inventory, so optional)"
+    }
+   ],
+   "related_records": {},
+   "world_note": "No world edit needed. Kuldra is a repeatable raid boss: BP_DragonKuldra_Character loot row SW_Raid_Kuldra (DT_EnemyLootDropTable) auto-adds Kuldra's Head to every damaging player each kill; the arena resets WorldProgress.Teleporter.SW.Checkpoint1-4 to 0 and sets SWRaid.ResetPending.1-4. Kuldra data (BP_DragonKuldra_Data_New, row 'Kuldra') has no ai_boss_* InternalName, so DefeatedBossesInternalNames is not a gate. Raid start option 'Dragontail Vines' is always offered (Checkpoint4==0).",
+   "evidence": [
+    ".../Content/Gameplay/Quests/ScornedWilderness/QF_SW_MainQuest.json entry Entrance_Teleport: SetQuestBool_C_0 GateIntroGiven=true (before the choice), choice 'Journey': SetQuestObjective_C_3 SpeakZilyana, UpdateQuestLocation_C_4 SW_Door=false, UpdateQuestLocation_C_5 ZilyanaNPC=true, TriggerTeleporter",
+    "Re-using the gate with GateIntroGiven=true (Blank_C_7 -> PromptMessage_C_41) rewrites the same values, so applying this away from the island is safe"
+   ],
+   "confidence": "high",
+   "open_questions": [
+    "Prereq: ILH (kPtTW0exXrqw2BqELR_bFA) must be state 2; the gate and Zilyana dialogue test Quest_UmS_MainQuest==Complete (also DS and WH Complete for the gate). ILH record itself is the ILH group's job.",
+    "No real save has a Regicide record beyond state 0; record built purely from flow writes.",
+    "PH_ScornedWildernessIntro plays on arrival from the gate's 'Journey' choice, right after SpeakZilyana is written, so at this checkpoint it has already fired and is left as is. Every revert to here comes from a save that has been on the island. The native code that records it is not in the dump (docs/research/player_hooks.md)."
+   ],
+   "inventory_remove": [
+    {
+     "id": "4vL1iUE8hFPCUjy34QVYpg",
+     "label": "Kuldra's Head (Zilyana completes the quest whenever IntroDone=true and the head is held: QF_SW_MainQuest Blank_C_31; at steps 1-2 that happens on the next talk after the intro)"
+    }
+   ],
+   "source_group": "late",
+   "inference": "Not traced: the native code that records the Scorned Wilderness intro in PlayerHooksTriggered. The intro plays on the gate teleport that follows the SpeakZilyana write, so a save reverted to here keeps whatever the game recorded. It gates nothing, so it is safe either way.",
+   "wiki_verification": [
+    {
+     "inference": "Dragon Gate requires DS, WH, BKF and ILH complete",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "Dragon Gate: entering the Scorned Wilderness requires all four primary quests (DS, WH, BKF, ILH) to be complete.",
+     "url": "https://dragonwilds.runescape.wiki/w/Dragon_Gate"
+    },
+    {
+     "inference": "PH_ScornedWildernessIntro hook added on first entry (non-blocking)",
+     "verdict": "PARTIAL",
+     "wiki_summary": "Regicide walkthrough: choosing to travel into the Scorned Wilderness plays a narrative trailer.",
+     "url": "https://dragonwilds.runescape.wiki/w/Regicide"
+    }
+   ],
+   "hooks_remove": []
+  },
+  {
+   "id": "rg_prepare_raid",
+   "label": "Regicide step 3: met Zilyana, 'Once you are fully prepared, speak to Zilyana' (ReturnToZilyana)",
+   "quest_id": "Nw3wiUaB8siRIN2bStWJmw",
+   "state": 1,
+   "objective": "ReturnToZilyana",
+   "ints": {},
+   "bools_true": [
+    "GateIntroGiven",
+    "IntroDone"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "KuldraEverKilled"
+   ],
+   "locations": {
+    "SW_Door": false,
+    "ZilyanaNPC": true
+   },
+   "tracked_main": "Nw3wiUaB8siRIN2bStWJmw",
+   "inventory_add": [],
+   "progress_remove": [],
+   "progress_remove_optional": [
+    {
+     "list": "ItemsPickedUp",
+     "ids": [
+      "4vL1iUE8hFPCUjy34QVYpg"
+     ],
+     "label": "Kuldra's Head (lets the KuldraHead progression row re-fire -> objective BringHead; Zilyana only checks inventory, so optional)"
+    }
+   ],
+   "related_records": {},
+   "world_note": "No world edit needed. Kuldra is a repeatable raid boss: BP_DragonKuldra_Character loot row SW_Raid_Kuldra (DT_EnemyLootDropTable) auto-adds Kuldra's Head to every damaging player each kill; the arena resets WorldProgress.Teleporter.SW.Checkpoint1-4 to 0 and sets SWRaid.ResetPending.1-4. Kuldra data (BP_DragonKuldra_Data_New, row 'Kuldra') has no ai_boss_* InternalName, so DefeatedBossesInternalNames is not a gate. Raid start option 'Dragontail Vines' is always offered (Checkpoint4==0).",
+   "evidence": [
+    ".../Content/Gameplay/Quests/ScornedWilderness/QF_SW_MainQuest.json entry MQ_ScornedWilderness (Zilyana), UmS Complete & SW not Complete & IntroDone false: SetQuestBool_C_12 IntroDone=true, GiveQuest_C_2 (no-op), SetQuestObjective_C_2 ReturnToZilyana",
+    "Choosing 'Dragontail Vines' only sets SetQuestObjective_C_4 DefeatKuldra + teleports SW_Start; no other quest writes until the head. DefeatKuldra objective is cosmetic (nothing tests objectives) so it is folded into this checkpoint."
+   ],
+   "confidence": "very high",
+   "open_questions": [
+    "Prereq: ILH (kPtTW0exXrqw2BqELR_bFA) must be state 2; the gate and Zilyana dialogue test Quest_UmS_MainQuest==Complete (also DS and WH Complete for the gate). ILH record itself is the ILH group's job.",
+    "No real save has a Regicide record beyond state 0; record built purely from flow writes."
+   ],
+   "inventory_remove": [
+    {
+     "id": "4vL1iUE8hFPCUjy34QVYpg",
+     "label": "Kuldra's Head (Zilyana completes the quest whenever IntroDone=true and the head is held: QF_SW_MainQuest Blank_C_31; at steps 1-2 that happens on the next talk after the intro)"
+    }
+   ],
+   "source_group": "late",
+   "hooks_remove": []
+  },
+  {
+   "id": "rg_bring_head",
+   "label": "Regicide step 4: Kuldra slain, 'Bring Kuldra's head to Zilyana' (BringHead)",
+   "quest_id": "Nw3wiUaB8siRIN2bStWJmw",
+   "state": 1,
+   "objective": "BringHead",
+   "ints": {},
+   "bools_true": [
+    "GateIntroGiven",
+    "IntroDone"
+   ],
+   "bools_false": [],
+   "bools_absent": [
+    "KuldraEverKilled"
+   ],
+   "locations": {
+    "SW_Door": false,
+    "ZilyanaNPC": true
+   },
+   "tracked_main": "Nw3wiUaB8siRIN2bStWJmw",
+   "inventory_add": [
+    {
+     "id": "4vL1iUE8hFPCUjy34QVYpg",
+     "label": "Kuldra's Head",
+     "count": 1
+    }
+   ],
+   "progress_remove": [],
+   "progress_remove_optional": [],
+   "related_records": {},
+   "world_note": "No world edit needed. Kuldra is a repeatable raid boss: BP_DragonKuldra_Character loot row SW_Raid_Kuldra (DT_EnemyLootDropTable) auto-adds Kuldra's Head to every damaging player each kill; the arena resets WorldProgress.Teleporter.SW.Checkpoint1-4 to 0 and sets SWRaid.ResetPending.1-4. Kuldra data (BP_DragonKuldra_Data_New, row 'Kuldra') has no ai_boss_* InternalName, so DefeatedBossesInternalNames is not a gate. Raid start option 'Dragontail Vines' is always offered (Checkpoint4==0). Hand-in is character-only: Zilyana checks inventory, so no live Kuldra is needed.",
+   "evidence": [
+    ".../Content/Gameplay/Quests/ScornedWilderness/QF_SW_MainQuest.json entry MQ_ScornedWilderness.DefeatKuldra: SetQuestObjective_C_0 BringHead",
+    "DT_Progression_Quests row KuldraHead: ItemsPickedUp ALL ITEMS[Kuldra's Head] -> ChangedQuests Quest_SW_MainQuest, trigger conversation DefeatKuldra (pickup, not death)",
+    "DT_EnemyLootDropTable SW_Raid_Kuldra: ITEM_Resources_Kuldra 100%, bAutoAddToInventory, one per damaging player; also ITEM_Quest_SW_Lougrim_Staff 100%",
+    "Completion (Blank_C_31, needs head + space): TakeItem ITEM_Resources_Kuldra, GiveItem ITEM_Consumable_KuldraPack_Unique, GiveCraftingRecipe RECIPE_Armour_T8_Cape_Dragonslayer (yPxVHUt4c8xZInC2YuTobg), CompleteQuest"
+   ],
+   "confidence": "high",
+   "open_questions": [
+    "Prereq: ILH (kPtTW0exXrqw2BqELR_bFA) must be state 2; the gate and Zilyana dialogue test Quest_UmS_MainQuest==Complete (also DS and WH Complete for the gate). ILH record itself is the ILH group's job.",
+    "No real save has a Regicide record beyond state 0; record built purely from flow writes.",
+    "BP_DragonKuldraHeart_ArenaLevelData has KuldraOneOffQuestBoolName='KuldraEverKilled' tested via TestQuestBoolFromController in GrantRewards; the setter and the owning quest are native/not visible. A real save at this point may also carry KuldraEverKilled=true on this record. Safe either way (only gates one-off arena rewards).",
+    "Kuldra's Head is a 'quest' category item -> quest slot (104+), like the BKF shards."
+   ],
+   "inventory_remove": [],
+   "source_group": "late",
+   "inference": "A fight script names a KuldraEverKilled bool, but nothing traced shows what sets it or which quest record holds it. A real save may carry it on this record; it is safe either way.",
+   "wiki_verification": [
+    {
+     "inference": "Kuldra raid repeatable and the head drops every run",
+     "verdict": "CONFIRMED",
+     "wiki_summary": "The reward pack can be earned repeatedly by handing Kuldra's Head to Zilyana after each raid run; each completed run restarts in Dragontail Vines.",
+     "url": "https://dragonwilds.runescape.wiki/w/Queenslayer%27s_Reward_Pack"
+    },
+    {
+     "inference": "KuldraEverKilled may be on the record (only gates one-off arena rewards)",
+     "verdict": "NOT ON WIKI",
+     "wiki_summary": "",
+     "url": ""
+    },
+    {
+     "inference": "'Dragontail Vines' is the raid-start dialogue option",
+     "verdict": "PARTIAL",
+     "wiki_summary": "Talking to Zilyana starts or resumes a raid run, which begins in Dragontail Vines.",
+     "url": "https://dragonwilds.runescape.wiki/w/Scorned_Wilderness"
+    }
+   ],
+   "hooks_remove": []
+  }
+ ],
+ "min_confidence": "high",
+ "related_quest_ids": {
+  "luaLQEzPXjx9_ICiz5zkNg": [
+   "AmuXOUitB08PYDCmdVA_Ug",
+   "v9LCTEjS-igQFrq4bpvtsA",
+   "7i8X403LNgw6uY-XK5OgnA"
+  ],
+  "SDcUrkVqRiTKKEyzEh5DWw": [
+   "4lW6rU0i0js1e3qFEAVI4w"
+  ],
+  "TgVnb0NCLvmEVRed59IgsQ": [
+   "zrqqFUNmx3lcF6umysJfvQ",
+   "EWRW7Ux-jHohLEKQCrkJJw"
+  ],
+  "kPtTW0exXrqw2BqELR_bFA": [
+   "1BhNkkkP6y7ireu6yVR5tg",
+   "d6s4dUyoCduLy7eRc2KndQ",
+   "d6M5Dkpx9Pjw_V2mNJh6eA",
+   "XElCtUmXXqK35p63tua9og",
+   "8Rb0t0upslwKHXWYGnTKgg",
+   "nIvEyEv-kvSwgqOLc5VopQ",
+   "0cB0D0QD_L4nrpu6CxZEsw",
+   "Bnon4kzm_EdvZz-bma5HBg",
+   "Xb1KUkU_wOIHvzahULr6yA"
+  ]
+ },
+ "rating_rule": "very high = every quest-record value traced to a flow write, continuation gates/world needs traced or wiki-CONFIRMED, no conflict with real saves; a remaining inference that is only an extra harmless cleanup action (e.g. removing a picked-up record) does not lower the rating. high = one untraced item that is safe either way. Wiki check: data/wiki_inference_check.md.",
+ "hooks_rule": "hooks_remove = PlayerHooksTriggered IDs of one-shot region-intro cutscenes (BP_PlayerHook_NarrativeIntro, no bCanBeTriggeredMultipleTimes) that fire AFTER the checkpoint in the linear (wiki walkthrough) story. apply() removes them so the intro plays again; removing an absent ID is a no-op. FTUE/tutorial hooks, repeatable hooks and world hooks are never touched. Evidence: docs/research/player_hooks.md."
+}

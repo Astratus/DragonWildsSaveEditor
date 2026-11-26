@@ -1,0 +1,34 @@
+{
+ "asset_bytes": 13431813,
+ "asset_files": 5671,
+ "built_at": "2026-11-26",
+ "counts": {
+  "BuildingsUnlocked": 886,
+  "JournalEntries": 1401,
+  "KilledOnceAIs": 197,
+  "PlayerHooksTriggered": 50,
+  "RecipesUnlocked": 1271,
+  "SkillPerks": 191,
+  "Skills": 15,
+  "SpellsUnlocked": 52,
+  "items": 1605
+ },
+ "files": {
+  "items.json": {
+   "bytes": 485830,
+   "sha256": "d388e63ec4d8e46b1995ca8b5389885966b3b4dbeea7d7203e57c6988a4572c6"
+  },
+  "unlock_names.json": {
+   "bytes": 994626,
+   "sha256": "a821cefbd4ff503b4c4b0ec95a6677cf72061baf64459730264deb4dcb545a50"
+  }
+ },
+ "format": 1,
+ "fully_decoded": 5094,
+ "game_version": "1.0.2.2",
+ "generator": "dragonwilds_save_editor.gamedata",
+ "generator_version": 2,
+ "mode": "bundled",
+ "partly_decoded": 577,
+ "source": "installed game"
+}
