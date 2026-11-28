@@ -29,6 +29,8 @@ Open a [feature request](https://github.com/Astratus/DragonWildsSaveEditor/issue
 
 ## Pull requests
 
+Pull requests are welcome, whether you wrote the code yourself or with AI. Either way, the same rules apply: the change must pass the tests and follow the ground rules below, and the maintainer reviews and tests each one before it is merged. You don't need to say how the code was written, but you are responsible for it, so make sure you understand and have tested what you submit.
+
 1. Fork the repository and create a branch from `main`.
 2. Set up as described in [docs/development.md](docs/development.md).
 3. Keep each pull request focused on one change.
