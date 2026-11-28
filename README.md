@@ -144,6 +144,22 @@ Setup, the command-line tool, the project layout and building the Windows zip ar
 - [docs/research/](docs/research/README.md): the research notes behind the quest checkpoints, the map, lodestones, the item catalog and the world-save reader
 - [CHANGELOG.md](CHANGELOG.md)
 
+## How this was made
+
+This editor was built with an AI coding assistant (Claude, by Anthropic), and most of the code was written by the AI. The maintainer directed the work, made the design decisions, tested the editor on their own saves in game and sent it back when it got things wrong. The project's main rules also came from the maintainer: back up before every change, keep the quest line linear and revert-only, make no network connections and credit every source accurately.
+
+You don't have to take that on trust. Everything here can be checked:
+
+- **The code is all public**, including the [research notes](docs/research/README.md) behind each feature.
+- **Automated tests run on every push** ([CI](.github/workflows/ci.yml)), including a check that no network code gets added.
+- **The editor refuses to save while the game is running**, and it backs up before every change.
+- **Every source is credited** in [CREDITS.md](CREDITS.md). The world-save reader is a [clean-room implementation](docs/research/spud_cleanroom.md), and the item catalog is built from the game's own files.
+
+> *"AI is like magic. Magic can take jobs, hack your computer, and demand sacrifice. But a good mage knows the only thing that requires sacrifice is greed."*
+> That is why this editor is free, offline and open source.
+
+Found a bug, or something the AI got wrong? Please [open an issue](https://github.com/Astratus/DragonWildsSaveEditor/issues).
+
 ## Credits, licence and disclaimer
 
 This editor builds on the work of the Dragonwilds community. See [CREDITS.md](CREDITS.md).
